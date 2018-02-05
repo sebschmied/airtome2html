@@ -1,5 +1,5 @@
 #!/bin/bash
-unzip -O flugbuch.fb.zip
+unzip -o flugbuch.fb.zip
 git add $PWD/.
 git commit
 git push

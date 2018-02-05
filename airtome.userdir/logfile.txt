@@ -1,0 +1,51 @@
+15:04:28	INFO	Start AirTome  R479		
+15:04:28	INFO	-----------------------------------------		
+15:04:28	INFO	Java = 1.8.0_151 (Oracle Corporation) in /usr/lib/jvm/java-8-openjdk-amd64/jre		
+15:04:28	INFO	Java Class Path = /opt/airtome/.install4j/i4jruntime.jar:/opt/airtome/AirTome.jar		
+15:04:28	INFO	Operation System = (amd64) Linux 4.4.0-112-generic		
+15:04:28	INFO	Default Timezone sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]		
+15:04:28	INFO	Default Encoding = UTF-8		
+15:04:28	INFO	Start Directory = /opt/airtome/		
+15:04:28	INFO	Save Directory = /home/sschmied/git/flightbook/airtome.userdir		
+15:04:28	INFO	Java Temp Directory = /tmp/		
+15:04:28	INFO	Heap Max 455 MB		
+15:04:28	INFO	Set Java IPv4		
+15:04:28	INFO	Date: 2018/2/5		
+15:04:28	INFO	Default font size: 15		
+15:04:28	INFO	No user selected fontsize found.		
+15:04:28	INFO	System Locale:en_US		
+15:04:28	DEBUG	Current Locale: en		
+15:04:28	INFO	Searching for *.openair.txt files in: /home/sschmied/git/flightbook/airtome.userdir		
+15:04:28	INFO	Load Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:04:28	ERROR	### Exception in JWaypointlist.ReadFromFile: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:04:28	INFO	Create PDF Layout: layoutA5.pdf.xml		
+15:04:28	INFO	Create PDF Layout: layoutA4.pdf.xml		
+15:04:28	INFO	Create PDF Layout: layoutLetter.pdf.xml		
+15:04:28	INFO	Create PDF Layout: layoutA4SimpleList.pdf.xml		
+15:04:28	INFO	Found 0 SRTM files		
+15:04:28	INFO	Load Defaultvalues: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:04:28	ERROR	### Exception in ReadDefaultValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:04:28	INFO	Load OLCSettings Values: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:04:28	ERROR	### Exception in ReadValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:04:28	DEBUG	Init JFlightlistTableModel		
+15:04:28	DEBUG	DefaultTableLayout		
+15:04:28	DEBUG	RowSorterChanged 1		
+15:04:28	INFO	Load Table Layout: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
+15:04:28	WARN	Use DefaultTableLayout: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
+15:04:28	DEBUG	DefaultTableLayout		
+15:04:28	INFO	Set Debug log: false		
+15:04:28	INFO	Set tile cache: false		
+15:04:28	INFO	Set CheckForNewVersion: true		
+15:04:28	INFO	Set ImportOnlyNewIGC: true		
+15:04:29	INFO	This is not OSX		
+15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout1.xml		
+15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout2.xml		
+15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout3.xml		
+15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout4.xml		
+15:04:29	INFO	Load layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:04:29	ERROR	### File: /home/sschmied/git/flightbook/airtome.userdir/settings.xml not found: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/settings.xml (No such file or directory)		
+15:04:30	INFO	Check for updates: There is no update available.		
+15:04:40	INFO	Save Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:04:40	INFO	TableLayout saved		
+15:04:40	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:04:40	INFO	Shutdown		
