@@ -1,0 +1,5 @@
+#!/bin/bash
+unzip -O flugbuch.fb.zip
+git add $PWD/.
+git commit
+git push

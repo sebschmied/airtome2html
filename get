@@ -1,0 +1,4 @@
+#!/bin/bash
+git pull
+zip -r $PWD/flugbuch.fb.zip $PWD/flightbook flugbuch.xml
+/opt/airtome/AirTome

@@ -34143,7 +34143,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>508</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34172,7 +34172,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="263" new="259"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="323"/>
          <heightgain org="3354"/>
          <olc>
@@ -34207,7 +34207,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>509</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34237,7 +34237,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="756" new="749"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="625"/>
          <heightgain org="2378"/>
          <olc>
@@ -34272,7 +34272,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>510</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34302,7 +34302,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="745" new="742"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2483"/>
          <heightgain org="866"/>
          <olc>
@@ -34337,7 +34337,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>511</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34367,7 +34367,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="269"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="900"/>
          <heightgain org="491"/>
          <olc>
@@ -34402,7 +34402,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>512</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34432,7 +34432,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="127" new="270"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="236"/>
          <heightgain org="3644"/>
          <olc>
@@ -34467,7 +34467,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>513</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34497,7 +34497,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="325" new="321"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="3036"/>
          <heightgain org="5747"/>
          <olc>
@@ -34532,7 +34532,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>514</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34562,7 +34562,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="260" new="264"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="612"/>
          <heightgain org="1318"/>
          <olc>
@@ -34597,7 +34597,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>515</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34627,7 +34627,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="585" new="583"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1390"/>
          <heightgain org="2954"/>
          <olc>
@@ -34662,7 +34662,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>516</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34692,7 +34692,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="540" new="545"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="835"/>
          <heightgain org="4005"/>
          <olc>
@@ -34727,7 +34727,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>517</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34757,7 +34757,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="264" new="267"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="750"/>
          <heightgain org="1874"/>
          <olc>
@@ -34792,7 +34792,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>518</number>
-         <country></country>
+         <country>Frankreich</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34804,6 +34804,7 @@ Do panic if you fly a hang glider.</comment>
          <landingsite></landingsite>
          <date>
             <org year="2018" month="1" day="13"/>
+            <new year="2018" month="1" day="13"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -34822,7 +34823,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="317" new="309"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2367"/>
          <heightgain org="3767"/>
          <olc>
@@ -34857,7 +34858,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>519</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -34887,7 +34888,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="1270" new="1274"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="843"/>
          <heightgain org="3584"/>
          <olc>
@@ -34922,7 +34923,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>520</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -34952,7 +34953,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="112" new="111"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="849"/>
          <heightgain org="1264"/>
          <olc>
@@ -34987,7 +34988,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>521</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -35017,7 +35018,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="273" new="264"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="947"/>
          <heightgain org="2113"/>
          <olc>
@@ -35052,7 +35053,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>522</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -35082,7 +35083,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="9" new="7"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2168"/>
          <heightgain org="696"/>
          <olc>
@@ -35117,7 +35118,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>523</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
@@ -35146,7 +35147,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="266" new="725"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="55"/>
          <heightgain org="2773"/>
          <olc>
@@ -35181,7 +35182,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>524</number>
-         <country></country>
+         <country>Spanien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -35211,7 +35212,7 @@ Do panic if you fly a hang glider.</comment>
          <landheight org="19" new="35"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="977"/>
          <heightgain org="3887"/>
          <olc>
@@ -35245,5 +35246,5 @@ Do panic if you fly a hang glider.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>522</lastselectedflight>
+   <lastselectedflight>512</lastselectedflight>
 </JFlightlistArray>
