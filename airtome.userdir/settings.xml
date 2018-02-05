@@ -106,14 +106,14 @@
 														<placeholder>dock.single.flightlist</placeholder>
 													</placeholders>
 												</leaf>
-												<leaf id="0" nodeId="1517840555573">
+												<leaf id="1" nodeId="1517840555573">
 													<placeholders>
 														<placeholder>dock.single.editor</placeholder>
 													</placeholders>
 												</leaf>
 											</node>
 											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
-												<leaf id="1" nodeId="1517840555691">
+												<leaf id="0" nodeId="1517840555691">
 													<placeholders>
 														<placeholder>dock.multi.\1\ jview</placeholder>
 														<placeholder>dock.multi.\2\ jview</placeholder>
@@ -205,16 +205,6 @@
 							</adjacent>
 							<children ignore="false">
 								<child>
-									<layout factory="predefined" placeholder="dock.single.editor">
-										<replacement id="dockablesingle editor"/>
-										<delegate id="delegate_ccontrol backup factory id">
-											<id>editor</id>
-											<area/>
-										</delegate>
-									</layout>
-									<children ignore="false"/>
-								</child>
-								<child>
 									<layout factory="delegate_StackDockStationFactory">
 										<selected>0</selected>
 										<placeholders>
@@ -266,6 +256,16 @@
 											<children ignore="false"/>
 										</child>
 									</children>
+								</child>
+								<child>
+									<layout factory="predefined" placeholder="dock.single.editor">
+										<replacement id="dockablesingle editor"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>editor</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
 								</child>
 								<child>
 									<layout factory="delegate_StackDockStationFactory">
