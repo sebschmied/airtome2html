@@ -113,7 +113,7 @@
 												</leaf>
 											</node>
 											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
-												<leaf id="2" nodeId="1517840555691">
+												<leaf id="3" nodeId="1517840555691">
 													<placeholders>
 														<placeholder>dock.multi.\1\ jview</placeholder>
 														<placeholder>dock.multi.\2\ jview</placeholder>
@@ -137,7 +137,7 @@
 														</entry>
 													</placeholder-map>
 												</leaf>
-												<leaf id="3" nodeId="1517840555662">
+												<leaf id="2" nodeId="1517840555662">
 													<placeholders>
 														<placeholder>dock.multi.\3\ jview</placeholder>
 														<placeholder>dock.multi.\6\ jview</placeholder>
@@ -223,59 +223,6 @@
 										</delegate>
 									</layout>
 									<children ignore="false"/>
-								</child>
-								<child>
-									<layout factory="delegate_StackDockStationFactory">
-										<selected>0</selected>
-										<placeholders>
-											<version>0</version>
-											<format>dock.PlaceholderList</format>
-											<entry>
-												<key shared="false">
-													<placeholder>dock.multi.\2\ jview</placeholder>
-												</key>
-												<item key="convert" type="b">true</item>
-												<item key="convert-keys" type="a">
-													<item type="s">index</item>
-													<item type="s">id</item>
-													<item type="s">placeholder</item>
-												</item>
-												<item key="dock.index" type="i">0</item>
-												<item key="dock.id" type="i">0</item>
-												<item key="dock.placeholder" type="s">dock.multi.\2\ jview</item>
-											</entry>
-											<entry>
-												<key shared="false">
-													<placeholder>dock.multi.\1\ jview</placeholder>
-												</key>
-												<item key="convert" type="b">true</item>
-												<item key="convert-keys" type="a">
-													<item type="s">index</item>
-													<item type="s">id</item>
-													<item type="s">placeholder</item>
-												</item>
-												<item key="dock.index" type="i">1</item>
-												<item key="dock.id" type="i">1</item>
-												<item key="dock.placeholder" type="s">dock.multi.\1\ jview</item>
-											</entry>
-										</placeholders>
-									</layout>
-									<children ignore="false">
-										<child>
-											<layout factory="delegate_jview" placeholder="dock.multi.\2\ jview">
-												<id>2 jview</id>
-												<multiple viewmode="5" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
-											</layout>
-											<children ignore="false"/>
-										</child>
-										<child>
-											<layout factory="delegate_jview" placeholder="dock.multi.\1\ jview">
-												<id>1 jview</id>
-												<multiple viewmode="1" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
-											</layout>
-											<children ignore="false"/>
-										</child>
-									</children>
 								</child>
 								<child>
 									<layout factory="delegate_StackDockStationFactory">
@@ -409,6 +356,59 @@
 											<layout factory="delegate_jview" placeholder="dock.multi.\6\ jview">
 												<id>6 jview</id>
 												<multiple viewmode="7" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+									</children>
+								</child>
+								<child>
+									<layout factory="delegate_StackDockStationFactory">
+										<selected>0</selected>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\2\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">0</item>
+												<item key="dock.id" type="i">0</item>
+												<item key="dock.placeholder" type="s">dock.multi.\2\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\1\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">1</item>
+												<item key="dock.id" type="i">1</item>
+												<item key="dock.placeholder" type="s">dock.multi.\1\ jview</item>
+											</entry>
+										</placeholders>
+									</layout>
+									<children ignore="false">
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\2\ jview">
+												<id>2 jview</id>
+												<multiple viewmode="5" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\1\ jview">
+												<id>1 jview</id>
+												<multiple viewmode="1" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
 											</layout>
 											<children ignore="false"/>
 										</child>
