@@ -1,4 +1,4 @@
 #!/bin/bash
 git pull
-zip -FSr flugbuch.fb.zip flightbook flugbuch.xml
+zip -FSrq flugbuch.fb.zip flightbook flugbuch.xml
 /opt/airtome/AirTome

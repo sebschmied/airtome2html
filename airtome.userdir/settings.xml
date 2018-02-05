@@ -100,20 +100,20 @@
 									<content delegate="SplitDockStationFactory">
 										<fullscreen-action>false</fullscreen-action>
 										<node nodeId="1517840555663" orientation="VERTICAL" divider="0.5">
-											<node nodeId="1517840555902" orientation="HORIZONTAL" divider="0.6">
-												<leaf id="2" nodeId="1517840555900">
+											<node nodeId="1517840555902" orientation="HORIZONTAL" divider="0.6026178010471205">
+												<leaf id="1" nodeId="1517840555900">
 													<placeholders>
 														<placeholder>dock.single.flightlist</placeholder>
 													</placeholders>
 												</leaf>
-												<leaf id="3" nodeId="1517840555573">
+												<leaf id="0" nodeId="1517840555573">
 													<placeholders>
 														<placeholder>dock.single.editor</placeholder>
 													</placeholders>
 												</leaf>
 											</node>
 											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
-												<leaf id="0" nodeId="1517840555691">
+												<leaf id="2" nodeId="1517840555691">
 													<placeholders>
 														<placeholder>dock.multi.\1\ jview</placeholder>
 														<placeholder>dock.multi.\2\ jview</placeholder>
@@ -137,7 +137,7 @@
 														</entry>
 													</placeholder-map>
 												</leaf>
-												<leaf id="1" nodeId="1517840555662">
+												<leaf id="3" nodeId="1517840555662">
 													<placeholders>
 														<placeholder>dock.multi.\3\ jview</placeholder>
 														<placeholder>dock.multi.\6\ jview</placeholder>
@@ -204,6 +204,26 @@
 								</layout>
 							</adjacent>
 							<children ignore="false">
+								<child>
+									<layout factory="predefined" placeholder="dock.single.editor">
+										<replacement id="dockablesingle editor"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>editor</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
+								</child>
+								<child>
+									<layout factory="predefined" placeholder="dock.single.flightlist">
+										<replacement id="dockablesingle flightlist"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>flightlist</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
+								</child>
 								<child>
 									<layout factory="delegate_StackDockStationFactory">
 										<selected>0</selected>
@@ -393,26 +413,6 @@
 											<children ignore="false"/>
 										</child>
 									</children>
-								</child>
-								<child>
-									<layout factory="predefined" placeholder="dock.single.flightlist">
-										<replacement id="dockablesingle flightlist"/>
-										<delegate id="delegate_ccontrol backup factory id">
-											<id>flightlist</id>
-											<area/>
-										</delegate>
-									</layout>
-									<children ignore="false"/>
-								</child>
-								<child>
-									<layout factory="predefined" placeholder="dock.single.editor">
-										<replacement id="dockablesingle editor"/>
-										<delegate id="delegate_ccontrol backup factory id">
-											<id>editor</id>
-											<area/>
-										</delegate>
-									</layout>
-									<children ignore="false"/>
 								</child>
 							</children>
 						</root>

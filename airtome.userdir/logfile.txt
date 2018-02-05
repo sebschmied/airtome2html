@@ -1,105 +1,292 @@
-15:23:52	INFO	Start AirTome  R479		
-15:23:52	INFO	-----------------------------------------		
-15:23:52	INFO	Java = 1.8.0_151 (Oracle Corporation) in /usr/lib/jvm/java-8-openjdk-amd64/jre		
-15:23:52	INFO	Java Class Path = /opt/airtome/.install4j/i4jruntime.jar:/opt/airtome/AirTome.jar		
-15:23:52	INFO	Operation System = (amd64) Linux 4.4.0-112-generic		
-15:23:52	INFO	Default Timezone sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]		
-15:23:52	INFO	Default Encoding = UTF-8		
-15:23:52	INFO	Start Directory = /opt/airtome/		
-15:23:52	INFO	Save Directory = /home/sschmied/git/flightbook/airtome.userdir		
-15:23:52	INFO	Java Temp Directory = /tmp/		
-15:23:52	INFO	Heap Max 455 MB		
-15:23:52	INFO	Set Java IPv4		
-15:23:52	INFO	Date: 2018/2/5		
-15:23:52	INFO	Default font size: 15		
-15:23:52	INFO	No user selected fontsize found.		
-15:23:52	INFO	System Locale:en_US		
-15:23:52	DEBUG	Current Locale: en		
-15:23:52	INFO	Searching for *.openair.txt files in: /home/sschmied/git/flightbook/airtome.userdir		
-15:23:52	INFO	Load Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
-15:23:52	INFO	Create PDF Layout: layoutA5.pdf.xml		
-15:23:52	INFO	Create PDF Layout: layoutA4.pdf.xml		
-15:23:52	INFO	Create PDF Layout: layoutLetter.pdf.xml		
-15:23:52	INFO	Create PDF Layout: layoutA4SimpleList.pdf.xml		
-15:23:53	INFO	Found 0 SRTM files		
-15:23:53	INFO	Load Defaultvalues: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
-15:23:53	ERROR	### Exception in ReadDefaultValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
-15:23:53	INFO	Load OLCSettings Values: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
-15:23:53	ERROR	### Exception in ReadValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
-15:23:53	DEBUG	Init JFlightlistTableModel		
-15:23:53	DEBUG	DefaultTableLayout		
-15:23:53	DEBUG	RowSorterChanged 1		
-15:23:53	INFO	Load Table Layout: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
-15:23:53	INFO	Set Backup: false		
-15:23:53	ERROR	### Could not restore filter settings or wrong: java.lang.IllegalArgumentException: setSelectedIndex: 0 out of bounds		
-15:23:53	INFO	Set tile cache: false		
-15:23:53	INFO	Set Debug log: false		
-15:23:53	INFO	Set CheckForNewVersion: true		
-15:23:53	INFO	Set ImportOnlyNewIGC: true		
-15:23:53	INFO	### Current directory setting missing or wrong.		
-15:23:53	INFO	TableLayout read		
-15:23:53	INFO	This is not OSX		
-15:23:53	INFO	Load layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
-15:23:55	INFO	Check for updates: There is no update available.		
-15:24:15	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
-15:24:15	INFO	TFile.exists returns: true		
-15:24:15	INFO	TFile.canexecute returns: false		
-15:24:15	INFO	TFile.canread returns: true		
-15:24:15	INFO	TFile.canwrite returns: true		
-15:24:15	INFO	TFile.isarchive returns: true		
-15:24:15	INFO	TFile.isentry returns: false		
-15:24:15	INFO	TFile.isfile returns: false		
-15:24:15	INFO	TFile.isHidden returns: false		
-15:24:15	INFO	TFile.isUNC returns: false		
-15:24:15	INFO	Load Flightbook: /home/sschmied/git/flightbook/flugbuch.fb.zip		
-15:24:16	INFO	JFlightlisttable.valueChanged: 18		
-15:24:16	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 1/0		
-15:24:16	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:16	INFO	Loaded IGC (Nr 507) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/507/Live-2017-08-06..52452.252916.igc.igc		
-15:24:16	INFO	This flight has 0 Task Waypoint(s)		
-15:24:16	INFO	Found 0 pictures with 0 real header		
-15:24:27	INFO	JFlightlisttable.valueChanged: 16		
-15:24:27	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
-15:24:27	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:27	INFO	Loaded IGC (Nr 523) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/523/2017-08-19 11_42_46.igc		
-15:24:27	INFO	This flight has 0 Task Waypoint(s)		
-15:24:27	INFO	Found 0 pictures with 0 real header		
-15:24:28	INFO	JFlightlisttable.valueChanged: 13		
-15:24:28	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
-15:24:28	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:28	INFO	Loaded IGC (Nr 517) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/517/2017-08-26 11_37_39.igc		
-15:24:28	INFO	This flight has 0 Task Waypoint(s)		
-15:24:28	INFO	Found 0 pictures with 0 real header		
-15:24:33	INFO	JFlightlisttable.valueChanged: 9		
-15:24:33	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
-15:24:33	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:33	INFO	Loaded IGC (Nr 512) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/512/2017-10-25 11_45_25.igc		
-15:24:33	INFO	This flight has 0 Task Waypoint(s)		
-15:24:33	INFO	Found 0 pictures with 0 real header		
-15:24:36	INFO	JFlightlisttable.valueChanged: 8		
-15:24:36	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
-15:24:36	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:36	INFO	Loaded IGC (Nr 515) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/515/2017-12-29 11_57_50.igc		
-15:24:36	INFO	This flight has 0 Task Waypoint(s)		
-15:24:36	INFO	Found 0 pictures with 0 real header		
-15:24:47	INFO	JFlightlisttable.valueChanged: 3		
-15:24:47	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
-15:24:47	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
-15:24:47	INFO	Loaded IGC (Nr 519) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/519/2018-01-02 12_12_20.igc		
-15:24:47	INFO	This flight has 0 Task Waypoint(s)		
-15:24:47	INFO	Found 0 pictures with 0 real header		
-15:25:11	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
-15:25:11	INFO	TFile.exists returns: true		
-15:25:11	INFO	TFile.canexecute returns: false		
-15:25:11	INFO	TFile.canread returns: true		
-15:25:11	INFO	TFile.canwrite returns: true		
-15:25:11	INFO	TFile.isarchive returns: true		
-15:25:11	INFO	TFile.isentry returns: false		
-15:25:11	INFO	TFile.isfile returns: false		
-15:25:11	INFO	TFile.isHidden returns: false		
-15:25:11	INFO	TFile.isUNC returns: false		
-15:25:11	INFO	Flightbook saved: /home/sschmied/git/flightbook/flugbuch.fb.zip		
-15:25:12	INFO	Save Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
-15:25:12	INFO	TableLayout saved		
-15:25:12	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
-15:25:12	INFO	Shutdown		
+15:27:20	INFO	Start AirTome  R479		
+15:27:20	INFO	-----------------------------------------		
+15:27:20	INFO	Java = 1.8.0_151 (Oracle Corporation) in /usr/lib/jvm/java-8-openjdk-amd64/jre		
+15:27:20	INFO	Java Class Path = /opt/airtome/.install4j/i4jruntime.jar:/opt/airtome/AirTome.jar		
+15:27:20	INFO	Operation System = (amd64) Linux 4.4.0-112-generic		
+15:27:20	INFO	Default Timezone sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]		
+15:27:20	INFO	Default Encoding = UTF-8		
+15:27:20	INFO	Start Directory = /opt/airtome/		
+15:27:20	INFO	Save Directory = /home/sschmied/git/flightbook/airtome.userdir		
+15:27:20	INFO	Java Temp Directory = /tmp/		
+15:27:20	INFO	Heap Max 455 MB		
+15:27:20	INFO	Set Java IPv4		
+15:27:20	INFO	Date: 2018/2/5		
+15:27:20	INFO	Default font size: 15		
+15:27:20	INFO	No user selected fontsize found.		
+15:27:20	INFO	System Locale:en_US		
+15:27:20	DEBUG	Current Locale: en		
+15:27:20	INFO	Searching for *.openair.txt files in: /home/sschmied/git/flightbook/airtome.userdir		
+15:27:20	INFO	Load Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:27:20	INFO	Create PDF Layout: layoutA5.pdf.xml		
+15:27:20	INFO	Create PDF Layout: layoutA4.pdf.xml		
+15:27:20	INFO	Create PDF Layout: layoutLetter.pdf.xml		
+15:27:20	INFO	Create PDF Layout: layoutA4SimpleList.pdf.xml		
+15:27:21	INFO	Found 0 SRTM files		
+15:27:21	INFO	Load Defaultvalues: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:27:21	ERROR	### Exception in ReadDefaultValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:27:21	INFO	Load OLCSettings Values: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:27:21	ERROR	### Exception in ReadValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:27:21	DEBUG	Init JFlightlistTableModel		
+15:27:21	DEBUG	DefaultTableLayout		
+15:27:21	DEBUG	RowSorterChanged 1		
+15:27:21	INFO	Load Table Layout: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
+15:27:21	INFO	Set Backup: false		
+15:27:21	ERROR	### Could not restore filter settings or wrong: java.lang.IllegalArgumentException: setSelectedIndex: 0 out of bounds		
+15:27:21	INFO	Set tile cache: false		
+15:27:21	INFO	Set Debug log: false		
+15:27:21	INFO	Set CheckForNewVersion: true		
+15:27:21	INFO	Set ImportOnlyNewIGC: true		
+15:27:21	INFO	TableLayout read		
+15:27:21	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:27:21	INFO	TFile.exists returns: true		
+15:27:21	INFO	TFile.canexecute returns: false		
+15:27:21	INFO	TFile.canread returns: true		
+15:27:21	INFO	TFile.canwrite returns: true		
+15:27:21	INFO	TFile.isarchive returns: true		
+15:27:21	INFO	TFile.isentry returns: false		
+15:27:21	INFO	TFile.isfile returns: false		
+15:27:21	INFO	TFile.isHidden returns: false		
+15:27:21	INFO	TFile.isUNC returns: false		
+15:27:21	INFO	Load Flightbook: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:27:21	INFO	JFlightlisttable.valueChanged: 3		
+15:27:21	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
+15:27:21	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
+15:27:21	INFO	Loaded IGC (Nr 519) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/519/2018-01-02 12_12_20.igc		
+15:27:21	INFO	This flight has 0 Task Waypoint(s)		
+15:27:21	INFO	Found 0 pictures with 0 real header		
+15:27:22	INFO	This is not OSX		
+15:27:22	INFO	Load layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:27:24	INFO	Check for updates: There is no update available.		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/2 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/3 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/4 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/5 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/6 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/7 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/8 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/9 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/10 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/11 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/12 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/13 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/14 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/15 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/16 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/17 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/18 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/19 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/20 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/21 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/22 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/23 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/24 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/25 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/26 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/27 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/28 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/29 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/30 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/31 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/32 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/33 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/34 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/35 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/36 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/37 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/38 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/39 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/40 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/41 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/42 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/43 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/44 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/45 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/46 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/47 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/48 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/49 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/50 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/51 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/52 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/53 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/54 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/55 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/56 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/57 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/58 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/59 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/60 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/61 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/62 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/63 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/64 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/65 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/66 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/67 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/68 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/69 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/70 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/71 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/72 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/73 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/74 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/75 (missing file)		
+15:27:46	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/76 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/183 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/184 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/185 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/186 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/187 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/188 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/239 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/320 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/321 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/325 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/326 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/327 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/328 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/360 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/408 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/417 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/418 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/419 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/425 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/426 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/473 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1525 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1526 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1527 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1528 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1529 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1530 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1531 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1532 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1533 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1534 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1535 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1536 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1537 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1538 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1539 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1540 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1541 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1542 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1543 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1544 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1545 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1546 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1547 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1548 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1549 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1550 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1551 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1552 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1553 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1554 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1555 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1556 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1557 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1558 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1559 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1560 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1561 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1562 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1563 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1564 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1565 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1566 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1567 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1568 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1569 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1570 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1571 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1572 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1573 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1574 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1575 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1576 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1577 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1578 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1579 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1580 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1581 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1582 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1583 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1584 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1585 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1586 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1587 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1588 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1589 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1590 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1591 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1592 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1593 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1594 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1595 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1596 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1597 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1598 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1599 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1600 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1707 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1708 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1709 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1710 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1711 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1712 (missing file)		
+15:27:47	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1763 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1844 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1845 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1849 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1850 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1851 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1852 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1884 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1932 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1941 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1942 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1943 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1949 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1950 (missing file)		
+15:27:48	ERROR	### Exception in JFlightDataContainer.Move: java.io.IOException: /home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/1997 (missing file)		
+15:27:48	INFO	Flights chronological renumbered.		
+15:27:48	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:27:48	INFO	TFile.exists returns: true		
+15:27:48	INFO	TFile.canexecute returns: false		
+15:27:48	INFO	TFile.canread returns: true		
+15:27:48	INFO	TFile.canwrite returns: true		
+15:27:48	INFO	TFile.isarchive returns: true		
+15:27:48	INFO	TFile.isentry returns: false		
+15:27:48	INFO	TFile.isfile returns: false		
+15:27:48	INFO	TFile.isHidden returns: false		
+15:27:48	INFO	TFile.isUNC returns: false		
+15:27:48	INFO	Flightbook saved: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:27:54	INFO	JFlightlisttable.valueChanged: 518		
+15:27:54	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
+15:27:54	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
+15:27:54	INFO	Loaded IGC (Nr 519) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/519/2018-01-01 11_08_56.igc		
+15:27:54	INFO	This flight has 0 Task Waypoint(s)		
+15:27:54	INFO	Found 0 pictures with 0 real header		
+15:27:55	INFO	JFlightlisttable.valueChanged: 5		
+15:27:55	INFO	ExamineFlight: Unreliable Datapoints Baro/GPS: 0/0		
+15:27:55	INFO	ExamineFlight (filtered): Unreliable Datapoints Baro/GPS: 0/0		
+15:27:55	INFO	Loaded IGC (Nr 519) :/home/sschmied/git/flightbook/flugbuch.fb.zip/flightbook/519/2018-01-01 11_08_56.igc		
+15:27:55	INFO	This flight has 0 Task Waypoint(s)		
+15:27:55	INFO	Found 0 pictures with 0 real header		
+15:28:26	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:28:26	INFO	TFile.exists returns: true		
+15:28:26	INFO	TFile.canexecute returns: false		
+15:28:26	INFO	TFile.canread returns: true		
+15:28:26	INFO	TFile.canwrite returns: true		
+15:28:26	INFO	TFile.isarchive returns: true		
+15:28:26	INFO	TFile.isentry returns: false		
+15:28:26	INFO	TFile.isfile returns: false		
+15:28:26	INFO	TFile.isHidden returns: false		
+15:28:26	INFO	TFile.isUNC returns: false		
+15:28:26	INFO	Flightbook saved: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:28:28	INFO	Save Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:28:28	INFO	TableLayout saved		
+15:28:28	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:28:28	INFO	Shutdown		

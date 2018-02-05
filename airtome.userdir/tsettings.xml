@@ -20,7 +20,7 @@
      <int>1</int>
     </void>
     <void property="width">
-     <int>24</int>
+     <int>141</int>
     </void>
    </object>
   </void>
@@ -457,14 +457,21 @@
  <object class="java.util.TreeSet">
   <void method="add">
    <object class="airtome.JFlightlistTableSortInfo">
+    <void property="sortOrder">
+     <object class="java.lang.Enum" id="SortOrder0" method="valueOf">
+      <class>javax.swing.SortOrder</class>
+      <string>DESCENDING</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableSortInfo">
     <void property="column">
      <int>1</int>
     </void>
     <void property="sortOrder">
-     <object class="java.lang.Enum" method="valueOf">
-      <class>javax.swing.SortOrder</class>
-      <string>DESCENDING</string>
-     </object>
+     <object idref="SortOrder0"/>
     </void>
    </object>
   </void>
