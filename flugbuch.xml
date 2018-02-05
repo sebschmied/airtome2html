@@ -35214,8 +35214,76 @@ Do panic if you fly a hang glider.</comment>
          <airspaceviolation org="0"/>
       </JFlight>
       <JFlight>
-         <pilot org="Sebastian Schmied"/>
+         <pilot org="" new="Sebastian Schmied"/>
          <number>524</number>
+         <country>Spanien</country>
+         <GPSID org=""/>
+         <glidertyp org="" new="Skywalk Cayenne 5"/>
+         <gliderID org=""/>
+         <compID org=""/>
+         <compClass org=""/>
+         <ICGfile></ICGfile>
+         <site org="" new="La Herradura"/>
+         <site2>La Herradura</site2>
+         <landingsite>La Herradura</landingsite>
+         <date>
+            <org year="2018" month="2" day="5"/>
+            <new year="2018" month="1" day="5"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="15" minute="0" second="0"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="0" minute="30" second="0"/>
+         </duration>
+         <startheight org="0"/>
+         <maxheight org="0"/>
+         <landheight org="0"/>
+         <igcinfo>-1</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="0"/>
+         <olc>
+            <category>-1</category>
+            <FlightDistance length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+            </FlightWp>
+            <checksum>-1</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+            <string>soaring</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="0"/>
+         <minvario org="0"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>525</number>
          <country>Frankreich</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
@@ -35245,7 +35313,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="528" new="507"/>
          <maxheight org="688"/>
          <landheight org="317" new="309"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2367"/>
@@ -35283,5 +35351,5 @@ Do panic if you fly a hang glider.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>518</lastselectedflight>
+   <lastselectedflight>523</lastselectedflight>
 </JFlightlistArray>

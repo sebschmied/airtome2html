@@ -33,7 +33,7 @@
      <int>2</int>
     </void>
     <void property="width">
-     <int>24</int>
+     <int>94</int>
     </void>
    </object>
   </void>
@@ -468,7 +468,7 @@
   <void method="add">
    <object class="airtome.JFlightlistTableSortInfo">
     <void property="column">
-     <int>1</int>
+     <int>19</int>
     </void>
     <void property="sortOrder">
      <object idref="SortOrder0"/>
