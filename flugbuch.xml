@@ -34106,7 +34106,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="580" new="541"/>
          <maxheight org="2115"/>
          <landheight org="414" new="416"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2415"/>
@@ -34170,7 +34170,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="646"/>
          <maxheight org="893"/>
          <landheight org="263" new="259"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="323"/>
@@ -34194,7 +34194,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>4878</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="44"/>
          <minvario org="-60"/>
@@ -34235,7 +34237,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1340" new="1346"/>
          <maxheight org="1580"/>
          <landheight org="756" new="749"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="625"/>
@@ -34259,7 +34261,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>6467</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="36"/>
          <minvario org="-100"/>
@@ -34300,7 +34304,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1327" new="1272"/>
          <maxheight org="1344"/>
          <landheight org="745" new="742"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2483"/>
@@ -34324,7 +34328,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>8641</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="8"/>
          <minvario org="-34"/>
@@ -34365,7 +34371,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="441" new="433"/>
          <maxheight org="444"/>
          <landheight org="269"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="900"/>
@@ -34389,7 +34395,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>3607</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="20"/>
          <minvario org="-28"/>
@@ -34430,7 +34438,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="654" new="651"/>
          <maxheight org="731"/>
          <landheight org="127" new="270"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="236"/>
@@ -34454,7 +34462,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>17539</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="36"/>
          <minvario org="-78"/>
@@ -34495,7 +34505,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="645" new="656"/>
          <maxheight org="1549"/>
          <landheight org="325" new="321"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="3036"/>
@@ -34519,7 +34529,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>7996</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="52"/>
          <minvario org="-56"/>
@@ -34560,7 +34572,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="647" new="652"/>
          <maxheight org="902"/>
          <landheight org="260" new="264"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="612"/>
@@ -34584,7 +34596,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>8045</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="32"/>
          <minvario org="-66"/>
@@ -34625,7 +34639,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1189" new="1211"/>
          <maxheight org="1585"/>
          <landheight org="585" new="583"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="1390"/>
@@ -34649,7 +34663,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>9438</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="40"/>
          <minvario org="-34"/>
@@ -34690,7 +34706,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="897" new="911"/>
          <maxheight org="1376"/>
          <landheight org="540" new="545"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="835"/>
@@ -34714,7 +34730,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>6517</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="42"/>
          <minvario org="-54"/>
@@ -34755,7 +34773,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="653" new="650"/>
          <maxheight org="798"/>
          <landheight org="264" new="267"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="750"/>
@@ -34779,7 +34797,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>3124</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="86"/>
          <minvario org="-122"/>
@@ -34821,7 +34841,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="528" new="507"/>
          <maxheight org="688"/>
          <landheight org="317" new="309"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2367"/>
@@ -34845,7 +34865,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>13877</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="24"/>
          <minvario org="-28"/>
@@ -34886,7 +34908,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1212" new="1213"/>
          <maxheight org="1563"/>
          <landheight org="1270" new="1274"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="843"/>
@@ -34910,7 +34932,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>7520</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="40"/>
          <minvario org="-44"/>
@@ -34951,7 +34975,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="550" new="541"/>
          <maxheight org="834"/>
          <landheight org="112" new="111"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="849"/>
@@ -34975,7 +34999,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>4389</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="26"/>
          <minvario org="-34"/>
@@ -35016,7 +35042,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="661" new="659"/>
          <maxheight org="817"/>
          <landheight org="273" new="264"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="947"/>
@@ -35040,7 +35066,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>10545</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="24"/>
          <minvario org="-32"/>
@@ -35081,7 +35109,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="671" new="682"/>
          <maxheight org="686"/>
          <landheight org="9" new="7"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2168"/>
@@ -35105,7 +35133,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>4403</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="20"/>
          <minvario org="-24"/>
@@ -35145,7 +35175,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="736" new="650"/>
          <maxheight org="1015"/>
          <landheight org="266" new="725"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="55"/>
@@ -35169,7 +35199,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>6851</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="42"/>
          <minvario org="-56"/>
@@ -35210,7 +35242,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="895" new="922"/>
          <maxheight org="1232"/>
          <landheight org="19" new="35"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="977"/>
@@ -35234,7 +35266,9 @@ Do panic if you fly a hang glider.</comment>
             </FlightWp>
             <checksum>14308</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="48"/>
          <minvario org="-32"/>
@@ -35246,5 +35280,5 @@ Do panic if you fly a hang glider.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>512</lastselectedflight>
+   <lastselectedflight>506</lastselectedflight>
 </JFlightlistArray>

@@ -469,7 +469,7 @@
    </object>
   </void>
  </object>
- <string></string>
+ <string>/home/sschmied/git/flightbook/flugbuch.fb.zip</string>
  <boolean>true</boolean>
  <int>0</int>
  <boolean>false</boolean>
@@ -479,4 +479,5 @@
  <boolean>false</boolean>
  <boolean>true</boolean>
  <boolean>true</boolean>
+ <string>/home/sschmied/git/flightbook</string>
 </java>

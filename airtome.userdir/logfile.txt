@@ -1,51 +1,111 @@
-15:04:28	INFO	Start AirTome  R479		
-15:04:28	INFO	-----------------------------------------		
-15:04:28	INFO	Java = 1.8.0_151 (Oracle Corporation) in /usr/lib/jvm/java-8-openjdk-amd64/jre		
-15:04:28	INFO	Java Class Path = /opt/airtome/.install4j/i4jruntime.jar:/opt/airtome/AirTome.jar		
-15:04:28	INFO	Operation System = (amd64) Linux 4.4.0-112-generic		
-15:04:28	INFO	Default Timezone sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]		
-15:04:28	INFO	Default Encoding = UTF-8		
-15:04:28	INFO	Start Directory = /opt/airtome/		
-15:04:28	INFO	Save Directory = /home/sschmied/git/flightbook/airtome.userdir		
-15:04:28	INFO	Java Temp Directory = /tmp/		
-15:04:28	INFO	Heap Max 455 MB		
-15:04:28	INFO	Set Java IPv4		
-15:04:28	INFO	Date: 2018/2/5		
-15:04:28	INFO	Default font size: 15		
-15:04:28	INFO	No user selected fontsize found.		
-15:04:28	INFO	System Locale:en_US		
-15:04:28	DEBUG	Current Locale: en		
-15:04:28	INFO	Searching for *.openair.txt files in: /home/sschmied/git/flightbook/airtome.userdir		
-15:04:28	INFO	Load Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
-15:04:28	ERROR	### Exception in JWaypointlist.ReadFromFile: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
-15:04:28	INFO	Create PDF Layout: layoutA5.pdf.xml		
-15:04:28	INFO	Create PDF Layout: layoutA4.pdf.xml		
-15:04:28	INFO	Create PDF Layout: layoutLetter.pdf.xml		
-15:04:28	INFO	Create PDF Layout: layoutA4SimpleList.pdf.xml		
-15:04:28	INFO	Found 0 SRTM files		
-15:04:28	INFO	Load Defaultvalues: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
-15:04:28	ERROR	### Exception in ReadDefaultValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
-15:04:28	INFO	Load OLCSettings Values: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
-15:04:28	ERROR	### Exception in ReadValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
-15:04:28	DEBUG	Init JFlightlistTableModel		
-15:04:28	DEBUG	DefaultTableLayout		
-15:04:28	DEBUG	RowSorterChanged 1		
-15:04:28	INFO	Load Table Layout: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
-15:04:28	WARN	Use DefaultTableLayout: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
-15:04:28	DEBUG	DefaultTableLayout		
-15:04:28	INFO	Set Debug log: false		
-15:04:28	INFO	Set tile cache: false		
-15:04:28	INFO	Set CheckForNewVersion: true		
-15:04:28	INFO	Set ImportOnlyNewIGC: true		
-15:04:29	INFO	This is not OSX		
-15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout1.xml		
-15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout2.xml		
-15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout3.xml		
-15:04:29	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/layout4.xml		
-15:04:29	INFO	Load layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
-15:04:29	ERROR	### File: /home/sschmied/git/flightbook/airtome.userdir/settings.xml not found: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/settings.xml (No such file or directory)		
-15:04:30	INFO	Check for updates: There is no update available.		
-15:04:40	INFO	Save Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
-15:04:40	INFO	TableLayout saved		
-15:04:40	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
-15:04:40	INFO	Shutdown		
+15:07:24	INFO	Start AirTome  R479		
+15:07:24	INFO	-----------------------------------------		
+15:07:24	INFO	Java = 1.8.0_151 (Oracle Corporation) in /usr/lib/jvm/java-8-openjdk-amd64/jre		
+15:07:24	INFO	Java Class Path = /opt/airtome/.install4j/i4jruntime.jar:/opt/airtome/AirTome.jar		
+15:07:24	INFO	Operation System = (amd64) Linux 4.4.0-112-generic		
+15:07:24	INFO	Default Timezone sun.util.calendar.ZoneInfo[id="Europe/Berlin",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=143,lastRule=java.util.SimpleTimeZone[id=Europe/Berlin,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]]		
+15:07:24	INFO	Default Encoding = UTF-8		
+15:07:24	INFO	Start Directory = /opt/airtome/		
+15:07:24	INFO	Save Directory = /home/sschmied/git/flightbook/airtome.userdir		
+15:07:24	INFO	Java Temp Directory = /tmp/		
+15:07:24	INFO	Heap Max 455 MB		
+15:07:24	INFO	Set Java IPv4		
+15:07:24	INFO	Date: 2018/2/5		
+15:07:24	INFO	Default font size: 15		
+15:07:24	INFO	No user selected fontsize found.		
+15:07:24	INFO	System Locale:en_US		
+15:07:24	DEBUG	Current Locale: en		
+15:07:24	INFO	Searching for *.openair.txt files in: /home/sschmied/git/flightbook/airtome.userdir		
+15:07:24	INFO	Load Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:07:24	INFO	Create PDF Layout: layoutA5.pdf.xml		
+15:07:24	INFO	Create PDF Layout: layoutA4.pdf.xml		
+15:07:25	INFO	Create PDF Layout: layoutLetter.pdf.xml		
+15:07:25	INFO	Create PDF Layout: layoutA4SimpleList.pdf.xml		
+15:07:25	INFO	Found 0 SRTM files		
+15:07:25	INFO	Load Defaultvalues: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:07:25	ERROR	### Exception in ReadDefaultValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/DefaultValues.xml		
+15:07:25	INFO	Load OLCSettings Values: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:07:25	ERROR	### Exception in ReadValues: java.io.FileNotFoundException: /home/sschmied/git/flightbook/airtome.userdir/OLCSettings.xml		
+15:07:25	DEBUG	Init JFlightlistTableModel		
+15:07:25	DEBUG	DefaultTableLayout		
+15:07:25	DEBUG	RowSorterChanged 1		
+15:07:25	INFO	Load Table Layout: /home/sschmied/git/flightbook/airtome.userdir/tsettings.xml		
+15:07:25	INFO	Set Backup: false		
+15:07:25	ERROR	### Could not restore filter settings or wrong: java.lang.IllegalArgumentException: setSelectedIndex: 0 out of bounds		
+15:07:25	INFO	Set tile cache: false		
+15:07:25	INFO	Set Debug log: false		
+15:07:25	INFO	Set CheckForNewVersion: true		
+15:07:25	INFO	Set ImportOnlyNewIGC: true		
+15:07:25	INFO	### Current directory setting missing or wrong.		
+15:07:25	INFO	TableLayout read		
+15:07:25	INFO	This is not OSX		
+15:07:25	INFO	Load layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:07:27	INFO	Check for updates: There is no update available.		
+15:08:21	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:08:21	INFO	TFile.exists returns: true		
+15:08:21	INFO	TFile.canexecute returns: false		
+15:08:21	INFO	TFile.canread returns: true		
+15:08:21	INFO	TFile.canwrite returns: true		
+15:08:21	INFO	TFile.isarchive returns: true		
+15:08:21	INFO	TFile.isentry returns: false		
+15:08:21	INFO	TFile.isfile returns: false		
+15:08:21	INFO	TFile.isHidden returns: false		
+15:08:21	INFO	TFile.isUNC returns: false		
+15:08:21	INFO	Load Flightbook: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:08:22	INFO	JFlightlisttable.valueChanged: 14		
+15:08:22	ERROR	Selected flight does not have an IGC file		
+15:08:24	INFO	JFlightlisttable.valueChanged: 16		
+15:08:24	ERROR	Selected flight does not have an IGC file		
+15:08:27	INFO	JFlightlisttable.valueChanged: 0		
+15:08:27	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 0		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 1		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 2		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 3		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 4		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 5		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 6		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 7		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 8		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 9		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 10		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 11		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 12		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 13		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 14		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 15		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:31	INFO	JFlightlisttable.valueChanged: 16		
+15:08:31	ERROR	Selected flight does not have an IGC file		
+15:08:36	INFO	JFlightlisttable.valueChanged: 18		
+15:08:36	ERROR	Selected flight does not have an IGC file		
+15:08:42	INFO	flighbookcontainer: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:08:42	INFO	TFile.exists returns: true		
+15:08:42	INFO	TFile.canexecute returns: false		
+15:08:42	INFO	TFile.canread returns: true		
+15:08:42	INFO	TFile.canwrite returns: true		
+15:08:42	INFO	TFile.isarchive returns: true		
+15:08:42	INFO	TFile.isentry returns: false		
+15:08:42	INFO	TFile.isfile returns: false		
+15:08:42	INFO	TFile.isHidden returns: false		
+15:08:42	INFO	TFile.isUNC returns: false		
+15:08:42	INFO	Flightbook saved: /home/sschmied/git/flightbook/flugbuch.fb.zip		
+15:08:43	INFO	Save Waypointlist: /home/sschmied/git/flightbook/airtome.userdir/waypoints.airtome.xml		
+15:08:43	INFO	TableLayout saved		
+15:08:43	INFO	Save layout settings: /home/sschmied/git/flightbook/airtome.userdir/settings.xml		
+15:08:43	INFO	Shutdown		
