@@ -34106,7 +34106,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="580" new="541"/>
          <maxheight org="2115"/>
          <landheight org="414" new="416"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2415"/>
@@ -34438,7 +34438,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="654" new="651"/>
          <maxheight org="731"/>
          <landheight org="127" new="270"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="236"/>
@@ -34623,6 +34623,7 @@ Do panic if you fly a hang glider.</comment>
          <landingsite></landingsite>
          <date>
             <org year="2017" month="12" day="29"/>
+            <new year="2017" month="12" day="29"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -34639,7 +34640,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1189" new="1211"/>
          <maxheight org="1585"/>
          <landheight org="585" new="583"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="1390"/>
@@ -34773,7 +34774,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="653" new="650"/>
          <maxheight org="798"/>
          <landheight org="264" new="267"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="750"/>
@@ -34892,6 +34893,7 @@ Do panic if you fly a hang glider.</comment>
          <landingsite></landingsite>
          <date>
             <org year="2018" month="1" day="2"/>
+            <new year="2018" month="1" day="2"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -34908,8 +34910,8 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1212" new="1213"/>
          <maxheight org="1563"/>
          <landheight org="1270" new="1274"/>
-         <igcinfo>-1</igcinfo>
-         <comment></comment>
+         <igcinfo>0</igcinfo>
+         <comment>Bei Toplandung Ferse geprellt</comment>
          <starttype>1</starttype>
          <avgspeed org="843"/>
          <heightgain org="3584"/>
@@ -34934,6 +34936,7 @@ Do panic if you fly a hang glider.</comment>
          </olc>
          <tag class="java.util.ArrayList">
             <string>backward</string>
+            <string>toplanding</string>
          </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="40"/>
@@ -35175,7 +35178,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="736" new="650"/>
          <maxheight org="1015"/>
          <landheight org="266" new="725"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="55"/>
@@ -35280,5 +35283,5 @@ Do panic if you fly a hang glider.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>506</lastselectedflight>
+   <lastselectedflight>518</lastselectedflight>
 </JFlightlistArray>

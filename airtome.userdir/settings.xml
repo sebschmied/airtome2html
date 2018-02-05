@@ -99,21 +99,21 @@
 									<root>true</root>
 									<content delegate="SplitDockStationFactory">
 										<fullscreen-action>false</fullscreen-action>
-										<node nodeId="1517839469290" orientation="VERTICAL" divider="0.5">
-											<node nodeId="1517839469480" orientation="HORIZONTAL" divider="0.6">
-												<leaf id="2" nodeId="1517839469478">
+										<node nodeId="1517840555663" orientation="VERTICAL" divider="0.5">
+											<node nodeId="1517840555902" orientation="HORIZONTAL" divider="0.6">
+												<leaf id="2" nodeId="1517840555900">
 													<placeholders>
 														<placeholder>dock.single.flightlist</placeholder>
 													</placeholders>
 												</leaf>
-												<leaf id="3" nodeId="1517839469211">
+												<leaf id="3" nodeId="1517840555573">
 													<placeholders>
 														<placeholder>dock.single.editor</placeholder>
 													</placeholders>
 												</leaf>
 											</node>
-											<node nodeId="1517839469323" orientation="HORIZONTAL" divider="0.4">
-												<leaf id="0" nodeId="1517839469321">
+											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
+												<leaf id="0" nodeId="1517840555691">
 													<placeholders>
 														<placeholder>dock.multi.\1\ jview</placeholder>
 														<placeholder>dock.multi.\2\ jview</placeholder>
@@ -137,7 +137,7 @@
 														</entry>
 													</placeholder-map>
 												</leaf>
-												<leaf id="1" nodeId="1517839469289">
+												<leaf id="1" nodeId="1517840555662">
 													<placeholders>
 														<placeholder>dock.multi.\3\ jview</placeholder>
 														<placeholder>dock.multi.\6\ jview</placeholder>
@@ -454,9 +454,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.single.flightlist</placeholder>
 											<backup-path>
-												<node location="TOP" size="0.5" id="1517839469290"/>
-												<node location="LEFT" size="0.6" id="1517839469480"/>
-												<leaf id="1517839469478"/>
+												<node location="TOP" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.6" id="1517840555902"/>
+												<leaf id="1517840555900"/>
 											</backup-path>
 										</property>
 									</location>
@@ -475,9 +475,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\3\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="RIGHT" size="0.6" id="1517839469323"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -500,9 +500,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\6\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="RIGHT" size="0.6" id="1517839469323"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -525,9 +525,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\1\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="LEFT" size="0.4" id="1517839469323"/>
-												<leaf id="1517839469321"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.4" id="1517840555692"/>
+												<leaf id="1517840555691"/>
 											</backup-path>
 										</property>
 									</location>
@@ -546,7 +546,7 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.single.editor</placeholder>
 											<backup-path>
-												<leaf id="1517839469211"/>
+												<leaf id="1517840555573"/>
 											</backup-path>
 										</property>
 									</location>
@@ -565,9 +565,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\2\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="LEFT" size="0.4" id="1517839469323"/>
-												<leaf id="1517839469321"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.4" id="1517840555692"/>
+												<leaf id="1517840555691"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -590,9 +590,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\5\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="RIGHT" size="0.6" id="1517839469323"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -615,9 +615,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\4\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="RIGHT" size="0.6" id="1517839469323"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -640,9 +640,9 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\7\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<node location="RIGHT" size="0.6" id="1517839469323"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 										<property factory="StackDockPropertyFactory">
@@ -665,8 +665,8 @@
 										<property factory="SplitDockPlaceholderProperty">
 											<placeholder>dock.multi.\0\ jview</placeholder>
 											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517839469290"/>
-												<leaf id="1517839469289"/>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<leaf id="1517840555662"/>
 											</backup-path>
 										</property>
 									</location>
