@@ -53,14 +53,21 @@
                     .comment
                     {
                         width: 20%;
-                    }</style>
+                    }
+                    
+                    p.full-comment {
+                        font-style: italic;
+                    }
+                
+                
+                </style>
             </head>
             <body>
                 <h2>Flugbuch</h2>
                 <table>
                     <tr>
                         <th>Flug</th>
-                        
+
                         <th>Datum</th>
                         <th>Schirm</th>
                         <th>Fluggebiet</th>
@@ -121,11 +128,12 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                                 <xsl:if test="country/text()">
-                                <xsl:text> / </xsl:text><xsl:value-of select="country"/>
+                                    <xsl:text> / </xsl:text>
+                                    <xsl:value-of select="country"/>
                                 </xsl:if>
                             </td>
-                            
-                            
+
+
 
                             <!-- Dauer -->
                             <td class="duration">
@@ -159,10 +167,25 @@
 
                             <td class="comment">
                                 <xsl:if test="comment/text()">
-                                    <details>
-                                        <summary><xsl:value-of select="substring(comment, 1, 30)"/> <strong>(...)</strong></summary>
-                                        <xsl:value-of select="comment"/>
-                                    </details>
+                                    <xsl:choose>
+                                        <xsl:when test="string-length(comment) &gt; 30">
+
+                                            <details>
+                                                <summary>
+                                                  <xsl:value-of select="substring(comment, 1, 30)"/>
+                                                  <xsl:if test="string-length(comment) &gt; 30">
+                                                  [...] </xsl:if>
+
+                                                </summary>
+                                                <p class="full-comment">
+                                                    <xsl:value-of select="comment"/>
+                                                </p>
+                                            </details>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="comment"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </xsl:if>
                             </td>
 
