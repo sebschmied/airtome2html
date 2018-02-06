@@ -150,7 +150,7 @@
      <int>11</int>
     </void>
     <void property="width">
-     <int>75</int>
+     <int>157</int>
     </void>
    </object>
   </void>
@@ -476,7 +476,7 @@
    </object>
   </void>
  </object>
- <string>/home/sschmied/git/flightbook/flugbuch.fb.zip</string>
+ <string>/home/sschmied/git/sebschmied.github.io/flugbuch.fb.zip</string>
  <boolean>true</boolean>
  <int>0</int>
  <boolean>false</boolean>
@@ -486,5 +486,5 @@
  <boolean>false</boolean>
  <boolean>true</boolean>
  <boolean>true</boolean>
- <string>/home/sschmied/skytraxx1718</string>
+ <string>/home/sschmied/git/sebschmied.github.io</string>
 </java>

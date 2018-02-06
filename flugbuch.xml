@@ -4493,7 +4493,7 @@ Nachtrag 2015: Es war ein Independence Avalon 1-2er und ich wohl an der Untergre
          <maxheight org="0" new="619"/>
          <landheight org="0"/>
          <igcinfo>-1</igcinfo>
-         <comment>Den ganzen Tag auf Spezialexperten wie Andreas E. gehört statt zu starten, dann Rodeostart bei Rückenwind und abgeglitten.</comment>
+         <comment>Den ganzen Tag auf Spezialexperten wie Andreas Eichler gehört statt zu starten, dann Rodeostart bei Rückenwind und abgeglitten.</comment>
          <starttype>1</starttype>
          <avgspeed org="0"/>
          <heightgain org="0"/>
@@ -21216,7 +21216,7 @@ Kommentar Flugbuch: &quot;Davon 20 Min. versucht zu landen ...&quot;</comment>
          <maxheight org="841"/>
          <landheight org="259" new="260"/>
          <igcinfo>0</igcinfo>
-         <comment>Nettes Soaren, am Ende wegen stark zunehmendem Wind landen gegangen. Am LP hinter die westliche Baumreihe versetzen lassen, musste voll beschleunigen, um noch auf den LP zu kommen. Ernst D. schafft das einige Minuten später mit seinem Mescal nicht, und landet (unverletzt) im Baum.</comment>
+         <comment>Nettes Soaren, am Ende wegen stark zunehmendem Wind landen gegangen. Am LP hinter die westliche Baumreihe versetzen lassen, musste voll beschleunigen, um noch auf den LP zu kommen. Ernst Drobinoha schafft das einige Minuten später mit seinem Mescal nicht, und landet (unverletzt) im Baum.</comment>
          <starttype>1</starttype>
          <avgspeed org="509"/>
          <heightgain org="599"/>
@@ -21558,7 +21558,7 @@ Kommentar Flugbuch: &quot;Davon 20 Min. versucht zu landen ...&quot;</comment>
          <maxheight org="0" new="619"/>
          <landheight org="0" new="976"/>
          <igcinfo>-1</igcinfo>
-         <comment>Hike&amp;FLy mit Eric T. und Pascal D.</comment>
+         <comment>Hike&amp;FLy mit Eric Trapp und Pascal Dittmann</comment>
          <starttype>1</starttype>
          <avgspeed org="0"/>
          <heightgain org="0"/>
@@ -22257,7 +22257,7 @@ Kommentar Flugbuch: &quot;Davon 20 Min. versucht zu landen ...&quot;</comment>
          <maxheight org="1043"/>
          <landheight org="936"/>
          <igcinfo>0</igcinfo>
-         <comment>Mit Simon S. und Sebastian V.. Flug nach Oberkirch erwogen, hätte aber über unlandbares Gebiet soaren müssen.</comment>
+         <comment>Mit Simon Sudermann und Sebastian Volk. Flug nach Oberkirch erwogen, hätte aber über unlandbares Gebiet soaren müssen.</comment>
          <starttype>1</starttype>
          <avgspeed org="914"/>
          <heightgain org="879"/>
@@ -22325,7 +22325,7 @@ Kommentar Flugbuch: &quot;Davon 20 Min. versucht zu landen ...&quot;</comment>
          <maxheight org="343"/>
          <landheight org="223"/>
          <igcinfo>0</igcinfo>
-         <comment>Auf Südwind gehofft, auch Eric und Nico T. dabei.</comment>
+         <comment>Auf Südwind gehofft, auch Eric und Nico Trapp dabei.</comment>
          <starttype>1</starttype>
          <avgspeed org="2006"/>
          <heightgain org="3"/>
@@ -31759,7 +31759,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>473</number>
-         <country>Deutschland</country>
+         <country>Frankreich</country>
          <GPSID org=""/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
@@ -34143,7 +34143,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>508</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
@@ -34207,7 +34207,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>509</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
@@ -34271,7 +34271,7 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>510</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
@@ -34341,7 +34341,7 @@ Do panic if you fly a hang glider.</comment>
          <compID org=""/>
          <compClass org=""/>
          <ICGfile>2017-08-20 09_59_12.igc</ICGfile>
-         <site org="Merkur-DE"/>
+         <site org="Merkur-DE" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34408,7 +34408,7 @@ Do panic if you fly a hang glider.</comment>
          <compID org=""/>
          <compClass org=""/>
          <ICGfile>2017-08-26 11_37_39.igc</ICGfile>
-         <site org="Merkur-DE"/>
+         <site org="Merkur-DE" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34468,14 +34468,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>513</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>78QSEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34534,14 +34534,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>514</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>78QSEBS2.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34599,14 +34599,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>515</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>79NSEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34664,14 +34664,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>516</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7A3SEBS1.igc</ICGfile>
-         <site org="Koenigstuhl"/>
+         <site org="Koenigstuhl" new="Königstuhl"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34729,14 +34729,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>517</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7AESEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34793,14 +34793,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>518</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7AESEBS2.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34857,14 +34857,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>519</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7AFSEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34921,14 +34921,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>520</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7AFSEBS2.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -34985,14 +34985,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>521</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7APSEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -35050,14 +35050,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>522</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7B1SEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -35114,14 +35114,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>523</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7B1SEBS3.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -35243,14 +35243,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>525</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7BMSEBS1.igc</ICGfile>
-         <site org="Merkur W"/>
+         <site org="Merkur W" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
@@ -35307,14 +35307,14 @@ Do panic if you fly a hang glider.</comment>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
          <number>526</number>
-         <country></country>
+         <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>7C2SEBS1.igc</ICGfile>
-         <site org="Merkur NO"/>
+         <site org="Merkur NO" new="Merkur"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>

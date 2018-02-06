@@ -1,5 +1,6 @@
 #!/bin/bash
 rm -rf ./flightbook
+rm -f flugbuch.xml
 unzip -q -o flugbuch.fb.zip
 saxonb-xslt flugbuch.xml flightbook.xsl > index.html
 git add $PWD/.
