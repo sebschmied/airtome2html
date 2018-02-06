@@ -1,6 +1,7 @@
 #!/bin/bash
 rm -rf ./flightbook
 unzip -q -o flugbuch.fb.zip
+saxonb-xslt flugbuch.xml flightbook.xsl > README.md
 git add $PWD/.
 git commit
 git push
