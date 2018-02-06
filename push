@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf ./flightbook
 unzip -q -o flugbuch.fb.zip
 git add $PWD/.
 git commit
