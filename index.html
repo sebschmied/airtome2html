@@ -47,14 +47,22 @@
                         width: 20%;
                     }
                     
-                    p.full-comment {
+                    p.full-comment{
                         font-style: italic;
                     }
-                
-                
-                </style></head>
+                    
+                    #map{
+                        position: fixed;
+                        top: 2em;
+                        left: 2em;
+                        
+                        width: 500px;
+                        height: 500px;
+                        display: none;
+                    }</style><script src="jquery-3.3.1.min.js"></script></head>
    <body>
       <h2>Flugbuch</h2>
+      <div id="map">Karte</div>
       <table>
          <tr>
             <th>Flug</th>
@@ -64,6 +72,7 @@
             <th>Dauer</th>
             <th>Strecke</th>
             <th>Kommentar</th>
+            <th></th>
          </tr>
          <tr id="539">
             <td class="number">539</td>
@@ -73,6 +82,7 @@
             <td class="duration">48m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/539/81LSEBS1.igc.kml" class="showmap" id="showmap-539">Karte</button></td>
          </tr>
          <tr id="538">
             <td class="number">538</td>
@@ -82,6 +92,7 @@
             <td class="duration">1h 1m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/538/81ESEBS1.igc.kml" class="showmap" id="showmap-538">Karte</button></td>
          </tr>
          <tr id="537">
             <td class="number">537</td>
@@ -93,6 +104,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/537/81DSEBS2.igc.kml" class="showmap" id="showmap-537">Karte</button></td>
          </tr>
          <tr id="536">
             <td class="number">536</td>
@@ -104,6 +116,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/536/81DSEBS1.igc.kml" class="showmap" id="showmap-536">Karte</button></td>
          </tr>
          <tr id="535">
             <td class="number">535</td>
@@ -113,6 +126,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/535/.kml" class="showmap" id="showmap-535">Karte</button></td>
          </tr>
          <tr id="534">
             <td class="number">534</td>
@@ -124,6 +138,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/534/2018-01-05 10_52_04.igc.kml" class="showmap" id="showmap-534">Karte</button></td>
          </tr>
          <tr id="533">
             <td class="number">533</td>
@@ -133,6 +148,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/533/814SEBS1.igc.kml" class="showmap" id="showmap-533">Karte</button></td>
          </tr>
          <tr id="532">
             <td class="number">532</td>
@@ -146,6 +162,7 @@
             <td class="comment">Beim Toplanden Ferse geprellt
                
             </td>
+            <td><button value="flightbook/532/812SEBS1.igc.kml" class="showmap" id="showmap-532">Karte</button></td>
          </tr>
          <tr id="531">
             <td class="number">531</td>
@@ -155,6 +172,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/531/811SEBS2.igc.kml" class="showmap" id="showmap-531">Karte</button></td>
          </tr>
          <tr id="530">
             <td class="number">530</td>
@@ -166,6 +184,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/530/2018-01-01 11_08_56.igc.kml" class="showmap" id="showmap-530">Karte</button></td>
          </tr>
          <tr id="529">
             <td class="number">529</td>
@@ -175,6 +194,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/529/7CVSEBS1.igc.kml" class="showmap" id="showmap-529">Karte</button></td>
          </tr>
          <tr id="528">
             <td class="number">528</td>
@@ -186,6 +206,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/528/7CUSEBS1.igc.kml" class="showmap" id="showmap-528">Karte</button></td>
          </tr>
          <tr id="527">
             <td class="number">527</td>
@@ -197,6 +218,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/527/2017-12-29 11_57_50.igc.kml" class="showmap" id="showmap-527">Karte</button></td>
          </tr>
          <tr id="526">
             <td class="number">526</td>
@@ -206,6 +228,7 @@
             <td class="duration">1h 11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/526/7C2SEBS1.igc.kml" class="showmap" id="showmap-526">Karte</button></td>
          </tr>
          <tr id="525">
             <td class="number">525</td>
@@ -215,6 +238,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/525/7BMSEBS1.igc.kml" class="showmap" id="showmap-525">Karte</button></td>
          </tr>
          <tr id="524">
             <td class="number">524</td>
@@ -224,6 +248,7 @@
             <td class="duration">58m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/524/7B4SEBS1.igc.kml" class="showmap" id="showmap-524">Karte</button></td>
          </tr>
          <tr id="523">
             <td class="number">523</td>
@@ -233,6 +258,7 @@
             <td class="duration">4m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/523/7B1SEBS3.igc.kml" class="showmap" id="showmap-523">Karte</button></td>
          </tr>
          <tr id="522">
             <td class="number">522</td>
@@ -242,6 +268,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/522/7B1SEBS1.igc.kml" class="showmap" id="showmap-522">Karte</button></td>
          </tr>
          <tr id="521">
             <td class="number">521</td>
@@ -251,6 +278,7 @@
             <td class="duration">21m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/521/7APSEBS1.igc.kml" class="showmap" id="showmap-521">Karte</button></td>
          </tr>
          <tr id="520">
             <td class="number">520</td>
@@ -260,6 +288,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/520/7AFSEBS2.igc.kml" class="showmap" id="showmap-520">Karte</button></td>
          </tr>
          <tr id="519">
             <td class="number">519</td>
@@ -269,6 +298,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/519/7AFSEBS1.igc.kml" class="showmap" id="showmap-519">Karte</button></td>
          </tr>
          <tr id="518">
             <td class="number">518</td>
@@ -278,6 +308,7 @@
             <td class="duration">26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/518/7AESEBS2.igc.kml" class="showmap" id="showmap-518">Karte</button></td>
          </tr>
          <tr id="517">
             <td class="number">517</td>
@@ -287,6 +318,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/517/7AESEBS1.igc.kml" class="showmap" id="showmap-517">Karte</button></td>
          </tr>
          <tr id="516">
             <td class="number">516</td>
@@ -296,6 +328,7 @@
             <td class="duration">1h 7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/516/7A3SEBS1.igc.kml" class="showmap" id="showmap-516">Karte</button></td>
          </tr>
          <tr id="515">
             <td class="number">515</td>
@@ -305,6 +338,7 @@
             <td class="duration">1h 19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/515/79NSEBS1.igc.kml" class="showmap" id="showmap-515">Karte</button></td>
          </tr>
          <tr id="514">
             <td class="number">514</td>
@@ -314,6 +348,7 @@
             <td class="duration">32m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/514/78QSEBS2.igc.kml" class="showmap" id="showmap-514">Karte</button></td>
          </tr>
          <tr id="513">
             <td class="number">513</td>
@@ -323,6 +358,7 @@
             <td class="duration">47m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/513/78QSEBS1.igc.kml" class="showmap" id="showmap-513">Karte</button></td>
          </tr>
          <tr id="512">
             <td class="number">512</td>
@@ -332,6 +368,7 @@
             <td class="duration">47m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/512/2017-08-26 11_37_39.igc.kml" class="showmap" id="showmap-512">Karte</button></td>
          </tr>
          <tr id="511">
             <td class="number">511</td>
@@ -343,6 +380,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/511/2017-08-20 09_59_12.igc.kml" class="showmap" id="showmap-511">Karte</button></td>
          </tr>
          <tr id="510">
             <td class="number">510</td>
@@ -354,6 +392,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/510/78JSEBS3.igc.kml" class="showmap" id="showmap-510">Karte</button></td>
          </tr>
          <tr id="509">
             <td class="number">509</td>
@@ -363,6 +402,7 @@
             <td class="duration">19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/509/78JSEBS2.igc.kml" class="showmap" id="showmap-509">Karte</button></td>
          </tr>
          <tr id="508">
             <td class="number">508</td>
@@ -372,6 +412,7 @@
             <td class="duration">18m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/508/78JSEBS1.igc.kml" class="showmap" id="showmap-508">Karte</button></td>
          </tr>
          <tr id="507">
             <td class="number">507</td>
@@ -383,6 +424,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/507/Live-2017-08-06..52452.252916.igc.igc.kml" class="showmap" id="showmap-507">Karte</button></td>
          </tr>
          <tr id="506">
             <td class="number">506</td>
@@ -392,6 +434,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/506/2017-08-06 10_15_26.igc.kml" class="showmap" id="showmap-506">Karte</button></td>
          </tr>
          <tr id="505">
             <td class="number">505</td>
@@ -403,6 +446,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/505/77TSEBS1.igc.kml" class="showmap" id="showmap-505">Karte</button></td>
          </tr>
          <tr id="504">
             <td class="number">504</td>
@@ -414,6 +458,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/504/77SSEBS1.igc.kml" class="showmap" id="showmap-504">Karte</button></td>
          </tr>
          <tr id="503">
             <td class="number">503</td>
@@ -425,6 +470,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/503/77LSEBS1.igc.kml" class="showmap" id="showmap-503">Karte</button></td>
          </tr>
          <tr id="502">
             <td class="number">502</td>
@@ -436,6 +482,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/502/77KSEBS1.igc.kml" class="showmap" id="showmap-502">Karte</button></td>
          </tr>
          <tr id="501">
             <td class="number">501</td>
@@ -445,6 +492,7 @@
             <td class="duration">28m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/501/77JSEBS1.igc.kml" class="showmap" id="showmap-501">Karte</button></td>
          </tr>
          <tr id="500">
             <td class="number">500</td>
@@ -456,6 +504,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/500/77ISEBS1.igc.kml" class="showmap" id="showmap-500">Karte</button></td>
          </tr>
          <tr id="499">
             <td class="number">499</td>
@@ -467,6 +516,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/499/77HSEBS1.igc.kml" class="showmap" id="showmap-499">Karte</button></td>
          </tr>
          <tr id="498">
             <td class="number">498</td>
@@ -478,6 +528,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/498/77GSEBS3.igc.kml" class="showmap" id="showmap-498">Karte</button></td>
          </tr>
          <tr id="497">
             <td class="number">497</td>
@@ -487,6 +538,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/497/77GSEBS1.igc.kml" class="showmap" id="showmap-497">Karte</button></td>
          </tr>
          <tr id="496">
             <td class="number">496</td>
@@ -498,6 +550,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/496/76NSEBS1.igc.kml" class="showmap" id="showmap-496">Karte</button></td>
          </tr>
          <tr id="495">
             <td class="number">495</td>
@@ -511,6 +564,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/495/76FSEBS1.igc.kml" class="showmap" id="showmap-495">Karte</button></td>
          </tr>
          <tr id="494">
             <td class="number">494</td>
@@ -522,6 +576,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/494/76DSEBS4.igc.kml" class="showmap" id="showmap-494">Karte</button></td>
          </tr>
          <tr id="493">
             <td class="number">493</td>
@@ -531,6 +586,7 @@
             <td class="duration">33m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/493/76BSEBS1.igc.kml" class="showmap" id="showmap-493">Karte</button></td>
          </tr>
          <tr id="492">
             <td class="number">492</td>
@@ -540,6 +596,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/492/763SEBS2.igc.kml" class="showmap" id="showmap-492">Karte</button></td>
          </tr>
          <tr id="491">
             <td class="number">491</td>
@@ -551,6 +608,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment">Bei Donnern lieber abspiralt</td>
+            <td><button value="flightbook/491/75TSEBS1.igc.kml" class="showmap" id="showmap-491">Karte</button></td>
          </tr>
          <tr id="490">
             <td class="number">490</td>
@@ -569,6 +627,7 @@
                   <p class="full-comment">Range Air schnellstens wieder loswerden</p>
                </details>
             </td>
+            <td><button value="flightbook/490/75SSEBS4.igc.kml" class="showmap" id="showmap-490">Karte</button></td>
          </tr>
          <tr id="489">
             <td class="number">489</td>
@@ -580,6 +639,7 @@
                
             </td>
             <td class="comment">Biwak</td>
+            <td><button value="flightbook/489/75RSEBS1.igc.kml" class="showmap" id="showmap-489">Karte</button></td>
          </tr>
          <tr id="488">
             <td class="number">488</td>
@@ -591,6 +651,7 @@
                
             </td>
             <td class="comment">Biwak</td>
+            <td><button value="flightbook/488/75QSEBS1.igc.kml" class="showmap" id="showmap-488">Karte</button></td>
          </tr>
          <tr id="487">
             <td class="number">487</td>
@@ -602,6 +663,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/487/75PSEBS3.igc.kml" class="showmap" id="showmap-487">Karte</button></td>
          </tr>
          <tr id="486">
             <td class="number">486</td>
@@ -611,6 +673,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/486/75PSEBS2.igc.kml" class="showmap" id="showmap-486">Karte</button></td>
          </tr>
          <tr id="485">
             <td class="number">485</td>
@@ -620,6 +683,7 @@
             <td class="duration">53m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/485/75PSEBS1.igc.kml" class="showmap" id="showmap-485">Karte</button></td>
          </tr>
          <tr id="484">
             <td class="number">484</td>
@@ -629,6 +693,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/484/75MSEBS2.igc.kml" class="showmap" id="showmap-484">Karte</button></td>
          </tr>
          <tr id="483">
             <td class="number">483</td>
@@ -640,6 +705,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/483/75MSEBS1.igc.kml" class="showmap" id="showmap-483">Karte</button></td>
          </tr>
          <tr id="482">
             <td class="number">482</td>
@@ -651,6 +717,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/482/75LSEBS1.igc.kml" class="showmap" id="showmap-482">Karte</button></td>
          </tr>
          <tr id="481">
             <td class="number">481</td>
@@ -669,6 +736,7 @@
                   <p class="full-comment">Mit Marco bei 8/8 Nullschieber drehen</p>
                </details>
             </td>
+            <td><button value="flightbook/481/75KSEBS1.igc.kml" class="showmap" id="showmap-481">Karte</button></td>
          </tr>
          <tr id="480">
             <td class="number">480</td>
@@ -680,6 +748,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/480/75FSEBS2.igc.kml" class="showmap" id="showmap-480">Karte</button></td>
          </tr>
          <tr id="479">
             <td class="number">479</td>
@@ -689,6 +758,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/479/75FSEBS1.igc.kml" class="showmap" id="showmap-479">Karte</button></td>
          </tr>
          <tr id="478">
             <td class="number">478</td>
@@ -698,6 +768,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/478/75ESEBS1.igc.kml" class="showmap" id="showmap-478">Karte</button></td>
          </tr>
          <tr id="477">
             <td class="number">477</td>
@@ -709,6 +780,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/477/75DSEBS1.igc.kml" class="showmap" id="showmap-477">Karte</button></td>
          </tr>
          <tr id="476">
             <td class="number">476</td>
@@ -730,6 +802,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/476/755SEBS1.igc.kml" class="showmap" id="showmap-476">Karte</button></td>
          </tr>
          <tr id="475">
             <td class="number">475</td>
@@ -746,6 +819,7 @@
                   <p class="full-comment">Sehr bockig, es ging irgendwann kaum noch runter.</p>
                </details>
             </td>
+            <td><button value="flightbook/475/74USEBS4.igc.kml" class="showmap" id="showmap-475">Karte</button></td>
          </tr>
          <tr id="474">
             <td class="number">474</td>
@@ -755,6 +829,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/474/74USEBS1.igc.kml" class="showmap" id="showmap-474">Karte</button></td>
          </tr>
          <tr id="473">
             <td class="number">473</td>
@@ -764,6 +839,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment">Hike&amp;Fly mit Eric und Jonas</td>
+            <td><button value="flightbook/473/.kml" class="showmap" id="showmap-473">Karte</button></td>
          </tr>
          <tr id="472">
             <td class="number">472</td>
@@ -815,6 +891,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/472/74TSEBS1.igc.kml" class="showmap" id="showmap-472">Karte</button></td>
          </tr>
          <tr id="471">
             <td class="number">471</td>
@@ -824,6 +901,7 @@
             <td class="duration">25m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/471/74SSEBS1.igc.kml" class="showmap" id="showmap-471">Karte</button></td>
          </tr>
          <tr id="470">
             <td class="number">470</td>
@@ -835,6 +913,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/470/74NSEBS1.igc.kml" class="showmap" id="showmap-470">Karte</button></td>
          </tr>
          <tr id="469">
             <td class="number">469</td>
@@ -846,6 +925,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/469/74LSEBS1.igc.kml" class="showmap" id="showmap-469">Karte</button></td>
          </tr>
          <tr id="468">
             <td class="number">468</td>
@@ -857,6 +937,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/468/74ESEBS2.igc.kml" class="showmap" id="showmap-468">Karte</button></td>
          </tr>
          <tr id="467">
             <td class="number">467</td>
@@ -868,6 +949,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/467/74ESEBS1.igc.kml" class="showmap" id="showmap-467">Karte</button></td>
          </tr>
          <tr id="466">
             <td class="number">466</td>
@@ -877,6 +959,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/466/74BSEBS2.igc.kml" class="showmap" id="showmap-466">Karte</button></td>
          </tr>
          <tr id="465">
             <td class="number">465</td>
@@ -886,6 +969,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/465/74BSEBS1.igc.kml" class="showmap" id="showmap-465">Karte</button></td>
          </tr>
          <tr id="464">
             <td class="number">464</td>
@@ -897,6 +981,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/464/749SEBS1.igc.kml" class="showmap" id="showmap-464">Karte</button></td>
          </tr>
          <tr id="463">
             <td class="number">463</td>
@@ -906,6 +991,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/463/748SEBS3.igc.kml" class="showmap" id="showmap-463">Karte</button></td>
          </tr>
          <tr id="462">
             <td class="number">462</td>
@@ -915,6 +1001,7 @@
             <td class="duration">1h 18m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/462/748SEBS2.igc.kml" class="showmap" id="showmap-462">Karte</button></td>
          </tr>
          <tr id="461">
             <td class="number">461</td>
@@ -926,6 +1013,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/461/748SEBS1.igc.kml" class="showmap" id="showmap-461">Karte</button></td>
          </tr>
          <tr id="460">
             <td class="number">460</td>
@@ -935,6 +1023,7 @@
             <td class="duration">52m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/460/747SEBS1.igc.kml" class="showmap" id="showmap-460">Karte</button></td>
          </tr>
          <tr id="459">
             <td class="number">459</td>
@@ -944,6 +1033,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/459/741SEBS4.igc.kml" class="showmap" id="showmap-459">Karte</button></td>
          </tr>
          <tr id="458">
             <td class="number">458</td>
@@ -953,6 +1043,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/458/741SEBS3.igc.kml" class="showmap" id="showmap-458">Karte</button></td>
          </tr>
          <tr id="457">
             <td class="number">457</td>
@@ -964,6 +1055,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/457/741SEBS2.igc.kml" class="showmap" id="showmap-457">Karte</button></td>
          </tr>
          <tr id="456">
             <td class="number">456</td>
@@ -973,6 +1065,7 @@
             <td class="duration">13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/456/741SEBS1.igc.kml" class="showmap" id="showmap-456">Karte</button></td>
          </tr>
          <tr id="455">
             <td class="number">455</td>
@@ -984,6 +1077,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/455/73TSEBS1.igc.kml" class="showmap" id="showmap-455">Karte</button></td>
          </tr>
          <tr id="454">
             <td class="number">454</td>
@@ -993,6 +1087,7 @@
             <td class="duration">54m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/454/73SSEBS3.igc.kml" class="showmap" id="showmap-454">Karte</button></td>
          </tr>
          <tr id="453">
             <td class="number">453</td>
@@ -1002,6 +1097,7 @@
             <td class="duration">27m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/453/73SSEBS2.igc.kml" class="showmap" id="showmap-453">Karte</button></td>
          </tr>
          <tr id="452">
             <td class="number">452</td>
@@ -1011,6 +1107,7 @@
             <td class="duration">25m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/452/73SSEBS1.igc.kml" class="showmap" id="showmap-452">Karte</button></td>
          </tr>
          <tr id="451">
             <td class="number">451</td>
@@ -1020,6 +1117,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/451/73QSEBS2.igc.kml" class="showmap" id="showmap-451">Karte</button></td>
          </tr>
          <tr id="450">
             <td class="number">450</td>
@@ -1031,6 +1129,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/450/73QSEBS1.igc.kml" class="showmap" id="showmap-450">Karte</button></td>
          </tr>
          <tr id="449">
             <td class="number">449</td>
@@ -1049,6 +1148,7 @@
                   <p class="full-comment">NCC Task 2. Langsam, aber im Ziel.</p>
                </details>
             </td>
+            <td><button value="flightbook/449/73PSEBS1.igc.kml" class="showmap" id="showmap-449">Karte</button></td>
          </tr>
          <tr id="448">
             <td class="number">448</td>
@@ -1058,6 +1158,7 @@
             <td class="duration">35m </td>
             <td class="distance"></td>
             <td class="comment">NCC Task 1</td>
+            <td><button value="flightbook/448/73OSEBS1.igc.kml" class="showmap" id="showmap-448">Karte</button></td>
          </tr>
          <tr id="447">
             <td class="number">447</td>
@@ -1069,6 +1170,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/447/73CSEBS1.igc.kml" class="showmap" id="showmap-447">Karte</button></td>
          </tr>
          <tr id="446">
             <td class="number">446</td>
@@ -1080,6 +1182,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/446/73ASEBS3.igc.kml" class="showmap" id="showmap-446">Karte</button></td>
          </tr>
          <tr id="445">
             <td class="number">445</td>
@@ -1089,6 +1192,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/445/73ASEBS1.igc.kml" class="showmap" id="showmap-445">Karte</button></td>
          </tr>
          <tr id="444">
             <td class="number">444</td>
@@ -1098,6 +1202,7 @@
             <td class="duration">27m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/444/732SEBS2.igc.kml" class="showmap" id="showmap-444">Karte</button></td>
          </tr>
          <tr id="443">
             <td class="number">443</td>
@@ -1107,6 +1212,7 @@
             <td class="duration">37m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/443/732SEBS1.igc.kml" class="showmap" id="showmap-443">Karte</button></td>
          </tr>
          <tr id="442">
             <td class="number">442</td>
@@ -1116,6 +1222,7 @@
             <td class="duration">21m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/442/731SEBS1.igc.kml" class="showmap" id="showmap-442">Karte</button></td>
          </tr>
          <tr id="441">
             <td class="number">441</td>
@@ -1125,6 +1232,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/441/72RSEBS4.igc.kml" class="showmap" id="showmap-441">Karte</button></td>
          </tr>
          <tr id="440">
             <td class="number">440</td>
@@ -1134,6 +1242,7 @@
             <td class="duration">19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/440/72RSEBS2.igc.kml" class="showmap" id="showmap-440">Karte</button></td>
          </tr>
          <tr id="439">
             <td class="number">439</td>
@@ -1143,6 +1252,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/439/72RSEBS1.igc.kml" class="showmap" id="showmap-439">Karte</button></td>
          </tr>
          <tr id="438">
             <td class="number">438</td>
@@ -1152,6 +1262,7 @@
             <td class="duration">18m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/438/72QSEBSD.igc.kml" class="showmap" id="showmap-438">Karte</button></td>
          </tr>
          <tr id="437">
             <td class="number">437</td>
@@ -1161,6 +1272,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/437/72QSEBSC.igc.kml" class="showmap" id="showmap-437">Karte</button></td>
          </tr>
          <tr id="436">
             <td class="number">436</td>
@@ -1170,6 +1282,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/436/72QSEBSA.igc.kml" class="showmap" id="showmap-436">Karte</button></td>
          </tr>
          <tr id="435">
             <td class="number">435</td>
@@ -1179,6 +1292,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/435/72QSEBS8.igc.kml" class="showmap" id="showmap-435">Karte</button></td>
          </tr>
          <tr id="434">
             <td class="number">434</td>
@@ -1188,6 +1302,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/434/72QSEBS7.igc.kml" class="showmap" id="showmap-434">Karte</button></td>
          </tr>
          <tr id="433">
             <td class="number">433</td>
@@ -1197,6 +1312,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/433/72QSEBS6.igc.kml" class="showmap" id="showmap-433">Karte</button></td>
          </tr>
          <tr id="432">
             <td class="number">432</td>
@@ -1206,6 +1322,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/432/72QSEBS4.igc.kml" class="showmap" id="showmap-432">Karte</button></td>
          </tr>
          <tr id="431">
             <td class="number">431</td>
@@ -1215,6 +1332,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/431/72QSEBS2.igc.kml" class="showmap" id="showmap-431">Karte</button></td>
          </tr>
          <tr id="430">
             <td class="number">430</td>
@@ -1224,6 +1342,7 @@
             <td class="duration">49m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/430/72QSEBS1.igc.kml" class="showmap" id="showmap-430">Karte</button></td>
          </tr>
          <tr id="429">
             <td class="number">429</td>
@@ -1235,6 +1354,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/429/72PSEBS1.igc.kml" class="showmap" id="showmap-429">Karte</button></td>
          </tr>
          <tr id="428">
             <td class="number">428</td>
@@ -1244,6 +1364,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/428/72JSEBS1.igc.kml" class="showmap" id="showmap-428">Karte</button></td>
          </tr>
          <tr id="427">
             <td class="number">427</td>
@@ -1255,6 +1376,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/427/72CSEBS1.igc.kml" class="showmap" id="showmap-427">Karte</button></td>
          </tr>
          <tr id="426">
             <td class="number">426</td>
@@ -1264,6 +1386,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/426/.kml" class="showmap" id="showmap-426">Karte</button></td>
          </tr>
          <tr id="425">
             <td class="number">425</td>
@@ -1273,6 +1396,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/425/.kml" class="showmap" id="showmap-425">Karte</button></td>
          </tr>
          <tr id="424">
             <td class="number">424</td>
@@ -1282,6 +1406,7 @@
             <td class="duration">1h 0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/424/seb 2016-12-29 13-52-03.igc.kml" class="showmap" id="showmap-424">Karte</button></td>
          </tr>
          <tr id="423">
             <td class="number">423</td>
@@ -1291,6 +1416,7 @@
             <td class="duration">1h 40m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/423/seb 2016-12-29 10-50-04.igc.kml" class="showmap" id="showmap-423">Karte</button></td>
          </tr>
          <tr id="422">
             <td class="number">422</td>
@@ -1311,6 +1437,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/422/seb 2016-12-29 10-50-03.igc.kml" class="showmap" id="showmap-422">Karte</button></td>
          </tr>
          <tr id="421">
             <td class="number">421</td>
@@ -1320,6 +1447,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/421/seb 2016-12-10 14-22-33.igc.kml" class="showmap" id="showmap-421">Karte</button></td>
          </tr>
          <tr id="420">
             <td class="number">420</td>
@@ -1329,6 +1457,7 @@
             <td class="duration">44m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/420/seb 2016-12-10 11-39-11.igc.kml" class="showmap" id="showmap-420">Karte</button></td>
          </tr>
          <tr id="419">
             <td class="number">419</td>
@@ -1338,6 +1467,7 @@
             <td class="duration">2m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/419/.kml" class="showmap" id="showmap-419">Karte</button></td>
          </tr>
          <tr id="418">
             <td class="number">418</td>
@@ -1347,6 +1477,7 @@
             <td class="duration">20m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/418/.kml" class="showmap" id="showmap-418">Karte</button></td>
          </tr>
          <tr id="417">
             <td class="number">417</td>
@@ -1356,6 +1487,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/417/.kml" class="showmap" id="showmap-417">Karte</button></td>
          </tr>
          <tr id="416">
             <td class="number">416</td>
@@ -1367,6 +1499,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/416/6B1SEBS6.igc.kml" class="showmap" id="showmap-416">Karte</button></td>
          </tr>
          <tr id="415">
             <td class="number">415</td>
@@ -1378,6 +1511,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/415/6B1SEBS5.igc.kml" class="showmap" id="showmap-415">Karte</button></td>
          </tr>
          <tr id="414">
             <td class="number">414</td>
@@ -1389,6 +1523,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/414/6B1SEBS4.igc.kml" class="showmap" id="showmap-414">Karte</button></td>
          </tr>
          <tr id="413">
             <td class="number">413</td>
@@ -1400,6 +1535,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/413/6B1SEBS3.igc.kml" class="showmap" id="showmap-413">Karte</button></td>
          </tr>
          <tr id="412">
             <td class="number">412</td>
@@ -1411,6 +1547,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/412/6B1SEBS2.igc.kml" class="showmap" id="showmap-412">Karte</button></td>
          </tr>
          <tr id="411">
             <td class="number">411</td>
@@ -1422,6 +1559,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/411/6B1SEBS1.igc.kml" class="showmap" id="showmap-411">Karte</button></td>
          </tr>
          <tr id="410">
             <td class="number">410</td>
@@ -1433,6 +1571,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/410/6AMSEBS2.igc.kml" class="showmap" id="showmap-410">Karte</button></td>
          </tr>
          <tr id="409">
             <td class="number">409</td>
@@ -1444,6 +1583,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/409/6AMSEBS1.igc.kml" class="showmap" id="showmap-409">Karte</button></td>
          </tr>
          <tr id="408">
             <td class="number">408</td>
@@ -1453,6 +1593,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/408/.kml" class="showmap" id="showmap-408">Karte</button></td>
          </tr>
          <tr id="407">
             <td class="number">407</td>
@@ -1471,6 +1612,7 @@
                   <p class="full-comment">ONO-O, laut Windfinder 9 Knoten. Geht gut, aber die Soaringflächen beschränken sich auf die Rippen.</p>
                </details>
             </td>
+            <td><button value="flightbook/407/6ACSEBS1.igc.kml" class="showmap" id="showmap-407">Karte</button></td>
          </tr>
          <tr id="406">
             <td class="number">406</td>
@@ -1482,6 +1624,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/406/69USEBS1.igc.kml" class="showmap" id="showmap-406">Karte</button></td>
          </tr>
          <tr id="405">
             <td class="number">405</td>
@@ -1500,6 +1643,7 @@
                   <p class="full-comment">Vereinsmeisterschaft, Aufgabe: 1h oben bleiben. Punktlandung vergeigt.</p>
                </details>
             </td>
+            <td><button value="flightbook/405/69PSEBS1.igc.kml" class="showmap" id="showmap-405">Karte</button></td>
          </tr>
          <tr id="404">
             <td class="number">404</td>
@@ -1511,6 +1655,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/404/69LSEBS1.igc.kml" class="showmap" id="showmap-404">Karte</button></td>
          </tr>
          <tr id="403">
             <td class="number">403</td>
@@ -1529,6 +1674,7 @@
                   <p class="full-comment">Soaren bis Sonnenuntergangmit Eric, Ingo und Alois</p>
                </details>
             </td>
+            <td><button value="flightbook/403/69ESEBS1.igc.kml" class="showmap" id="showmap-403">Karte</button></td>
          </tr>
          <tr id="402">
             <td class="number">402</td>
@@ -1540,6 +1686,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/402/69BSEBS1.igc.kml" class="showmap" id="showmap-402">Karte</button></td>
          </tr>
          <tr id="401">
             <td class="number">401</td>
@@ -1549,6 +1696,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/401/69ASEBS5.igc.kml" class="showmap" id="showmap-401">Karte</button></td>
          </tr>
          <tr id="400">
             <td class="number">400</td>
@@ -1560,6 +1708,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/400/69ASEBS2.igc.kml" class="showmap" id="showmap-400">Karte</button></td>
          </tr>
          <tr id="399">
             <td class="number">399</td>
@@ -1571,6 +1720,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/399/69ASEBS1.igc.kml" class="showmap" id="showmap-399">Karte</button></td>
          </tr>
          <tr id="398">
             <td class="number">398</td>
@@ -1582,6 +1732,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/398/692SEBS3.igc.kml" class="showmap" id="showmap-398">Karte</button></td>
          </tr>
          <tr id="397">
             <td class="number">397</td>
@@ -1591,6 +1742,7 @@
             <td class="duration">48m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/397/692SEBS1.igc.kml" class="showmap" id="showmap-397">Karte</button></td>
          </tr>
          <tr id="396">
             <td class="number">396</td>
@@ -1600,6 +1752,7 @@
             <td class="duration">1h 0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/396/691SEBS1.igc.kml" class="showmap" id="showmap-396">Karte</button></td>
          </tr>
          <tr id="395">
             <td class="number">395</td>
@@ -1611,6 +1764,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/395/68SSEBS1.igc.kml" class="showmap" id="showmap-395">Karte</button></td>
          </tr>
          <tr id="394">
             <td class="number">394</td>
@@ -1622,6 +1776,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/394/68RSEBS1.igc.kml" class="showmap" id="showmap-394">Karte</button></td>
          </tr>
          <tr id="393">
             <td class="number">393</td>
@@ -1633,6 +1788,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/393/68QSEBS1.igc.kml" class="showmap" id="showmap-393">Karte</button></td>
          </tr>
          <tr id="392">
             <td class="number">392</td>
@@ -1644,6 +1800,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/392/68OSEBS1.igc.kml" class="showmap" id="showmap-392">Karte</button></td>
          </tr>
          <tr id="391">
             <td class="number">391</td>
@@ -1655,6 +1812,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/391/68KSEBS6.igc.kml" class="showmap" id="showmap-391">Karte</button></td>
          </tr>
          <tr id="390">
             <td class="number">390</td>
@@ -1668,6 +1826,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/390/68KSEBS1.igc.kml" class="showmap" id="showmap-390">Karte</button></td>
          </tr>
          <tr id="389">
             <td class="number">389</td>
@@ -1679,6 +1838,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/389/68JSEBS2.igc.kml" class="showmap" id="showmap-389">Karte</button></td>
          </tr>
          <tr id="388">
             <td class="number">388</td>
@@ -1690,6 +1850,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/388/68JSEBS1.igc.kml" class="showmap" id="showmap-388">Karte</button></td>
          </tr>
          <tr id="387">
             <td class="number">387</td>
@@ -1703,6 +1864,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/387/68ISEBS2.igc.kml" class="showmap" id="showmap-387">Karte</button></td>
          </tr>
          <tr id="386">
             <td class="number">386</td>
@@ -1714,6 +1876,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/386/68ISEBS1.igc.kml" class="showmap" id="showmap-386">Karte</button></td>
          </tr>
          <tr id="385">
             <td class="number">385</td>
@@ -1725,6 +1888,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/385/68HSEBS6.igc.kml" class="showmap" id="showmap-385">Karte</button></td>
          </tr>
          <tr id="384">
             <td class="number">384</td>
@@ -1734,6 +1898,7 @@
             <td class="duration">4m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/384/68HSEBS5.igc.kml" class="showmap" id="showmap-384">Karte</button></td>
          </tr>
          <tr id="383">
             <td class="number">383</td>
@@ -1743,6 +1908,7 @@
             <td class="duration">24m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/383/68HSEBS2.igc.kml" class="showmap" id="showmap-383">Karte</button></td>
          </tr>
          <tr id="382">
             <td class="number">382</td>
@@ -1752,6 +1918,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/382/68GSEBS1.igc.kml" class="showmap" id="showmap-382">Karte</button></td>
          </tr>
          <tr id="381">
             <td class="number">381</td>
@@ -1763,6 +1930,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/381/68FSEBS1.igc.kml" class="showmap" id="showmap-381">Karte</button></td>
          </tr>
          <tr id="380">
             <td class="number">380</td>
@@ -1772,6 +1940,7 @@
             <td class="duration">1h 7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/380/687SEBS3.igc.kml" class="showmap" id="showmap-380">Karte</button></td>
          </tr>
          <tr id="379">
             <td class="number">379</td>
@@ -1781,6 +1950,7 @@
             <td class="duration">59m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/379/687SEBS2.igc.kml" class="showmap" id="showmap-379">Karte</button></td>
          </tr>
          <tr id="378">
             <td class="number">378</td>
@@ -1790,6 +1960,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/378/687SEBS1.igc.kml" class="showmap" id="showmap-378">Karte</button></td>
          </tr>
          <tr id="377">
             <td class="number">377</td>
@@ -1799,6 +1970,7 @@
             <td class="duration">19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/377/686SEBS6.igc.kml" class="showmap" id="showmap-377">Karte</button></td>
          </tr>
          <tr id="376">
             <td class="number">376</td>
@@ -1808,6 +1980,7 @@
             <td class="duration">38m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/376/686SEBS1.igc.kml" class="showmap" id="showmap-376">Karte</button></td>
          </tr>
          <tr id="375">
             <td class="number">375</td>
@@ -1829,6 +2002,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/375/seb 2016-07-09 13-43-30.igc.kml" class="showmap" id="showmap-375">Karte</button></td>
          </tr>
          <tr id="374">
             <td class="number">374</td>
@@ -1838,6 +2012,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/374/677SEBS5.igc.kml" class="showmap" id="showmap-374">Karte</button></td>
          </tr>
          <tr id="373">
             <td class="number">373</td>
@@ -1847,6 +2022,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/373/677SEBS3.igc.kml" class="showmap" id="showmap-373">Karte</button></td>
          </tr>
          <tr id="372">
             <td class="number">372</td>
@@ -1858,6 +2034,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/372/677SEBS2.igc.kml" class="showmap" id="showmap-372">Karte</button></td>
          </tr>
          <tr id="371">
             <td class="number">371</td>
@@ -1867,6 +2044,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/371/677SEBS1.igc.kml" class="showmap" id="showmap-371">Karte</button></td>
          </tr>
          <tr id="370">
             <td class="number">370</td>
@@ -1878,6 +2056,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/370/671SEBS1.igc.kml" class="showmap" id="showmap-370">Karte</button></td>
          </tr>
          <tr id="369">
             <td class="number">369</td>
@@ -1889,6 +2068,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/369/66QSEBS1.igc.kml" class="showmap" id="showmap-369">Karte</button></td>
          </tr>
          <tr id="368">
             <td class="number">368</td>
@@ -1900,6 +2080,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/368/66KSEBS1.igc.kml" class="showmap" id="showmap-368">Karte</button></td>
          </tr>
          <tr id="367">
             <td class="number">367</td>
@@ -1911,6 +2092,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/367/669SEBS1.igc.kml" class="showmap" id="showmap-367">Karte</button></td>
          </tr>
          <tr id="366">
             <td class="number">366</td>
@@ -1920,6 +2102,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/366/65RSEBS2.igc.kml" class="showmap" id="showmap-366">Karte</button></td>
          </tr>
          <tr id="365">
             <td class="number">365</td>
@@ -1929,6 +2112,7 @@
             <td class="duration">45m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/365/65RSEBS1.igc.kml" class="showmap" id="showmap-365">Karte</button></td>
          </tr>
          <tr id="364">
             <td class="number">364</td>
@@ -1940,6 +2124,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/364/2016-05-26-XFH-000-01.igc.kml" class="showmap" id="showmap-364">Karte</button></td>
          </tr>
          <tr id="363">
             <td class="number">363</td>
@@ -1951,6 +2136,7 @@
                
             </td>
             <td class="comment">NCC Greifenburg, Task 4</td>
+            <td><button value="flightbook/363/65MSEBS1.igc.kml" class="showmap" id="showmap-363">Karte</button></td>
          </tr>
          <tr id="362">
             <td class="number">362</td>
@@ -1962,6 +2148,7 @@
                
             </td>
             <td class="comment">NCC Task 3</td>
+            <td><button value="flightbook/362/65LSEBS1.igc.kml" class="showmap" id="showmap-362">Karte</button></td>
          </tr>
          <tr id="361">
             <td class="number">361</td>
@@ -1973,6 +2160,7 @@
                
             </td>
             <td class="comment">NCC Task 2</td>
+            <td><button value="flightbook/361/65KSEBS1.igc.kml" class="showmap" id="showmap-361">Karte</button></td>
          </tr>
          <tr id="360">
             <td class="number">360</td>
@@ -1989,6 +2177,7 @@
                   <p class="full-comment">Aus Spaß Maxis 1er geflogen. Regen.</p>
                </details>
             </td>
+            <td><button value="flightbook/360/.kml" class="showmap" id="showmap-360">Karte</button></td>
          </tr>
          <tr id="359">
             <td class="number">359</td>
@@ -2002,6 +2191,7 @@
             <td class="comment">NCC Task 1
                
             </td>
+            <td><button value="flightbook/359/2016-05-18-XFH-000-01.igc.kml" class="showmap" id="showmap-359">Karte</button></td>
          </tr>
          <tr id="358">
             <td class="number">358</td>
@@ -2011,6 +2201,7 @@
             <td class="duration">21m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/358/65ESEBS1.igc.kml" class="showmap" id="showmap-358">Karte</button></td>
          </tr>
          <tr id="357">
             <td class="number">357</td>
@@ -2022,6 +2213,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/357/658SEBS1.igc.kml" class="showmap" id="showmap-357">Karte</button></td>
          </tr>
          <tr id="356">
             <td class="number">356</td>
@@ -2031,6 +2223,7 @@
             <td class="duration">1h 38m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/356/schmied_sebastian_task2.122.igc.kml" class="showmap" id="showmap-356">Karte</button></td>
          </tr>
          <tr id="355">
             <td class="number">355</td>
@@ -2042,6 +2235,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/355/655SEBS2.igc.kml" class="showmap" id="showmap-355">Karte</button></td>
          </tr>
          <tr id="354">
             <td class="number">354</td>
@@ -2051,6 +2245,7 @@
             <td class="duration">33m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/354/schmied_sebastian_task1.122.igc.kml" class="showmap" id="showmap-354">Karte</button></td>
          </tr>
          <tr id="353">
             <td class="number">353</td>
@@ -2062,6 +2257,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/353/64TSEBS2.igc.kml" class="showmap" id="showmap-353">Karte</button></td>
          </tr>
          <tr id="352">
             <td class="number">352</td>
@@ -2073,6 +2269,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/352/64TSEBS1.igc.kml" class="showmap" id="showmap-352">Karte</button></td>
          </tr>
          <tr id="351">
             <td class="number">351</td>
@@ -2084,6 +2281,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/351/64JSEBS1.igc.kml" class="showmap" id="showmap-351">Karte</button></td>
          </tr>
          <tr id="350">
             <td class="number">350</td>
@@ -2093,6 +2291,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment">Nicht bemerkter kleiner Knoten</td>
+            <td><button value="flightbook/350/64ISEBS2.igc.kml" class="showmap" id="showmap-350">Karte</button></td>
          </tr>
          <tr id="349">
             <td class="number">349</td>
@@ -2102,6 +2301,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment">Nicht bemerkter kleiner Knoten</td>
+            <td><button value="flightbook/349/64ISEBS1.igc.kml" class="showmap" id="showmap-349">Karte</button></td>
          </tr>
          <tr id="348">
             <td class="number">348</td>
@@ -2111,6 +2311,7 @@
             <td class="duration">27m </td>
             <td class="distance"></td>
             <td class="comment">Nicht bemerkter kleiner Knoten</td>
+            <td><button value="flightbook/348/64ASEBS2.igc.kml" class="showmap" id="showmap-348">Karte</button></td>
          </tr>
          <tr id="347">
             <td class="number">347</td>
@@ -2120,6 +2321,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment">Nicht bemerkter kleiner Knoten</td>
+            <td><button value="flightbook/347/64ASEBS1.igc.kml" class="showmap" id="showmap-347">Karte</button></td>
          </tr>
          <tr id="346">
             <td class="number">346</td>
@@ -2129,6 +2331,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment">Nicht bemerkter kleiner Knoten</td>
+            <td><button value="flightbook/346/63QSEBS1.igc.kml" class="showmap" id="showmap-346">Karte</button></td>
          </tr>
          <tr id="345">
             <td class="number">345</td>
@@ -2140,6 +2343,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/345/63OSEBS1.igc.kml" class="showmap" id="showmap-345">Karte</button></td>
          </tr>
          <tr id="344">
             <td class="number">344</td>
@@ -2149,6 +2353,7 @@
             <td class="duration">51m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/344/63JSEBS1.igc.kml" class="showmap" id="showmap-344">Karte</button></td>
          </tr>
          <tr id="343">
             <td class="number">343</td>
@@ -2158,6 +2363,7 @@
             <td class="duration">38m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/343/63CSEBS1.igc.kml" class="showmap" id="showmap-343">Karte</button></td>
          </tr>
          <tr id="342">
             <td class="number">342</td>
@@ -2167,6 +2373,7 @@
             <td class="duration">1h 24m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/342/63BSEBS1.igc.kml" class="showmap" id="showmap-342">Karte</button></td>
          </tr>
          <tr id="341">
             <td class="number">341</td>
@@ -2176,6 +2383,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/341/62RSEBS2.igc.kml" class="showmap" id="showmap-341">Karte</button></td>
          </tr>
          <tr id="340">
             <td class="number">340</td>
@@ -2185,6 +2393,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/340/62RSEBS1.igc.kml" class="showmap" id="showmap-340">Karte</button></td>
          </tr>
          <tr id="339">
             <td class="number">339</td>
@@ -2194,6 +2403,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/339/61OSEBS1.igc.kml" class="showmap" id="showmap-339">Karte</button></td>
          </tr>
          <tr id="338">
             <td class="number">338</td>
@@ -2203,6 +2413,7 @@
             <td class="duration">21m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/338/613SEBS3.igc.kml" class="showmap" id="showmap-338">Karte</button></td>
          </tr>
          <tr id="337">
             <td class="number">337</td>
@@ -2212,6 +2423,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/337/613SEBS2.igc.kml" class="showmap" id="showmap-337">Karte</button></td>
          </tr>
          <tr id="336">
             <td class="number">336</td>
@@ -2221,6 +2433,7 @@
             <td class="duration">55m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/336/613SEBS1.igc.kml" class="showmap" id="showmap-336">Karte</button></td>
          </tr>
          <tr id="335">
             <td class="number">335</td>
@@ -2239,6 +2452,7 @@
                   <p class="full-comment">Auf Südwind gehofft, auch Eric und Nico Trapp dabei.</p>
                </details>
             </td>
+            <td><button value="flightbook/335/5COSEBS1.igc.kml" class="showmap" id="showmap-335">Karte</button></td>
          </tr>
          <tr id="334">
             <td class="number">334</td>
@@ -2255,6 +2469,7 @@
                   <p class="full-comment">Mit Simon Sudermann und Sebastian Volk. Flug nach Oberkirch erwogen, hätte aber über unlandbares Gebiet soaren müssen.</p>
                </details>
             </td>
+            <td><button value="flightbook/334/5CKSEBS1.igc.kml" class="showmap" id="showmap-334">Karte</button></td>
          </tr>
          <tr id="333">
             <td class="number">333</td>
@@ -2271,6 +2486,7 @@
                   <p class="full-comment">Deutlicher Rückenwind an West, schwacher Vorwind an Nordost. Ging problemlos.</p>
                </details>
             </td>
+            <td><button value="flightbook/333/5CJSEBS4.igc.kml" class="showmap" id="showmap-333">Karte</button></td>
          </tr>
          <tr id="332">
             <td class="number">332</td>
@@ -2280,6 +2496,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/332/5CJSEBS2.igc.kml" class="showmap" id="showmap-332">Karte</button></td>
          </tr>
          <tr id="331">
             <td class="number">331</td>
@@ -2289,6 +2506,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/331/5CJSEBS1.igc.kml" class="showmap" id="showmap-331">Karte</button></td>
          </tr>
          <tr id="330">
             <td class="number">330</td>
@@ -2307,6 +2525,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/330/5C5SEBS3.igc.kml" class="showmap" id="showmap-330">Karte</button></td>
          </tr>
          <tr id="329">
             <td class="number">329</td>
@@ -2318,6 +2537,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/329/5C5SEBS1.igc.kml" class="showmap" id="showmap-329">Karte</button></td>
          </tr>
          <tr id="328">
             <td class="number">328</td>
@@ -2327,6 +2547,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/328/.kml" class="showmap" id="showmap-328">Karte</button></td>
          </tr>
          <tr id="327">
             <td class="number">327</td>
@@ -2336,6 +2557,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/327/.kml" class="showmap" id="showmap-327">Karte</button></td>
          </tr>
          <tr id="326">
             <td class="number">326</td>
@@ -2345,6 +2567,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/326/.kml" class="showmap" id="showmap-326">Karte</button></td>
          </tr>
          <tr id="325">
             <td class="number">325</td>
@@ -2354,6 +2577,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/325/.kml" class="showmap" id="showmap-325">Karte</button></td>
          </tr>
          <tr id="324">
             <td class="number">324</td>
@@ -2370,6 +2594,7 @@
                   <p class="full-comment">Hike&amp;FLy mit Eric Trapp und Pascal Dittmann</p>
                </details>
             </td>
+            <td><button value="flightbook/324/.kml" class="showmap" id="showmap-324">Karte</button></td>
          </tr>
          <tr id="323">
             <td class="number">323</td>
@@ -2388,6 +2613,7 @@
                   <p class="full-comment">Unverhoffte Thermik bis zur Basis</p>
                </details>
             </td>
+            <td><button value="flightbook/323/5ANSEBS3.igc.kml" class="showmap" id="showmap-323">Karte</button></td>
          </tr>
          <tr id="322">
             <td class="number">322</td>
@@ -2397,6 +2623,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/322/5ANSEBS2.igc.kml" class="showmap" id="showmap-322">Karte</button></td>
          </tr>
          <tr id="321">
             <td class="number">321</td>
@@ -2406,6 +2633,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/321/.kml" class="showmap" id="showmap-321">Karte</button></td>
          </tr>
          <tr id="320">
             <td class="number">320</td>
@@ -2415,6 +2643,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/320/.kml" class="showmap" id="showmap-320">Karte</button></td>
          </tr>
          <tr id="319">
             <td class="number">319</td>
@@ -2434,6 +2663,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/319/5ABSEBS4.igc.kml" class="showmap" id="showmap-319">Karte</button></td>
          </tr>
          <tr id="318">
             <td class="number">318</td>
@@ -2445,6 +2675,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/318/5ABSEBS2.igc.kml" class="showmap" id="showmap-318">Karte</button></td>
          </tr>
          <tr id="317">
             <td class="number">317</td>
@@ -2454,6 +2685,7 @@
             <td class="duration">35m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/317/5ABSEBS1.igc.kml" class="showmap" id="showmap-317">Karte</button></td>
          </tr>
          <tr id="316">
             <td class="number">316</td>
@@ -2463,6 +2695,7 @@
             <td class="duration">31m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/316/5A3SEBS3.igc.kml" class="showmap" id="showmap-316">Karte</button></td>
          </tr>
          <tr id="315">
             <td class="number">315</td>
@@ -2474,6 +2707,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/315/5A3SEBS2.igc.kml" class="showmap" id="showmap-315">Karte</button></td>
          </tr>
          <tr id="314">
             <td class="number">314</td>
@@ -2483,6 +2717,7 @@
             <td class="duration">48m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/314/5A3SEBS1.igc.kml" class="showmap" id="showmap-314">Karte</button></td>
          </tr>
          <tr id="313">
             <td class="number">313</td>
@@ -2494,6 +2729,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/313/59BSEBS1.igc.kml" class="showmap" id="showmap-313">Karte</button></td>
          </tr>
          <tr id="312">
             <td class="number">312</td>
@@ -2505,6 +2741,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/312/59ASEBS3.igc.kml" class="showmap" id="showmap-312">Karte</button></td>
          </tr>
          <tr id="311">
             <td class="number">311</td>
@@ -2518,6 +2755,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/311/59ASEBS2.igc.kml" class="showmap" id="showmap-311">Karte</button></td>
          </tr>
          <tr id="310">
             <td class="number">310</td>
@@ -2529,6 +2767,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/310/59ASEBS1.igc.kml" class="showmap" id="showmap-310">Karte</button></td>
          </tr>
          <tr id="309">
             <td class="number">309</td>
@@ -2538,6 +2777,7 @@
             <td class="duration">25m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/309/599SEBS1.igc.kml" class="showmap" id="showmap-309">Karte</button></td>
          </tr>
          <tr id="308">
             <td class="number">308</td>
@@ -2549,6 +2789,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/308/598SEBS1.igc.kml" class="showmap" id="showmap-308">Karte</button></td>
          </tr>
          <tr id="307">
             <td class="number">307</td>
@@ -2560,6 +2801,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/307/597SEBS2.igc.kml" class="showmap" id="showmap-307">Karte</button></td>
          </tr>
          <tr id="306">
             <td class="number">306</td>
@@ -2571,6 +2813,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/306/597SEBS1.igc.kml" class="showmap" id="showmap-306">Karte</button></td>
          </tr>
          <tr id="305">
             <td class="number">305</td>
@@ -2580,6 +2823,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/305/596SEBS1.igc.kml" class="showmap" id="showmap-305">Karte</button></td>
          </tr>
          <tr id="304">
             <td class="number">304</td>
@@ -2600,6 +2844,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/304/58VSEBS1.igc.kml" class="showmap" id="showmap-304">Karte</button></td>
          </tr>
          <tr id="303">
             <td class="number">303</td>
@@ -2611,6 +2856,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/303/2015-08-30-XCT-SSC-01.igc.kml" class="showmap" id="showmap-303">Karte</button></td>
          </tr>
          <tr id="302">
             <td class="number">302</td>
@@ -2629,6 +2875,7 @@
                   <p class="full-comment">Von Marianne und Michael als Anhalter mitgenommen worden</p>
                </details>
             </td>
+            <td><button value="flightbook/302/58TSEBS1.igc.kml" class="showmap" id="showmap-302">Karte</button></td>
          </tr>
          <tr id="301">
             <td class="number">301</td>
@@ -2640,6 +2887,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/301/58MSEBS1.igc.kml" class="showmap" id="showmap-301">Karte</button></td>
          </tr>
          <tr id="300">
             <td class="number">300</td>
@@ -2649,6 +2897,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/300/58LSEBS1.igc.kml" class="showmap" id="showmap-300">Karte</button></td>
          </tr>
          <tr id="299">
             <td class="number">299</td>
@@ -2658,6 +2907,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/299/58CSEBS3.igc.kml" class="showmap" id="showmap-299">Karte</button></td>
          </tr>
          <tr id="298">
             <td class="number">298</td>
@@ -2667,6 +2917,7 @@
             <td class="duration">26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/298/58CSEBS2.igc.kml" class="showmap" id="showmap-298">Karte</button></td>
          </tr>
          <tr id="297">
             <td class="number">297</td>
@@ -2676,6 +2927,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/297/58CSEBS1.igc.kml" class="showmap" id="showmap-297">Karte</button></td>
          </tr>
          <tr id="296">
             <td class="number">296</td>
@@ -2689,6 +2941,7 @@
                
             </td>
             <td class="comment">Mit Klaus und Oma, Fotoflug</td>
+            <td><button value="flightbook/296/tegelberg-rumsuppen.igc.kml" class="showmap" id="showmap-296">Karte</button></td>
          </tr>
          <tr id="295">
             <td class="number">295</td>
@@ -2700,6 +2953,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/295/2015-08-02-XCT-SSC-02.igc.kml" class="showmap" id="showmap-295">Karte</button></td>
          </tr>
          <tr id="294">
             <td class="number">294</td>
@@ -2709,6 +2963,7 @@
             <td class="duration">24m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/294/absaufen-geroldsau.igc.igc.kml" class="showmap" id="showmap-294">Karte</button></td>
          </tr>
          <tr id="293">
             <td class="number">293</td>
@@ -2718,6 +2973,7 @@
             <td class="duration">1h 28m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/293/cayenne-rumsuppen.igc.kml" class="showmap" id="showmap-293">Karte</button></td>
          </tr>
          <tr id="292">
             <td class="number">292</td>
@@ -2729,6 +2985,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/292/2015-07-26-XCT-SSC-01.igc.kml" class="showmap" id="showmap-292">Karte</button></td>
          </tr>
          <tr id="291">
             <td class="number">291</td>
@@ -2738,6 +2995,7 @@
             <td class="duration">34m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/291/nexus-absaufen.igc.kml" class="showmap" id="showmap-291">Karte</button></td>
          </tr>
          <tr id="290">
             <td class="number">290</td>
@@ -2747,6 +3005,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/290/nexus-absaufen-nach-wolfschlucht.igc.kml" class="showmap" id="showmap-290">Karte</button></td>
          </tr>
          <tr id="289">
             <td class="number">289</td>
@@ -2756,6 +3015,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/289/nexus-wolfsschlucht.igc.kml" class="showmap" id="showmap-289">Karte</button></td>
          </tr>
          <tr id="288">
             <td class="number">288</td>
@@ -2767,6 +3027,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/288/57CSEBS1.igc.kml" class="showmap" id="showmap-288">Karte</button></td>
          </tr>
          <tr id="287">
             <td class="number">287</td>
@@ -2776,6 +3037,7 @@
             <td class="duration">20m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/287/57ASEBS4.igc.kml" class="showmap" id="showmap-287">Karte</button></td>
          </tr>
          <tr id="286">
             <td class="number">286</td>
@@ -2785,6 +3047,7 @@
             <td class="duration">13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/286/57ASEBS3.igc.kml" class="showmap" id="showmap-286">Karte</button></td>
          </tr>
          <tr id="285">
             <td class="number">285</td>
@@ -2794,6 +3057,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/285/57ASEBS2.igc.kml" class="showmap" id="showmap-285">Karte</button></td>
          </tr>
          <tr id="284">
             <td class="number">284</td>
@@ -2803,6 +3067,7 @@
             <td class="duration">24m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/284/57ASEBS1.igc.kml" class="showmap" id="showmap-284">Karte</button></td>
          </tr>
          <tr id="283">
             <td class="number">283</td>
@@ -2814,6 +3079,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/283/576SEBS1.igc.kml" class="showmap" id="showmap-283">Karte</button></td>
          </tr>
          <tr id="282">
             <td class="number">282</td>
@@ -2825,6 +3091,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/282/575SEBS1.igc.kml" class="showmap" id="showmap-282">Karte</button></td>
          </tr>
          <tr id="281">
             <td class="number">281</td>
@@ -2836,6 +3103,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/281/574SEBS4.igc.kml" class="showmap" id="showmap-281">Karte</button></td>
          </tr>
          <tr id="280">
             <td class="number">280</td>
@@ -2845,6 +3113,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/280/574SEBS3.igc.kml" class="showmap" id="showmap-280">Karte</button></td>
          </tr>
          <tr id="279">
             <td class="number">279</td>
@@ -2856,6 +3125,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/279/56SSEBS2.igc.kml" class="showmap" id="showmap-279">Karte</button></td>
          </tr>
          <tr id="278">
             <td class="number">278</td>
@@ -2867,6 +3137,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/278/56SSEBS1.igc.kml" class="showmap" id="showmap-278">Karte</button></td>
          </tr>
          <tr id="277">
             <td class="number">277</td>
@@ -2878,6 +3149,7 @@
                
             </td>
             <td class="comment">Strauchlandung</td>
+            <td><button value="flightbook/277/56OSEBS2.igc.kml" class="showmap" id="showmap-277">Karte</button></td>
          </tr>
          <tr id="276">
             <td class="number">276</td>
@@ -2887,6 +3159,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/276/56OSEBS1.igc.kml" class="showmap" id="showmap-276">Karte</button></td>
          </tr>
          <tr id="275">
             <td class="number">275</td>
@@ -2898,6 +3171,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/275/56ESEBS2.igc.kml" class="showmap" id="showmap-275">Karte</button></td>
          </tr>
          <tr id="274">
             <td class="number">274</td>
@@ -2907,6 +3181,7 @@
             <td class="duration">55m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/274/56ESEBS1.igc.kml" class="showmap" id="showmap-274">Karte</button></td>
          </tr>
          <tr id="273">
             <td class="number">273</td>
@@ -2916,6 +3191,7 @@
             <td class="duration">25m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/273/566SEBS1.igc.kml" class="showmap" id="showmap-273">Karte</button></td>
          </tr>
          <tr id="272">
             <td class="number">272</td>
@@ -2927,6 +3203,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/272/565SEBS1.igc.kml" class="showmap" id="showmap-272">Karte</button></td>
          </tr>
          <tr id="271">
             <td class="number">271</td>
@@ -2938,6 +3215,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/271/564SEBS1.igc.kml" class="showmap" id="showmap-271">Karte</button></td>
          </tr>
          <tr id="270">
             <td class="number">270</td>
@@ -2951,6 +3229,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/270/563SEBS1.igc.kml" class="showmap" id="showmap-270">Karte</button></td>
          </tr>
          <tr id="269">
             <td class="number">269</td>
@@ -2962,6 +3241,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/269/55PSEBS1.igc.kml" class="showmap" id="showmap-269">Karte</button></td>
          </tr>
          <tr id="268">
             <td class="number">268</td>
@@ -2971,6 +3251,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/268/55OSEBS1.igc.kml" class="showmap" id="showmap-268">Karte</button></td>
          </tr>
          <tr id="267">
             <td class="number">267</td>
@@ -2982,6 +3263,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/267/2015-05-17-XCT-SSC-01.igc.kml" class="showmap" id="showmap-267">Karte</button></td>
          </tr>
          <tr id="266">
             <td class="number">266</td>
@@ -2993,6 +3275,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/266/55GSEBS1.igc.kml" class="showmap" id="showmap-266">Karte</button></td>
          </tr>
          <tr id="265">
             <td class="number">265</td>
@@ -3002,6 +3285,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/265/55ESEBS5.igc.kml" class="showmap" id="showmap-265">Karte</button></td>
          </tr>
          <tr id="264">
             <td class="number">264</td>
@@ -3011,6 +3295,7 @@
             <td class="duration">31m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/264/55ESEBS3.igc.kml" class="showmap" id="showmap-264">Karte</button></td>
          </tr>
          <tr id="263">
             <td class="number">263</td>
@@ -3020,6 +3305,7 @@
             <td class="duration">33m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/263/55ESEBS1.igc.kml" class="showmap" id="showmap-263">Karte</button></td>
          </tr>
          <tr id="262">
             <td class="number">262</td>
@@ -3031,6 +3317,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/262/552SEBS5.igc.kml" class="showmap" id="showmap-262">Karte</button></td>
          </tr>
          <tr id="261">
             <td class="number">261</td>
@@ -3040,6 +3327,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/261/552SEBS3.igc.kml" class="showmap" id="showmap-261">Karte</button></td>
          </tr>
          <tr id="260">
             <td class="number">260</td>
@@ -3049,6 +3337,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/260/54QSEBS4.igc.kml" class="showmap" id="showmap-260">Karte</button></td>
          </tr>
          <tr id="259">
             <td class="number">259</td>
@@ -3060,6 +3349,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/259/54QSEBS2.igc.kml" class="showmap" id="showmap-259">Karte</button></td>
          </tr>
          <tr id="258">
             <td class="number">258</td>
@@ -3069,6 +3359,7 @@
             <td class="duration">43m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/258/54QSEBS1.igc.kml" class="showmap" id="showmap-258">Karte</button></td>
          </tr>
          <tr id="257">
             <td class="number">257</td>
@@ -3080,6 +3371,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/257/54JSEBS1.igc.kml" class="showmap" id="showmap-257">Karte</button></td>
          </tr>
          <tr id="256">
             <td class="number">256</td>
@@ -3089,6 +3381,7 @@
             <td class="duration">32m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/256/54CSEBS5.igc.kml" class="showmap" id="showmap-256">Karte</button></td>
          </tr>
          <tr id="255">
             <td class="number">255</td>
@@ -3100,6 +3393,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/255/54CSEBS1.igc.kml" class="showmap" id="showmap-255">Karte</button></td>
          </tr>
          <tr id="254">
             <td class="number">254</td>
@@ -3111,6 +3405,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/254/54BSEBS2.igc.kml" class="showmap" id="showmap-254">Karte</button></td>
          </tr>
          <tr id="253">
             <td class="number">253</td>
@@ -3120,6 +3415,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/253/54BSEBS1.igc.kml" class="showmap" id="showmap-253">Karte</button></td>
          </tr>
          <tr id="252">
             <td class="number">252</td>
@@ -3129,6 +3425,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/252/54ASEBS3.igc.kml" class="showmap" id="showmap-252">Karte</button></td>
          </tr>
          <tr id="251">
             <td class="number">251</td>
@@ -3140,6 +3437,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/251/549SEBS1.igc.kml" class="showmap" id="showmap-251">Karte</button></td>
          </tr>
          <tr id="250">
             <td class="number">250</td>
@@ -3151,6 +3449,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/250/548SEBS1.igc.kml" class="showmap" id="showmap-250">Karte</button></td>
          </tr>
          <tr id="249">
             <td class="number">249</td>
@@ -3162,6 +3461,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/249/547SEBS1.igc.kml" class="showmap" id="showmap-249">Karte</button></td>
          </tr>
          <tr id="248">
             <td class="number">248</td>
@@ -3173,6 +3473,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/248/545SEBS4.igc.kml" class="showmap" id="showmap-248">Karte</button></td>
          </tr>
          <tr id="247">
             <td class="number">247</td>
@@ -3182,6 +3483,7 @@
             <td class="duration">45m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/247/545SEBS2.igc.kml" class="showmap" id="showmap-247">Karte</button></td>
          </tr>
          <tr id="246">
             <td class="number">246</td>
@@ -3191,6 +3493,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/246/545SEBS1.igc.kml" class="showmap" id="showmap-246">Karte</button></td>
          </tr>
          <tr id="245">
             <td class="number">245</td>
@@ -3202,6 +3505,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/245/544SEBS1.igc.kml" class="showmap" id="showmap-245">Karte</button></td>
          </tr>
          <tr id="244">
             <td class="number">244</td>
@@ -3211,6 +3515,7 @@
             <td class="duration">49m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/244/53SSEBS1.igc.kml" class="showmap" id="showmap-244">Karte</button></td>
          </tr>
          <tr id="243">
             <td class="number">243</td>
@@ -3220,6 +3525,7 @@
             <td class="duration">31m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/243/53FSEBS2.igc.kml" class="showmap" id="showmap-243">Karte</button></td>
          </tr>
          <tr id="242">
             <td class="number">242</td>
@@ -3231,6 +3537,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/242/53FSEBS1.igc.kml" class="showmap" id="showmap-242">Karte</button></td>
          </tr>
          <tr id="241">
             <td class="number">241</td>
@@ -3240,6 +3547,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/241/537SEBS5.igc.kml" class="showmap" id="showmap-241">Karte</button></td>
          </tr>
          <tr id="240">
             <td class="number">240</td>
@@ -3249,6 +3557,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/240/537SEBS3.igc.kml" class="showmap" id="showmap-240">Karte</button></td>
          </tr>
          <tr id="239">
             <td class="number">239</td>
@@ -3260,6 +3569,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/239/.kml" class="showmap" id="showmap-239">Karte</button></td>
          </tr>
          <tr id="238">
             <td class="number">238</td>
@@ -3269,6 +3579,7 @@
             <td class="duration">58m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/238/534SEBS1.igc.kml" class="showmap" id="showmap-238">Karte</button></td>
          </tr>
          <tr id="237">
             <td class="number">237</td>
@@ -3280,6 +3591,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/237/533SEBS1.igc.kml" class="showmap" id="showmap-237">Karte</button></td>
          </tr>
          <tr id="236">
             <td class="number">236</td>
@@ -3291,6 +3603,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/236/531SEBS1.igc.kml" class="showmap" id="showmap-236">Karte</button></td>
          </tr>
          <tr id="235">
             <td class="number">235</td>
@@ -3300,6 +3613,7 @@
             <td class="duration">43m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/235/52SSEBS3.igc.kml" class="showmap" id="showmap-235">Karte</button></td>
          </tr>
          <tr id="234">
             <td class="number">234</td>
@@ -3309,6 +3623,7 @@
             <td class="duration">13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/234/52SSEBS1.igc.kml" class="showmap" id="showmap-234">Karte</button></td>
          </tr>
          <tr id="233">
             <td class="number">233</td>
@@ -3320,6 +3635,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/233/2015-02-22-XCS-AAA-01.igc.kml" class="showmap" id="showmap-233">Karte</button></td>
          </tr>
          <tr id="232">
             <td class="number">232</td>
@@ -3329,6 +3645,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/232/527SEBS2.igc.kml" class="showmap" id="showmap-232">Karte</button></td>
          </tr>
          <tr id="231">
             <td class="number">231</td>
@@ -3338,6 +3655,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/231/527SEBS1.igc.kml" class="showmap" id="showmap-231">Karte</button></td>
          </tr>
          <tr id="230">
             <td class="number">230</td>
@@ -3347,6 +3665,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/230/4BNSEBS4.igc.kml" class="showmap" id="showmap-230">Karte</button></td>
          </tr>
          <tr id="229">
             <td class="number">229</td>
@@ -3356,6 +3675,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/229/4BNSEBS3.igc.kml" class="showmap" id="showmap-229">Karte</button></td>
          </tr>
          <tr id="228">
             <td class="number">228</td>
@@ -3365,6 +3685,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/228/4BNSEBS3-2.igc.kml" class="showmap" id="showmap-228">Karte</button></td>
          </tr>
          <tr id="227">
             <td class="number">227</td>
@@ -3374,6 +3695,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/227/4BNSEBS2.igc.kml" class="showmap" id="showmap-227">Karte</button></td>
          </tr>
          <tr id="226">
             <td class="number">226</td>
@@ -3383,6 +3705,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/226/4BNSEBS1.igc.kml" class="showmap" id="showmap-226">Karte</button></td>
          </tr>
          <tr id="225">
             <td class="number">225</td>
@@ -3394,6 +3717,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/225/4BMSEBS5.igc.kml" class="showmap" id="showmap-225">Karte</button></td>
          </tr>
          <tr id="224">
             <td class="number">224</td>
@@ -3403,6 +3727,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/224/4BMSEBS4.igc.kml" class="showmap" id="showmap-224">Karte</button></td>
          </tr>
          <tr id="223">
             <td class="number">223</td>
@@ -3412,6 +3737,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/223/4BMSEBS3.igc.kml" class="showmap" id="showmap-223">Karte</button></td>
          </tr>
          <tr id="222">
             <td class="number">222</td>
@@ -3421,6 +3747,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/222/4BMSEBS2.igc.kml" class="showmap" id="showmap-222">Karte</button></td>
          </tr>
          <tr id="221">
             <td class="number">221</td>
@@ -3430,6 +3757,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/221/4BMSEBS1.igc.kml" class="showmap" id="showmap-221">Karte</button></td>
          </tr>
          <tr id="220">
             <td class="number">220</td>
@@ -3439,6 +3767,7 @@
             <td class="duration">22m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/220/4B8SEBS3.igc.kml" class="showmap" id="showmap-220">Karte</button></td>
          </tr>
          <tr id="219">
             <td class="number">219</td>
@@ -3448,6 +3777,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/219/4B8SEBS2.igc.kml" class="showmap" id="showmap-219">Karte</button></td>
          </tr>
          <tr id="218">
             <td class="number">218</td>
@@ -3457,6 +3787,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/218/4B8SEBS1.igc.kml" class="showmap" id="showmap-218">Karte</button></td>
          </tr>
          <tr id="217">
             <td class="number">217</td>
@@ -3466,6 +3797,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/217/4A7SEBS1.igc.kml" class="showmap" id="showmap-217">Karte</button></td>
          </tr>
          <tr id="216">
             <td class="number">216</td>
@@ -3475,6 +3807,7 @@
             <td class="duration">36m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/216/4A6SEBS1.igc.kml" class="showmap" id="showmap-216">Karte</button></td>
          </tr>
          <tr id="215">
             <td class="number">215</td>
@@ -3484,6 +3817,7 @@
             <td class="duration">22m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/215/4A5SEBS1.igc.kml" class="showmap" id="showmap-215">Karte</button></td>
          </tr>
          <tr id="214">
             <td class="number">214</td>
@@ -3495,6 +3829,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/214/4A4SEBS2.igc.kml" class="showmap" id="showmap-214">Karte</button></td>
          </tr>
          <tr id="213">
             <td class="number">213</td>
@@ -3504,6 +3839,7 @@
             <td class="duration">32m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/213/4A4SEBS1.igc.kml" class="showmap" id="showmap-213">Karte</button></td>
          </tr>
          <tr id="212">
             <td class="number">212</td>
@@ -3515,6 +3851,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/212/4A3SEBS3.igc.kml" class="showmap" id="showmap-212">Karte</button></td>
          </tr>
          <tr id="211">
             <td class="number">211</td>
@@ -3526,6 +3863,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/211/4A3SEBS1.igc.kml" class="showmap" id="showmap-211">Karte</button></td>
          </tr>
          <tr id="210">
             <td class="number">210</td>
@@ -3537,6 +3875,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/210/4A2SEBS1.igc.kml" class="showmap" id="showmap-210">Karte</button></td>
          </tr>
          <tr id="209">
             <td class="number">209</td>
@@ -3546,6 +3885,7 @@
             <td class="duration">1h 26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/209/49SSEBS1.igc.kml" class="showmap" id="showmap-209">Karte</button></td>
          </tr>
          <tr id="208">
             <td class="number">208</td>
@@ -3555,6 +3895,7 @@
             <td class="duration">1h 17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/208/49KSEBS1.igc.kml" class="showmap" id="showmap-208">Karte</button></td>
          </tr>
          <tr id="207">
             <td class="number">207</td>
@@ -3564,6 +3905,7 @@
             <td class="duration">1h 25m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/207/48USEBS2.igc.kml" class="showmap" id="showmap-207">Karte</button></td>
          </tr>
          <tr id="206">
             <td class="number">206</td>
@@ -3573,6 +3915,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/206/48USEBS1.igc.kml" class="showmap" id="showmap-206">Karte</button></td>
          </tr>
          <tr id="205">
             <td class="number">205</td>
@@ -3582,6 +3925,7 @@
             <td class="duration">32m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/205/48OSEBS3.igc.kml" class="showmap" id="showmap-205">Karte</button></td>
          </tr>
          <tr id="204">
             <td class="number">204</td>
@@ -3591,6 +3935,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/204/48OSEBS2.igc.kml" class="showmap" id="showmap-204">Karte</button></td>
          </tr>
          <tr id="203">
             <td class="number">203</td>
@@ -3600,6 +3945,7 @@
             <td class="duration">59m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/203/48OSEBS1.igc.kml" class="showmap" id="showmap-203">Karte</button></td>
          </tr>
          <tr id="202">
             <td class="number">202</td>
@@ -3609,6 +3955,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/202/48JSEBS2.igc.kml" class="showmap" id="showmap-202">Karte</button></td>
          </tr>
          <tr id="201">
             <td class="number">201</td>
@@ -3620,6 +3967,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/201/48ISEBS1.igc.kml" class="showmap" id="showmap-201">Karte</button></td>
          </tr>
          <tr id="200">
             <td class="number">200</td>
@@ -3631,6 +3979,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/200/48HSEBS1.igc.kml" class="showmap" id="showmap-200">Karte</button></td>
          </tr>
          <tr id="199">
             <td class="number">199</td>
@@ -3640,6 +3989,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/199/48GSEBS1.igc.kml" class="showmap" id="showmap-199">Karte</button></td>
          </tr>
          <tr id="198">
             <td class="number">198</td>
@@ -3649,6 +3999,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/198/48ESEBS1.igc.kml" class="showmap" id="showmap-198">Karte</button></td>
          </tr>
          <tr id="197">
             <td class="number">197</td>
@@ -3658,6 +4009,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/197/48BSEBS1.igc.kml" class="showmap" id="showmap-197">Karte</button></td>
          </tr>
          <tr id="196">
             <td class="number">196</td>
@@ -3669,6 +4021,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/196/48ASEBS1.igc.kml" class="showmap" id="showmap-196">Karte</button></td>
          </tr>
          <tr id="195">
             <td class="number">195</td>
@@ -3687,6 +4040,7 @@
                   <p class="full-comment">Als Prüfungsflug für den B-Schein zählen lassen</p>
                </details>
             </td>
+            <td><button value="flightbook/195/489SEBS1.igc.kml" class="showmap" id="showmap-195">Karte</button></td>
          </tr>
          <tr id="194">
             <td class="number">194</td>
@@ -3696,6 +4050,7 @@
             <td class="duration">49m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/194/488SEBS1.igc.kml" class="showmap" id="showmap-194">Karte</button></td>
          </tr>
          <tr id="193">
             <td class="number">193</td>
@@ -3705,6 +4060,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/193/487SEBS6.igc.kml" class="showmap" id="showmap-193">Karte</button></td>
          </tr>
          <tr id="192">
             <td class="number">192</td>
@@ -3714,6 +4070,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/192/487SEBS5.igc.kml" class="showmap" id="showmap-192">Karte</button></td>
          </tr>
          <tr id="191">
             <td class="number">191</td>
@@ -3723,6 +4080,7 @@
             <td class="duration">13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/191/487SEBS3.igc.kml" class="showmap" id="showmap-191">Karte</button></td>
          </tr>
          <tr id="190">
             <td class="number">190</td>
@@ -3732,6 +4090,7 @@
             <td class="duration">32m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/190/487SEBS1.igc.kml" class="showmap" id="showmap-190">Karte</button></td>
          </tr>
          <tr id="189">
             <td class="number">189</td>
@@ -3741,6 +4100,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/189/486SEBS1.igc.kml" class="showmap" id="showmap-189">Karte</button></td>
          </tr>
          <tr id="188">
             <td class="number">188</td>
@@ -3750,6 +4110,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/188/.kml" class="showmap" id="showmap-188">Karte</button></td>
          </tr>
          <tr id="187">
             <td class="number">187</td>
@@ -3759,6 +4120,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/187/.kml" class="showmap" id="showmap-187">Karte</button></td>
          </tr>
          <tr id="186">
             <td class="number">186</td>
@@ -3768,6 +4130,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/186/.kml" class="showmap" id="showmap-186">Karte</button></td>
          </tr>
          <tr id="185">
             <td class="number">185</td>
@@ -3777,6 +4140,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/185/.kml" class="showmap" id="showmap-185">Karte</button></td>
          </tr>
          <tr id="184">
             <td class="number">184</td>
@@ -3786,6 +4150,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/184/.kml" class="showmap" id="showmap-184">Karte</button></td>
          </tr>
          <tr id="183">
             <td class="number">183</td>
@@ -3804,6 +4169,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/183/.kml" class="showmap" id="showmap-183">Karte</button></td>
          </tr>
          <tr id="182">
             <td class="number">182</td>
@@ -3815,6 +4181,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/182/47RSEBS1.igc.kml" class="showmap" id="showmap-182">Karte</button></td>
          </tr>
          <tr id="181">
             <td class="number">181</td>
@@ -3824,6 +4191,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/181/47HSEBS3.igc.kml" class="showmap" id="showmap-181">Karte</button></td>
          </tr>
          <tr id="180">
             <td class="number">180</td>
@@ -3835,6 +4203,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/180/47HSEBS2.igc.kml" class="showmap" id="showmap-180">Karte</button></td>
          </tr>
          <tr id="179">
             <td class="number">179</td>
@@ -3844,6 +4213,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/179/47HSEBS1.igc.kml" class="showmap" id="showmap-179">Karte</button></td>
          </tr>
          <tr id="178">
             <td class="number">178</td>
@@ -3853,6 +4223,7 @@
             <td class="duration">42m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/178/476SEBS2.igc.kml" class="showmap" id="showmap-178">Karte</button></td>
          </tr>
          <tr id="177">
             <td class="number">177</td>
@@ -3862,6 +4233,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/177/476SEBS1.igc.kml" class="showmap" id="showmap-177">Karte</button></td>
          </tr>
          <tr id="176">
             <td class="number">176</td>
@@ -3871,6 +4243,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/176/46MSEBS2.igc.kml" class="showmap" id="showmap-176">Karte</button></td>
          </tr>
          <tr id="175">
             <td class="number">175</td>
@@ -3880,6 +4253,7 @@
             <td class="duration">39m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/175/46MSEBS1.igc.kml" class="showmap" id="showmap-175">Karte</button></td>
          </tr>
          <tr id="174">
             <td class="number">174</td>
@@ -3889,6 +4263,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/174/46LSEBS4.igc.kml" class="showmap" id="showmap-174">Karte</button></td>
          </tr>
          <tr id="173">
             <td class="number">173</td>
@@ -3898,6 +4273,7 @@
             <td class="duration">33m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/173/46LSEBS3.igc.kml" class="showmap" id="showmap-173">Karte</button></td>
          </tr>
          <tr id="172">
             <td class="number">172</td>
@@ -3907,6 +4283,7 @@
             <td class="duration">18m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/172/46LSEBS1.igc.kml" class="showmap" id="showmap-172">Karte</button></td>
          </tr>
          <tr id="171">
             <td class="number">171</td>
@@ -3916,6 +4293,7 @@
             <td class="duration">1h 9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/171/46JSEBS2.igc.kml" class="showmap" id="showmap-171">Karte</button></td>
          </tr>
          <tr id="170">
             <td class="number">170</td>
@@ -3925,6 +4303,7 @@
             <td class="duration">37m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/170/46JSEBS1.igc.kml" class="showmap" id="showmap-170">Karte</button></td>
          </tr>
          <tr id="169">
             <td class="number">169</td>
@@ -3936,6 +4315,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/169/46ESEBS3.igc.kml" class="showmap" id="showmap-169">Karte</button></td>
          </tr>
          <tr id="168">
             <td class="number">168</td>
@@ -3945,6 +4325,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/168/46ESEBS2.igc.kml" class="showmap" id="showmap-168">Karte</button></td>
          </tr>
          <tr id="167">
             <td class="number">167</td>
@@ -3956,6 +4337,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/167/46ESEBS1.igc.kml" class="showmap" id="showmap-167">Karte</button></td>
          </tr>
          <tr id="166">
             <td class="number">166</td>
@@ -3967,6 +4349,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/166/469SEBS1.igc.kml" class="showmap" id="showmap-166">Karte</button></td>
          </tr>
          <tr id="165">
             <td class="number">165</td>
@@ -3978,6 +4361,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/165/468SEBS1.igc.kml" class="showmap" id="showmap-165">Karte</button></td>
          </tr>
          <tr id="164">
             <td class="number">164</td>
@@ -3989,6 +4373,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/164/467SEBS1.igc.kml" class="showmap" id="showmap-164">Karte</button></td>
          </tr>
          <tr id="163">
             <td class="number">163</td>
@@ -3998,6 +4383,7 @@
             <td class="duration">40m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/163/466SEBS1.igc.kml" class="showmap" id="showmap-163">Karte</button></td>
          </tr>
          <tr id="162">
             <td class="number">162</td>
@@ -4009,6 +4395,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/162/45VSEBS3.igc.kml" class="showmap" id="showmap-162">Karte</button></td>
          </tr>
          <tr id="161">
             <td class="number">161</td>
@@ -4018,6 +4405,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/161/45VSEBS2.igc.kml" class="showmap" id="showmap-161">Karte</button></td>
          </tr>
          <tr id="160">
             <td class="number">160</td>
@@ -4027,6 +4415,7 @@
             <td class="duration">29m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/160/45USEBS2.igc.kml" class="showmap" id="showmap-160">Karte</button></td>
          </tr>
          <tr id="159">
             <td class="number">159</td>
@@ -4036,6 +4425,7 @@
             <td class="duration">1h 11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/159/45USEBS1.igc.kml" class="showmap" id="showmap-159">Karte</button></td>
          </tr>
          <tr id="158">
             <td class="number">158</td>
@@ -4047,6 +4437,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/158/45TSEBS2.igc.kml" class="showmap" id="showmap-158">Karte</button></td>
          </tr>
          <tr id="157">
             <td class="number">157</td>
@@ -4056,6 +4447,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/157/45TSEBS1.igc.kml" class="showmap" id="showmap-157">Karte</button></td>
          </tr>
          <tr id="156">
             <td class="number">156</td>
@@ -4065,6 +4457,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/156/45PSEBS1.igc.kml" class="showmap" id="showmap-156">Karte</button></td>
          </tr>
          <tr id="155">
             <td class="number">155</td>
@@ -4074,6 +4467,7 @@
             <td class="duration">45m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/155/45OSEBS3.igc.kml" class="showmap" id="showmap-155">Karte</button></td>
          </tr>
          <tr id="154">
             <td class="number">154</td>
@@ -4083,6 +4477,7 @@
             <td class="duration">1h 0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/154/45OSEBS2.igc.kml" class="showmap" id="showmap-154">Karte</button></td>
          </tr>
          <tr id="153">
             <td class="number">153</td>
@@ -4092,6 +4487,7 @@
             <td class="duration">44m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/153/45OSEBS1.igc.kml" class="showmap" id="showmap-153">Karte</button></td>
          </tr>
          <tr id="152">
             <td class="number">152</td>
@@ -4101,6 +4497,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/152/45HSEBS2.igc.kml" class="showmap" id="showmap-152">Karte</button></td>
          </tr>
          <tr id="151">
             <td class="number">151</td>
@@ -4110,6 +4507,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/151/45HSEBS1.igc.kml" class="showmap" id="showmap-151">Karte</button></td>
          </tr>
          <tr id="150">
             <td class="number">150</td>
@@ -4119,6 +4517,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/150/454SEBS5.igc.kml" class="showmap" id="showmap-150">Karte</button></td>
          </tr>
          <tr id="149">
             <td class="number">149</td>
@@ -4128,6 +4527,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/149/454SEBS3.igc.kml" class="showmap" id="showmap-149">Karte</button></td>
          </tr>
          <tr id="148">
             <td class="number">148</td>
@@ -4137,6 +4537,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/148/454SEBS1.igc.kml" class="showmap" id="showmap-148">Karte</button></td>
          </tr>
          <tr id="147">
             <td class="number">147</td>
@@ -4146,6 +4547,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/147/44JSEBS1.igc.kml" class="showmap" id="showmap-147">Karte</button></td>
          </tr>
          <tr id="146">
             <td class="number">146</td>
@@ -4155,6 +4557,7 @@
             <td class="duration">19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/146/44ISEBS1.igc.kml" class="showmap" id="showmap-146">Karte</button></td>
          </tr>
          <tr id="145">
             <td class="number">145</td>
@@ -4164,6 +4567,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/145/44HSEBS1.igc.kml" class="showmap" id="showmap-145">Karte</button></td>
          </tr>
          <tr id="144">
             <td class="number">144</td>
@@ -4175,6 +4579,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/144/44DSEBS2.igc.kml" class="showmap" id="showmap-144">Karte</button></td>
          </tr>
          <tr id="143">
             <td class="number">143</td>
@@ -4186,6 +4591,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/143/44DSEBS1.igc.kml" class="showmap" id="showmap-143">Karte</button></td>
          </tr>
          <tr id="142">
             <td class="number">142</td>
@@ -4195,6 +4601,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/142/44CSEBS3.igc.kml" class="showmap" id="showmap-142">Karte</button></td>
          </tr>
          <tr id="141">
             <td class="number">141</td>
@@ -4206,6 +4613,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/141/44CSEBS2.igc.kml" class="showmap" id="showmap-141">Karte</button></td>
          </tr>
          <tr id="140">
             <td class="number">140</td>
@@ -4215,6 +4623,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/140/44CSEBS1.igc.kml" class="showmap" id="showmap-140">Karte</button></td>
          </tr>
          <tr id="139">
             <td class="number">139</td>
@@ -4224,6 +4633,7 @@
             <td class="duration">1h 1m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/139/43USEBS2.igc.kml" class="showmap" id="showmap-139">Karte</button></td>
          </tr>
          <tr id="138">
             <td class="number">138</td>
@@ -4235,6 +4645,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/138/43USEBS1.igc.kml" class="showmap" id="showmap-138">Karte</button></td>
          </tr>
          <tr id="137">
             <td class="number">137</td>
@@ -4244,6 +4655,7 @@
             <td class="duration">34m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/137/43TSEBS1.igc.kml" class="showmap" id="showmap-137">Karte</button></td>
          </tr>
          <tr id="136">
             <td class="number">136</td>
@@ -4253,6 +4665,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/136/43ESEBS4.igc.kml" class="showmap" id="showmap-136">Karte</button></td>
          </tr>
          <tr id="135">
             <td class="number">135</td>
@@ -4262,6 +4675,7 @@
             <td class="duration">8m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/135/43ESEBS2.igc.kml" class="showmap" id="showmap-135">Karte</button></td>
          </tr>
          <tr id="134">
             <td class="number">134</td>
@@ -4271,6 +4685,7 @@
             <td class="duration">26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/134/43ESEBS1.igc.kml" class="showmap" id="showmap-134">Karte</button></td>
          </tr>
          <tr id="133">
             <td class="number">133</td>
@@ -4282,6 +4697,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/133/439SEBS1.igc.kml" class="showmap" id="showmap-133">Karte</button></td>
          </tr>
          <tr id="132">
             <td class="number">132</td>
@@ -4293,6 +4709,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/132/438SEBS1.igc.kml" class="showmap" id="showmap-132">Karte</button></td>
          </tr>
          <tr id="131">
             <td class="number">131</td>
@@ -4302,6 +4719,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/131/437SEBS2.igc.kml" class="showmap" id="showmap-131">Karte</button></td>
          </tr>
          <tr id="130">
             <td class="number">130</td>
@@ -4311,6 +4729,7 @@
             <td class="duration">1h 26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/130/437SEBS1.igc.kml" class="showmap" id="showmap-130">Karte</button></td>
          </tr>
          <tr id="129">
             <td class="number">129</td>
@@ -4322,6 +4741,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/129/436SEBS1.igc.kml" class="showmap" id="showmap-129">Karte</button></td>
          </tr>
          <tr id="128">
             <td class="number">128</td>
@@ -4333,6 +4753,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/128/432SEBS1.igc.kml" class="showmap" id="showmap-128">Karte</button></td>
          </tr>
          <tr id="127">
             <td class="number">127</td>
@@ -4342,6 +4763,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/127/42NSEBS6.igc.kml" class="showmap" id="showmap-127">Karte</button></td>
          </tr>
          <tr id="126">
             <td class="number">126</td>
@@ -4351,6 +4773,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/126/42NSEBS4.igc.kml" class="showmap" id="showmap-126">Karte</button></td>
          </tr>
          <tr id="125">
             <td class="number">125</td>
@@ -4360,6 +4783,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/125/42NSEBS3.igc.kml" class="showmap" id="showmap-125">Karte</button></td>
          </tr>
          <tr id="124">
             <td class="number">124</td>
@@ -4369,6 +4793,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/124/42NSEBS2.igc.kml" class="showmap" id="showmap-124">Karte</button></td>
          </tr>
          <tr id="123">
             <td class="number">123</td>
@@ -4378,6 +4803,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/123/42NSEBS1.igc.kml" class="showmap" id="showmap-123">Karte</button></td>
          </tr>
          <tr id="122">
             <td class="number">122</td>
@@ -4387,6 +4813,7 @@
             <td class="duration">26m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/122/39ESEBS1.igc.kml" class="showmap" id="showmap-122">Karte</button></td>
          </tr>
          <tr id="121">
             <td class="number">121</td>
@@ -4396,6 +4823,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/121/39CSEBS1.igc.kml" class="showmap" id="showmap-121">Karte</button></td>
          </tr>
          <tr id="120">
             <td class="number">120</td>
@@ -4405,6 +4833,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/120/39BSEBS1.igc.kml" class="showmap" id="showmap-120">Karte</button></td>
          </tr>
          <tr id="119">
             <td class="number">119</td>
@@ -4414,6 +4843,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/119/399SEBS1.igc.kml" class="showmap" id="showmap-119">Karte</button></td>
          </tr>
          <tr id="118">
             <td class="number">118</td>
@@ -4423,6 +4853,7 @@
             <td class="duration">1h 3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/118/38HSEBS3.igc.kml" class="showmap" id="showmap-118">Karte</button></td>
          </tr>
          <tr id="117">
             <td class="number">117</td>
@@ -4434,6 +4865,7 @@
                
             </td>
             <td class="comment"></td>
+            <td><button value="flightbook/117/38HSEBS1.igc.kml" class="showmap" id="showmap-117">Karte</button></td>
          </tr>
          <tr id="116">
             <td class="number">116</td>
@@ -4445,6 +4877,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/116/38GSEBS2.igc.kml" class="showmap" id="showmap-116">Karte</button></td>
          </tr>
          <tr id="115">
             <td class="number">115</td>
@@ -4454,6 +4887,7 @@
             <td class="duration">41m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/115/38GSEBS1.igc.kml" class="showmap" id="showmap-115">Karte</button></td>
          </tr>
          <tr id="114">
             <td class="number">114</td>
@@ -4463,6 +4897,7 @@
             <td class="duration">1h 3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/114/38BSEBS4.igc.kml" class="showmap" id="showmap-114">Karte</button></td>
          </tr>
          <tr id="113">
             <td class="number">113</td>
@@ -4472,6 +4907,7 @@
             <td class="duration">28m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/113/38BSEBS3.igc.kml" class="showmap" id="showmap-113">Karte</button></td>
          </tr>
          <tr id="112">
             <td class="number">112</td>
@@ -4481,6 +4917,7 @@
             <td class="duration">44m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/112/38BSEBS2.igc.kml" class="showmap" id="showmap-112">Karte</button></td>
          </tr>
          <tr id="111">
             <td class="number">111</td>
@@ -4490,6 +4927,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/111/38BSEBS1.igc.kml" class="showmap" id="showmap-111">Karte</button></td>
          </tr>
          <tr id="110">
             <td class="number">110</td>
@@ -4499,6 +4937,7 @@
             <td class="duration">1h 13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/110/38ASEBS4.igc.kml" class="showmap" id="showmap-110">Karte</button></td>
          </tr>
          <tr id="109">
             <td class="number">109</td>
@@ -4508,6 +4947,7 @@
             <td class="duration">31m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/109/38ASEBS3.igc.kml" class="showmap" id="showmap-109">Karte</button></td>
          </tr>
          <tr id="108">
             <td class="number">108</td>
@@ -4517,6 +4957,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/108/38ASEBS2.igc.kml" class="showmap" id="showmap-108">Karte</button></td>
          </tr>
          <tr id="107">
             <td class="number">107</td>
@@ -4526,6 +4967,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/107/38ASEBS1.igc.kml" class="showmap" id="showmap-107">Karte</button></td>
          </tr>
          <tr id="106">
             <td class="number">106</td>
@@ -4535,6 +4977,7 @@
             <td class="duration">35m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/106/382SEBS3.igc.kml" class="showmap" id="showmap-106">Karte</button></td>
          </tr>
          <tr id="105">
             <td class="number">105</td>
@@ -4544,6 +4987,7 @@
             <td class="duration">12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/105/382SEBS2.igc.kml" class="showmap" id="showmap-105">Karte</button></td>
          </tr>
          <tr id="104">
             <td class="number">104</td>
@@ -4553,6 +4997,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/104/37NSEBS2.igc.kml" class="showmap" id="showmap-104">Karte</button></td>
          </tr>
          <tr id="103">
             <td class="number">103</td>
@@ -4562,6 +5007,7 @@
             <td class="duration">20m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/103/37MSEBS3.igc.kml" class="showmap" id="showmap-103">Karte</button></td>
          </tr>
          <tr id="102">
             <td class="number">102</td>
@@ -4571,6 +5017,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/102/37MSEBS1.igc.kml" class="showmap" id="showmap-102">Karte</button></td>
          </tr>
          <tr id="101">
             <td class="number">101</td>
@@ -4580,6 +5027,7 @@
             <td class="duration">18m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/101/37LSEBS2.igc.kml" class="showmap" id="showmap-101">Karte</button></td>
          </tr>
          <tr id="100">
             <td class="number">100</td>
@@ -4589,6 +5037,7 @@
             <td class="duration">35m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/100/37LSEBS1.igc.kml" class="showmap" id="showmap-100">Karte</button></td>
          </tr>
          <tr id="99">
             <td class="number">99</td>
@@ -4598,6 +5047,7 @@
             <td class="duration">47m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/99/37KSEBS1.igc.kml" class="showmap" id="showmap-99">Karte</button></td>
          </tr>
          <tr id="98">
             <td class="number">98</td>
@@ -4607,6 +5057,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/98/372SEBS2.igc.kml" class="showmap" id="showmap-98">Karte</button></td>
          </tr>
          <tr id="97">
             <td class="number">97</td>
@@ -4616,6 +5067,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/97/372SEBS1.igc.kml" class="showmap" id="showmap-97">Karte</button></td>
          </tr>
          <tr id="96">
             <td class="number">96</td>
@@ -4625,6 +5077,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/96/371SEBS4.igc.kml" class="showmap" id="showmap-96">Karte</button></td>
          </tr>
          <tr id="95">
             <td class="number">95</td>
@@ -4634,6 +5087,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/95/371SEBS2.igc.kml" class="showmap" id="showmap-95">Karte</button></td>
          </tr>
          <tr id="94">
             <td class="number">94</td>
@@ -4643,6 +5097,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/94/371SEBS1.igc.kml" class="showmap" id="showmap-94">Karte</button></td>
          </tr>
          <tr id="93">
             <td class="number">93</td>
@@ -4652,6 +5107,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/93/36USEBS4.igc.kml" class="showmap" id="showmap-93">Karte</button></td>
          </tr>
          <tr id="92">
             <td class="number">92</td>
@@ -4661,6 +5117,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/92/36USEBS3.igc.kml" class="showmap" id="showmap-92">Karte</button></td>
          </tr>
          <tr id="91">
             <td class="number">91</td>
@@ -4670,6 +5127,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/91/36USEBS2.igc.kml" class="showmap" id="showmap-91">Karte</button></td>
          </tr>
          <tr id="90">
             <td class="number">90</td>
@@ -4679,6 +5137,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/90/36USEBS1.igc.kml" class="showmap" id="showmap-90">Karte</button></td>
          </tr>
          <tr id="89">
             <td class="number">89</td>
@@ -4688,6 +5147,7 @@
             <td class="duration">1h 19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/89/36GSEBS1.igc.kml" class="showmap" id="showmap-89">Karte</button></td>
          </tr>
          <tr id="88">
             <td class="number">88</td>
@@ -4697,6 +5157,7 @@
             <td class="duration">43m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/88/36DSEBS2.igc.kml" class="showmap" id="showmap-88">Karte</button></td>
          </tr>
          <tr id="87">
             <td class="number">87</td>
@@ -4706,6 +5167,7 @@
             <td class="duration">9m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/87/36DSEBS1.igc.kml" class="showmap" id="showmap-87">Karte</button></td>
          </tr>
          <tr id="86">
             <td class="number">86</td>
@@ -4715,6 +5177,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/86/368SEBS2.igc.kml" class="showmap" id="showmap-86">Karte</button></td>
          </tr>
          <tr id="85">
             <td class="number">85</td>
@@ -4726,6 +5189,7 @@
             </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/85/368SEBS1.igc.kml" class="showmap" id="showmap-85">Karte</button></td>
          </tr>
          <tr id="84">
             <td class="number">84</td>
@@ -4744,6 +5208,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/84/362SEBS1.igc.kml" class="showmap" id="showmap-84">Karte</button></td>
          </tr>
          <tr id="83">
             <td class="number">83</td>
@@ -4753,6 +5218,7 @@
             <td class="duration">13m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/83/35USEBS4.igc.kml" class="showmap" id="showmap-83">Karte</button></td>
          </tr>
          <tr id="82">
             <td class="number">82</td>
@@ -4762,6 +5228,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/82/35USEBS2.igc.kml" class="showmap" id="showmap-82">Karte</button></td>
          </tr>
          <tr id="81">
             <td class="number">81</td>
@@ -4771,6 +5238,7 @@
             <td class="duration">6m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/81/35USEBS1.igc.kml" class="showmap" id="showmap-81">Karte</button></td>
          </tr>
          <tr id="80">
             <td class="number">80</td>
@@ -4780,6 +5248,7 @@
             <td class="duration">19m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/80/35ISEBS2.igc.kml" class="showmap" id="showmap-80">Karte</button></td>
          </tr>
          <tr id="79">
             <td class="number">79</td>
@@ -4789,6 +5258,7 @@
             <td class="duration">11m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/79/35ISEBS1.igc.kml" class="showmap" id="showmap-79">Karte</button></td>
          </tr>
          <tr id="78">
             <td class="number">78</td>
@@ -4798,6 +5268,7 @@
             <td class="duration">21m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/78/358SEBS2.igc.kml" class="showmap" id="showmap-78">Karte</button></td>
          </tr>
          <tr id="77">
             <td class="number">77</td>
@@ -4807,6 +5278,7 @@
             <td class="duration">55m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/77/358SEBS1.igc.kml" class="showmap" id="showmap-77">Karte</button></td>
          </tr>
          <tr id="76">
             <td class="number">76</td>
@@ -4816,6 +5288,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/76/.kml" class="showmap" id="showmap-76">Karte</button></td>
          </tr>
          <tr id="75">
             <td class="number">75</td>
@@ -4836,6 +5309,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/75/.kml" class="showmap" id="showmap-75">Karte</button></td>
          </tr>
          <tr id="74">
             <td class="number">74</td>
@@ -4852,6 +5326,7 @@
                   <p class="full-comment">Großräumige und einfache Thermik, erster Thermikflug außerhalb der Alpen, lange Zeit schönster Flug.</p>
                </details>
             </td>
+            <td><button value="flightbook/74/.kml" class="showmap" id="showmap-74">Karte</button></td>
          </tr>
          <tr id="73">
             <td class="number">73</td>
@@ -4861,6 +5336,7 @@
             <td class="duration">16m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/73/.kml" class="showmap" id="showmap-73">Karte</button></td>
          </tr>
          <tr id="72">
             <td class="number">72</td>
@@ -4879,6 +5355,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/72/.kml" class="showmap" id="showmap-72">Karte</button></td>
          </tr>
          <tr id="71">
             <td class="number">71</td>
@@ -4895,6 +5372,7 @@
                   <p class="full-comment">Erfolgreiche Querung zum Gaugen und damit erster "Streckenflug"</p>
                </details>
             </td>
+            <td><button value="flightbook/71/.kml" class="showmap" id="showmap-71">Karte</button></td>
          </tr>
          <tr id="70">
             <td class="number">70</td>
@@ -4904,6 +5382,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/70/.kml" class="showmap" id="showmap-70">Karte</button></td>
          </tr>
          <tr id="69">
             <td class="number">69</td>
@@ -4913,6 +5392,7 @@
             <td class="duration">1h 12m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/69/.kml" class="showmap" id="showmap-69">Karte</button></td>
          </tr>
          <tr id="68">
             <td class="number">68</td>
@@ -4929,6 +5409,7 @@
                   <p class="full-comment">Erster Versuch, auf Strecke zu gehen. Querung zum Gaugen allerdings nicht geschafft.</p>
                </details>
             </td>
+            <td><button value="flightbook/68/.kml" class="showmap" id="showmap-68">Karte</button></td>
          </tr>
          <tr id="67">
             <td class="number">67</td>
@@ -4945,6 +5426,7 @@
                   <p class="full-comment">Wohl mein erster echter Thermikflug</p>
                </details>
             </td>
+            <td><button value="flightbook/67/.kml" class="showmap" id="showmap-67">Karte</button></td>
          </tr>
          <tr id="66">
             <td class="number">66</td>
@@ -4963,6 +5445,7 @@
                   <p class="full-comment">Den ganzen Tag auf Spezialexperten wie Andreas Eichler gehört statt zu starten, dann Rodeostart bei Rückenwind und abgeglitten.</p>
                </details>
             </td>
+            <td><button value="flightbook/66/.kml" class="showmap" id="showmap-66">Karte</button></td>
          </tr>
          <tr id="65">
             <td class="number">65</td>
@@ -4972,6 +5455,7 @@
             <td class="duration">23m </td>
             <td class="distance"></td>
             <td class="comment">"Thermik, audgedreht"</td>
+            <td><button value="flightbook/65/.kml" class="showmap" id="showmap-65">Karte</button></td>
          </tr>
          <tr id="64">
             <td class="number">64</td>
@@ -4988,6 +5472,7 @@
                   <p class="full-comment">Außenlandung - keine Vorwärtsfahrt mehr durch saugendes heranziehendes Gewitter...</p>
                </details>
             </td>
+            <td><button value="flightbook/64/.kml" class="showmap" id="showmap-64">Karte</button></td>
          </tr>
          <tr id="63">
             <td class="number">63</td>
@@ -4997,6 +5482,7 @@
             <td class="duration">17m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/63/.kml" class="showmap" id="showmap-63">Karte</button></td>
          </tr>
          <tr id="62">
             <td class="number">62</td>
@@ -5006,6 +5492,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/62/.kml" class="showmap" id="showmap-62">Karte</button></td>
          </tr>
          <tr id="61">
             <td class="number">61</td>
@@ -5015,6 +5502,7 @@
             <td class="duration">14m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/61/.kml" class="showmap" id="showmap-61">Karte</button></td>
          </tr>
          <tr id="60">
             <td class="number">60</td>
@@ -5024,6 +5512,7 @@
             <td class="duration">0m </td>
             <td class="distance"></td>
             <td class="comment">A-Schein-Prüfung</td>
+            <td><button value="flightbook/60/.kml" class="showmap" id="showmap-60">Karte</button></td>
          </tr>
          <tr id="59">
             <td class="number">59</td>
@@ -5033,6 +5522,7 @@
             <td class="duration">30m </td>
             <td class="distance"></td>
             <td class="comment">A-Schein-Prüfung</td>
+            <td><button value="flightbook/59/.kml" class="showmap" id="showmap-59">Karte</button></td>
          </tr>
          <tr id="58">
             <td class="number">58</td>
@@ -5042,6 +5532,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment">A-Schein-Prüfung</td>
+            <td><button value="flightbook/58/.kml" class="showmap" id="showmap-58">Karte</button></td>
          </tr>
          <tr id="57">
             <td class="number">57</td>
@@ -5051,6 +5542,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment">A-Schein-Prüfung</td>
+            <td><button value="flightbook/57/.kml" class="showmap" id="showmap-57">Karte</button></td>
          </tr>
          <tr id="56">
             <td class="number">56</td>
@@ -5060,6 +5552,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/56/.kml" class="showmap" id="showmap-56">Karte</button></td>
          </tr>
          <tr id="55">
             <td class="number">55</td>
@@ -5069,6 +5562,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/55/.kml" class="showmap" id="showmap-55">Karte</button></td>
          </tr>
          <tr id="54">
             <td class="number">54</td>
@@ -5078,6 +5572,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/54/.kml" class="showmap" id="showmap-54">Karte</button></td>
          </tr>
          <tr id="53">
             <td class="number">53</td>
@@ -5087,6 +5582,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/53/.kml" class="showmap" id="showmap-53">Karte</button></td>
          </tr>
          <tr id="52">
             <td class="number">52</td>
@@ -5096,6 +5592,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/52/.kml" class="showmap" id="showmap-52">Karte</button></td>
          </tr>
          <tr id="51">
             <td class="number">51</td>
@@ -5105,6 +5602,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/51/.kml" class="showmap" id="showmap-51">Karte</button></td>
          </tr>
          <tr id="50">
             <td class="number">50</td>
@@ -5114,6 +5612,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/50/.kml" class="showmap" id="showmap-50">Karte</button></td>
          </tr>
          <tr id="49">
             <td class="number">49</td>
@@ -5123,6 +5622,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/49/.kml" class="showmap" id="showmap-49">Karte</button></td>
          </tr>
          <tr id="48">
             <td class="number">48</td>
@@ -5132,6 +5632,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/48/.kml" class="showmap" id="showmap-48">Karte</button></td>
          </tr>
          <tr id="47">
             <td class="number">47</td>
@@ -5141,6 +5642,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/47/.kml" class="showmap" id="showmap-47">Karte</button></td>
          </tr>
          <tr id="46">
             <td class="number">46</td>
@@ -5150,6 +5652,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/46/.kml" class="showmap" id="showmap-46">Karte</button></td>
          </tr>
          <tr id="45">
             <td class="number">45</td>
@@ -5159,6 +5662,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/45/.kml" class="showmap" id="showmap-45">Karte</button></td>
          </tr>
          <tr id="44">
             <td class="number">44</td>
@@ -5168,6 +5672,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/44/.kml" class="showmap" id="showmap-44">Karte</button></td>
          </tr>
          <tr id="43">
             <td class="number">43</td>
@@ -5177,6 +5682,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/43/.kml" class="showmap" id="showmap-43">Karte</button></td>
          </tr>
          <tr id="42">
             <td class="number">42</td>
@@ -5186,6 +5692,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/42/.kml" class="showmap" id="showmap-42">Karte</button></td>
          </tr>
          <tr id="41">
             <td class="number">41</td>
@@ -5195,6 +5702,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/41/.kml" class="showmap" id="showmap-41">Karte</button></td>
          </tr>
          <tr id="40">
             <td class="number">40</td>
@@ -5213,6 +5721,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/40/.kml" class="showmap" id="showmap-40">Karte</button></td>
          </tr>
          <tr id="39">
             <td class="number">39</td>
@@ -5222,6 +5731,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/39/.kml" class="showmap" id="showmap-39">Karte</button></td>
          </tr>
          <tr id="38">
             <td class="number">38</td>
@@ -5231,6 +5741,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/38/.kml" class="showmap" id="showmap-38">Karte</button></td>
          </tr>
          <tr id="37">
             <td class="number">37</td>
@@ -5240,6 +5751,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/37/.kml" class="showmap" id="showmap-37">Karte</button></td>
          </tr>
          <tr id="36">
             <td class="number">36</td>
@@ -5249,6 +5761,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/36/.kml" class="showmap" id="showmap-36">Karte</button></td>
          </tr>
          <tr id="35">
             <td class="number">35</td>
@@ -5258,6 +5771,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/35/.kml" class="showmap" id="showmap-35">Karte</button></td>
          </tr>
          <tr id="34">
             <td class="number">34</td>
@@ -5267,6 +5781,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/34/.kml" class="showmap" id="showmap-34">Karte</button></td>
          </tr>
          <tr id="33">
             <td class="number">33</td>
@@ -5276,6 +5791,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/33/.kml" class="showmap" id="showmap-33">Karte</button></td>
          </tr>
          <tr id="32">
             <td class="number">32</td>
@@ -5285,6 +5801,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/32/.kml" class="showmap" id="showmap-32">Karte</button></td>
          </tr>
          <tr id="31">
             <td class="number">31</td>
@@ -5294,6 +5811,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/31/.kml" class="showmap" id="showmap-31">Karte</button></td>
          </tr>
          <tr id="30">
             <td class="number">30</td>
@@ -5303,6 +5821,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/30/.kml" class="showmap" id="showmap-30">Karte</button></td>
          </tr>
          <tr id="29">
             <td class="number">29</td>
@@ -5312,6 +5831,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/29/.kml" class="showmap" id="showmap-29">Karte</button></td>
          </tr>
          <tr id="28">
             <td class="number">28</td>
@@ -5321,6 +5841,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/28/.kml" class="showmap" id="showmap-28">Karte</button></td>
          </tr>
          <tr id="27">
             <td class="number">27</td>
@@ -5330,6 +5851,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/27/.kml" class="showmap" id="showmap-27">Karte</button></td>
          </tr>
          <tr id="26">
             <td class="number">26</td>
@@ -5339,6 +5861,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/26/.kml" class="showmap" id="showmap-26">Karte</button></td>
          </tr>
          <tr id="25">
             <td class="number">25</td>
@@ -5348,6 +5871,7 @@
             <td class="duration">10m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/25/.kml" class="showmap" id="showmap-25">Karte</button></td>
          </tr>
          <tr id="24">
             <td class="number">24</td>
@@ -5357,6 +5881,7 @@
             <td class="duration">15m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/24/.kml" class="showmap" id="showmap-24">Karte</button></td>
          </tr>
          <tr id="23">
             <td class="number">23</td>
@@ -5366,6 +5891,7 @@
             <td class="duration">7m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/23/.kml" class="showmap" id="showmap-23">Karte</button></td>
          </tr>
          <tr id="22">
             <td class="number">22</td>
@@ -5385,6 +5911,7 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/22/.kml" class="showmap" id="showmap-22">Karte</button></td>
          </tr>
          <tr id="21">
             <td class="number">21</td>
@@ -5394,6 +5921,7 @@
             <td class="duration">4m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/21/.kml" class="showmap" id="showmap-21">Karte</button></td>
          </tr>
          <tr id="20">
             <td class="number">20</td>
@@ -5403,6 +5931,7 @@
             <td class="duration">4m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/20/.kml" class="showmap" id="showmap-20">Karte</button></td>
          </tr>
          <tr id="19">
             <td class="number">19</td>
@@ -5412,6 +5941,7 @@
             <td class="duration">4m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/19/.kml" class="showmap" id="showmap-19">Karte</button></td>
          </tr>
          <tr id="18">
             <td class="number">18</td>
@@ -5421,6 +5951,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/18/.kml" class="showmap" id="showmap-18">Karte</button></td>
          </tr>
          <tr id="17">
             <td class="number">17</td>
@@ -5430,6 +5961,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/17/.kml" class="showmap" id="showmap-17">Karte</button></td>
          </tr>
          <tr id="16">
             <td class="number">16</td>
@@ -5439,6 +5971,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/16/.kml" class="showmap" id="showmap-16">Karte</button></td>
          </tr>
          <tr id="15">
             <td class="number">15</td>
@@ -5448,6 +5981,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/15/.kml" class="showmap" id="showmap-15">Karte</button></td>
          </tr>
          <tr id="14">
             <td class="number">14</td>
@@ -5457,6 +5991,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/14/.kml" class="showmap" id="showmap-14">Karte</button></td>
          </tr>
          <tr id="13">
             <td class="number">13</td>
@@ -5466,6 +6001,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/13/.kml" class="showmap" id="showmap-13">Karte</button></td>
          </tr>
          <tr id="12">
             <td class="number">12</td>
@@ -5475,6 +6011,7 @@
             <td class="duration">3m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/12/.kml" class="showmap" id="showmap-12">Karte</button></td>
          </tr>
          <tr id="11">
             <td class="number">11</td>
@@ -5484,6 +6021,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/11/.kml" class="showmap" id="showmap-11">Karte</button></td>
          </tr>
          <tr id="10">
             <td class="number">10</td>
@@ -5493,6 +6031,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/10/.kml" class="showmap" id="showmap-10">Karte</button></td>
          </tr>
          <tr id="9">
             <td class="number">9</td>
@@ -5502,6 +6041,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/9/.kml" class="showmap" id="showmap-9">Karte</button></td>
          </tr>
          <tr id="8">
             <td class="number">8</td>
@@ -5511,6 +6051,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/8/.kml" class="showmap" id="showmap-8">Karte</button></td>
          </tr>
          <tr id="7">
             <td class="number">7</td>
@@ -5520,6 +6061,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/7/.kml" class="showmap" id="showmap-7">Karte</button></td>
          </tr>
          <tr id="6">
             <td class="number">6</td>
@@ -5529,6 +6071,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/6/.kml" class="showmap" id="showmap-6">Karte</button></td>
          </tr>
          <tr id="5">
             <td class="number">5</td>
@@ -5538,6 +6081,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/5/.kml" class="showmap" id="showmap-5">Karte</button></td>
          </tr>
          <tr id="4">
             <td class="number">4</td>
@@ -5547,6 +6091,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/4/.kml" class="showmap" id="showmap-4">Karte</button></td>
          </tr>
          <tr id="3">
             <td class="number">3</td>
@@ -5556,6 +6101,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/3/.kml" class="showmap" id="showmap-3">Karte</button></td>
          </tr>
          <tr id="2">
             <td class="number">2</td>
@@ -5565,6 +6111,7 @@
             <td class="duration">5m </td>
             <td class="distance"></td>
             <td class="comment"></td>
+            <td><button value="flightbook/2/.kml" class="showmap" id="showmap-2">Karte</button></td>
          </tr>
          <tr id="1">
             <td class="number">1</td>
@@ -5606,7 +6153,46 @@
                   </p>
                </details>
             </td>
+            <td><button value="flightbook/1/.kml" class="showmap" id="showmap-1">Karte</button></td>
          </tr>
-      </table>
-   </body>
+      </table><script async="async" defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1CqtckRTi90FYDLfUjuUIydnPzoJzmiI&amp;callback=initMap"></script><script>
+                    var map;
+                    var mapelem = document.getElementById('map');
+                    var src;
+                    
+                    
+                    function initMap(src, mapelem) {
+                        
+                        
+                        map = new google.maps.Map(mapelem, {
+                            center: new google.maps.LatLng(-19.257753, 146.823688),
+                            mapTypeId: 'terrain',
+                            zoom: 2
+                        });
+                        
+                        var kmlLayer = new google.maps.KmlLayer(src, {
+                            suppressInfoWindows: true,
+                            preserveViewport: false,
+                            map: map
+                        });
+                        
+                        kmlLayer.addListener('click', function(event) {
+                            var content = event.featureData.infoWindowHtml;
+                            var testimonial = document.getElementById('capture');
+                            testimonial.innerHTML = content;
+                        });
+                        }
+                    
+                    
+                    $(document).ready(function(){
+                     /* Hier der jQuery-Code */
+                     $('.showmap').click(function(){
+                        src=$(this).val();
+                        mapelem.style.display = "block";
+                        initMap(src, mapelem);
+                         
+                         
+                     });
+                    });
+                </script></body>
 </html>

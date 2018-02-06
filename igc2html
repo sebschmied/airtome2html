@@ -1,0 +1,13 @@
+#!/bin/bash
+for D in `find $PWD/flightbook -type d`
+do
+    for F in `find $D -type f -name "*.igc"`
+    do
+        rename -v 's/ /_/g' $D/*.igc
+        if [ ! -f "${F}.kml" ]; then
+            gpsbabel -t -i igc -f "${F}" -o kml -F "${F}.kml"
+        fi
+    done
+
+done
+

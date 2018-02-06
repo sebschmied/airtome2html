@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Di. Feb 6 15:09:46 2018</snippet>
+    <LookAt>
+      <gx:TimeSpan>
+        <begin>2017-02-26T14:28:49Z</begin>
+        <end>2017-02-26T14:29:27Z</end>
+      </gx:TimeSpan>
+      <longitude>6.371592</longitude>
+      <latitude>44.443258</latitude>
+      <range>1300.000000</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>PRESALTTRK</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Description</b> IGCHDRS~HOPLTPILOT: Sebastian Schmied~HOGTYGLIDERTYPE: Skywalk Cayenne 5~HOCIDCOMPETITIONID: 0000~HODTM100GPSDATUM: WGS-84~HOCCLCOMPETITION CLASS: Paraglider (Standard) ~HPSITSITE: St Vincent Les Forts~ </td></tr>
+<tr><td><b>Distance</b> 83.6 ft </td></tr>
+<tr><td><b>Min Alt</b> 3910.761 ft </td></tr>
+<tr><td><b>Max Alt</b> 3917.323 ft </td></tr>
+<tr><td><b>Max Speed</b> 5.1 mph </td></tr>
+<tr><td><b>Avg Speed</b> 1.5 mph </td></tr>
+<tr><td><b>Start Time</b>2017-02-26T14:28:49Z</td></tr>
+<tr><td><b>End Time</b>2017-02-26T14:29:27Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2017-02-26T14:28:49Z</begin>
+          <end>2017-02-26T14:29:27Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>PRESALTTRK-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443200 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 6.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:49Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:49Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443200,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443217 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:50Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443217</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:50Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443217,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:51Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:51Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:52Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:52Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:53Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:53Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371633 </td></tr>
+<tr><td>Latitude: 44.443250 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 5.1 mph </td></tr>
+<tr><td>Heading: 324.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:54Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371633</longitude>
+              <latitude>44.443250</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:54Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371633,44.443250,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371633 </td></tr>
+<tr><td>Latitude: 44.443267 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:55Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371633</longitude>
+              <latitude>44.443267</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:55Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371633,44.443267,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443267 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:56Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443267</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:56Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443267,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:57Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:57Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3917.323 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:58Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:58Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1194.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:59Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:59Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:00Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:00Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371600 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:01Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371600</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:01Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371600,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371600 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:02Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371600</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:02Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371600,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371583 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:03Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371583</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:03Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371583,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371583 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:04Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371583</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:04Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371583,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371567 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:05Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371567</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:05Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371567,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371567 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:06Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371567</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:06Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371567,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:07Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:07Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:08Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:08Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:09Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:09Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:10Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:10Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:11Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:11Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:12Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:12Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:13Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:13Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:14Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:14Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-26</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:15Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:15Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-27</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:16Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:16Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-28</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:17Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:17Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-29</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:18Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:18Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-30</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:19Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:19Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-31</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:20Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:20Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-32</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 3910.761 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:21Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:21Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1192.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-33</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 180.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:22Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-34</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:23Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:23Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-35</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:24Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:24Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-36</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:25Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:25Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-37</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Speed: 5.1 mph </td></tr>
+<tr><td>Heading: 144.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:26Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:26Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>PRESALTTRK-38</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 3914.042 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:27Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:27Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443283,1193.00</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+6.371650,44.443200,1193.00
+6.371650,44.443217,1193.00
+6.371650,44.443233,1193.00
+6.371650,44.443233,1193.00
+6.371650,44.443233,1193.00
+6.371633,44.443250,1193.00
+6.371633,44.443267,1193.00
+6.371617,44.443267,1193.00
+6.371617,44.443283,1193.00
+6.371617,44.443283,1194.00
+6.371617,44.443283,1193.00
+6.371617,44.443283,1193.00
+6.371600,44.443283,1193.00
+6.371600,44.443300,1193.00
+6.371583,44.443300,1193.00
+6.371583,44.443300,1193.00
+6.371567,44.443300,1193.00
+6.371567,44.443300,1193.00
+6.371550,44.443300,1193.00
+6.371550,44.443300,1193.00
+6.371550,44.443300,1193.00
+6.371550,44.443300,1193.00
+6.371550,44.443300,1193.00
+6.371550,44.443317,1193.00
+6.371550,44.443317,1193.00
+6.371550,44.443317,1193.00
+6.371550,44.443317,1193.00
+6.371533,44.443317,1193.00
+6.371533,44.443317,1193.00
+6.371533,44.443317,1193.00
+6.371533,44.443317,1193.00
+6.371533,44.443317,1193.00
+6.371533,44.443317,1192.00
+6.371533,44.443300,1193.00
+6.371533,44.443300,1193.00
+6.371533,44.443300,1193.00
+6.371533,44.443300,1193.00
+6.371550,44.443283,1193.00
+6.371550,44.443283,1193.00
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>GNSSALTTRK</name>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Description</b> IGCHDRS~HOPLTPILOT: Sebastian Schmied~HOGTYGLIDERTYPE: Skywalk Cayenne 5~HOCIDCOMPETITIONID: 0000~HODTM100GPSDATUM: WGS-84~HOCCLCOMPETITION CLASS: Paraglider (Standard) ~HPSITSITE: St Vincent Les Forts~ </td></tr>
+<tr><td><b>Distance</b> 83.6 ft </td></tr>
+<tr><td><b>Min Alt</b> 4265.092 ft </td></tr>
+<tr><td><b>Max Alt</b> 4268.373 ft </td></tr>
+<tr><td><b>Max Speed</b> 5.1 mph </td></tr>
+<tr><td><b>Avg Speed</b> 1.5 mph </td></tr>
+<tr><td><b>Start Time</b>2017-02-26T14:28:49Z</td></tr>
+<tr><td><b>End Time</b>2017-02-26T14:29:27Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2017-02-26T14:28:49Z</begin>
+          <end>2017-02-26T14:29:27Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>GNSSALTTRK-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443200 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 6.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:49Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443200</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:49Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443200,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443217 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:50Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443217</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:50Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443217,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:51Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:51Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:52Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:52Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371650 </td></tr>
+<tr><td>Latitude: 44.443233 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:53Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371650</longitude>
+              <latitude>44.443233</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:53Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371650,44.443233,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371633 </td></tr>
+<tr><td>Latitude: 44.443250 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 5.1 mph </td></tr>
+<tr><td>Heading: 324.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:54Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371633</longitude>
+              <latitude>44.443250</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:54Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371633,44.443250,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371633 </td></tr>
+<tr><td>Latitude: 44.443267 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:55Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371633</longitude>
+              <latitude>44.443267</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:55Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371633,44.443267,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443267 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:56Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443267</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:56Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443267,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:57Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:57Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:58Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:58Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:28:59Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:28:59Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371617 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:00Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371617</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:00Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371617,44.443283,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371600 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:01Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371600</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:01Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371600,44.443283,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371600 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:02Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371600</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:02Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371600,44.443300,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371583 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:03Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371583</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:03Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371583,44.443300,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371583 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:04Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371583</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:04Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371583,44.443300,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371567 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4268.373 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:05Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371567</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:05Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371567,44.443300,1301.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371567 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:06Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371567</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:06Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371567,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:07Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:07Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:08Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:08Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:09Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:09Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:10Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:10Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:11Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:11Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:12Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:12Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:13Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:13Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:14Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:14Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-26</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:15Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:15Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-27</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 3.0 mph </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:16Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:16Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-28</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:17Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:17Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-29</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:18Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:18Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-30</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:19Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:19Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-31</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:20Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:20Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-32</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443317 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:21Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443317</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:21Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443317,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-33</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 4.2 mph </td></tr>
+<tr><td>Heading: 180.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:22Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-34</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:23Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:23Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-35</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:24Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:24Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-36</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371533 </td></tr>
+<tr><td>Latitude: 44.443300 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:25Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371533</longitude>
+              <latitude>44.443300</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:25Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371533,44.443300,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-37</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Speed: 5.1 mph </td></tr>
+<tr><td>Heading: 144.5 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:26Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:26Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443283,1300.00</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>GNSSALTTRK-38</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: 6.371550 </td></tr>
+<tr><td>Latitude: 44.443283 </td></tr>
+<tr><td>Altitude: 4265.092 ft </td></tr>
+<tr><td>Heading: 0.0 </td></tr>
+<tr><td>Time: 2017-02-26T14:29:27Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>6.371550</longitude>
+              <latitude>44.443283</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp><when>2017-02-26T14:29:27Z</when></TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <coordinates>6.371550,44.443283,1300.00</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+6.371650,44.443200,1300.00
+6.371650,44.443217,1300.00
+6.371650,44.443233,1300.00
+6.371650,44.443233,1300.00
+6.371650,44.443233,1300.00
+6.371633,44.443250,1300.00
+6.371633,44.443267,1300.00
+6.371617,44.443267,1300.00
+6.371617,44.443283,1300.00
+6.371617,44.443283,1301.00
+6.371617,44.443283,1301.00
+6.371617,44.443283,1300.00
+6.371600,44.443283,1301.00
+6.371600,44.443300,1301.00
+6.371583,44.443300,1301.00
+6.371583,44.443300,1301.00
+6.371567,44.443300,1301.00
+6.371567,44.443300,1300.00
+6.371550,44.443300,1300.00
+6.371550,44.443300,1300.00
+6.371550,44.443300,1300.00
+6.371550,44.443300,1300.00
+6.371550,44.443300,1300.00
+6.371550,44.443317,1300.00
+6.371550,44.443317,1300.00
+6.371550,44.443317,1300.00
+6.371550,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443317,1300.00
+6.371533,44.443300,1300.00
+6.371533,44.443300,1300.00
+6.371533,44.443300,1300.00
+6.371533,44.443300,1300.00
+6.371550,44.443283,1300.00
+6.371550,44.443283,1300.00
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>

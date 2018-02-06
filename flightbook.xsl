@@ -55,15 +55,24 @@
                         width: 20%;
                     }
                     
-                    p.full-comment {
+                    p.full-comment{
                         font-style: italic;
                     }
-                
-                
-                </style>
+                    
+                    #map{
+                        position: fixed;
+                        top: 2em;
+                        left: 2em;
+                        
+                        width: 500px;
+                        height: 500px;
+                        display: none;
+                    }</style>
+                <script src="jquery-3.3.1.min.js"/>
             </head>
             <body>
                 <h2>Flugbuch</h2>
+                <div id="map">Karte</div>
                 <table>
                     <tr>
                         <th>Flug</th>
@@ -74,6 +83,7 @@
                         <th>Dauer</th>
                         <th>Strecke</th>
                         <th>Kommentar</th>
+                        <th/>
                     </tr>
                     <xsl:for-each select="JFlightlistArray/list/JFlight">
                         <xsl:sort select="position()" data-type="number" order="descending"/>
@@ -164,7 +174,7 @@
 
 
                             </td>
-
+                            <!-- Kommentar -->
                             <td class="comment">
                                 <xsl:if test="comment/text()">
                                     <xsl:choose>
@@ -178,7 +188,7 @@
 
                                                 </summary>
                                                 <p class="full-comment">
-                                                    <xsl:value-of select="comment"/>
+                                                  <xsl:value-of select="comment"/>
                                                 </p>
                                             </details>
                                         </xsl:when>
@@ -188,11 +198,70 @@
                                     </xsl:choose>
                                 </xsl:if>
                             </td>
+                            <!-- Karte -->
 
-
+                            <td>
+                                <button>
+                                    <xsl:attribute name="value">flightbook/<xsl:value-of
+                                            select="number"/>/<xsl:value-of select="ICGfile"
+                                        />.kml</xsl:attribute>
+                                    <xsl:attribute name="class">showmap</xsl:attribute>
+                                    <xsl:attribute name="id">
+                                        <xsl:text>showmap-</xsl:text>
+                                        <xsl:value-of select="number"/>
+                                    </xsl:attribute>
+                                    <xsl:text>Karte</xsl:text>
+                                </button>
+                            </td>
                         </tr>
+
                     </xsl:for-each>
                 </table>
+
+                <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1CqtckRTi90FYDLfUjuUIydnPzoJzmiI&amp;callback=initMap">
+                    
+                </script>
+
+                <script>
+                    var map;
+                    var mapelem = document.getElementById('map');
+                    var src;
+                    
+                    
+                    function initMap(src, mapelem) {
+                        
+                        
+                        map = new google.maps.Map(mapelem, {
+                            center: new google.maps.LatLng(-19.257753, 146.823688),
+                            mapTypeId: 'terrain',
+                            zoom: 2
+                        });
+                        
+                        var kmlLayer = new google.maps.KmlLayer(src, {
+                            suppressInfoWindows: true,
+                            preserveViewport: false,
+                            map: map
+                        });
+                        
+                        kmlLayer.addListener('click', function(event) {
+                            var content = event.featureData.infoWindowHtml;
+                            var testimonial = document.getElementById('capture');
+                            testimonial.innerHTML = content;
+                        });
+                        }
+                    
+                    
+                    $(document).ready(function(){
+                     /* Hier der jQuery-Code */
+                     $('.showmap').click(function(){
+                        src=$(this).val();
+                        mapelem.style.display = "block";
+                        initMap(src, mapelem);
+                         
+                         
+                     });
+                    });
+                </script>
             </body>
         </html>
     </xsl:template>
