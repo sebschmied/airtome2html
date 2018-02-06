@@ -468,7 +468,7 @@
   <void method="add">
    <object class="airtome.JFlightlistTableSortInfo">
     <void property="column">
-     <int>1</int>
+     <int>28</int>
     </void>
     <void property="sortOrder">
      <object idref="SortOrder0"/>
