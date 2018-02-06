@@ -60,7 +60,9 @@
                 <table>
                     <tr>
                         <th>Flug</th>
+                        
                         <th>Datum</th>
+                        <th>Schirm</th>
                         <th>Fluggebiet</th>
                         <th>Dauer</th>
                         <th>Strecke</th>
@@ -96,6 +98,17 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </td>
+                            <!-- -->
+                            <td class="glider">
+                                <xsl:choose>
+                                    <xsl:when test="glidertyp/@new">
+                                        <xsl:value-of select="glidertyp/@new"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="glidertyp/@org"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </td>
 
                             <!-- Fluggebiet -->
                             <td class="site">
@@ -111,6 +124,8 @@
                                 <xsl:text> / </xsl:text><xsl:value-of select="country"/>
                                 </xsl:if>
                             </td>
+                            
+                            
 
                             <!-- Dauer -->
                             <td class="duration">
