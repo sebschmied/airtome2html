@@ -101,7 +101,7 @@
 										<fullscreen-action>false</fullscreen-action>
 										<node nodeId="1517840555663" orientation="VERTICAL" divider="0.5">
 											<node nodeId="1517840555902" orientation="HORIZONTAL" divider="0.6">
-												<leaf id="3" nodeId="1517840555900">
+												<leaf id="1" nodeId="1517840555900">
 													<placeholders>
 														<placeholder>dock.single.flightlist</placeholder>
 													</placeholders>
@@ -113,7 +113,7 @@
 												</leaf>
 											</node>
 											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
-												<leaf id="2" nodeId="1517840555691">
+												<leaf id="3" nodeId="1517840555691">
 													<placeholders>
 														<placeholder>dock.multi.\1\ jview</placeholder>
 														<placeholder>dock.multi.\2\ jview</placeholder>
@@ -137,7 +137,7 @@
 														</entry>
 													</placeholder-map>
 												</leaf>
-												<leaf id="1" nodeId="1517840555662">
+												<leaf id="2" nodeId="1517840555662">
 													<placeholders>
 														<placeholder>dock.multi.\3\ jview</placeholder>
 														<placeholder>dock.multi.\6\ jview</placeholder>
@@ -209,6 +209,16 @@
 										<replacement id="dockablesingle editor"/>
 										<delegate id="delegate_ccontrol backup factory id">
 											<id>editor</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
+								</child>
+								<child>
+									<layout factory="predefined" placeholder="dock.single.flightlist">
+										<replacement id="dockablesingle flightlist"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>flightlist</id>
 											<area/>
 										</delegate>
 									</layout>
@@ -404,16 +414,6 @@
 										</child>
 									</children>
 								</child>
-								<child>
-									<layout factory="predefined" placeholder="dock.single.flightlist">
-										<replacement id="dockablesingle flightlist"/>
-										<delegate id="delegate_ccontrol backup factory id">
-											<id>flightlist</id>
-											<area/>
-										</delegate>
-									</layout>
-									<children ignore="false"/>
-								</child>
 							</children>
 						</root>
 						<root name="ccontrol west">
@@ -463,31 +463,6 @@
 								</property>
 							</properties>
 						</entry>
-						<entry id="multi 6 jview" current="dock.mode.normal">
-							<history>
-								<mode>dock.mode.normal</mode>
-							</history>
-							<properties>
-								<property id="dock.mode.normal">
-									<mode>dock.mode.normal</mode>
-									<root>ccontrol center</root>
-									<location>
-										<property factory="SplitDockPlaceholderProperty">
-											<placeholder>dock.multi.\6\ jview</placeholder>
-											<backup-path>
-												<node location="BOTTOM" size="0.5" id="1517840555663"/>
-												<node location="RIGHT" size="0.6" id="1517840555692"/>
-												<leaf id="1517840555662"/>
-											</backup-path>
-										</property>
-										<property factory="StackDockPropertyFactory">
-											<index>4</index>
-											<placeholder>dock.multi.\6\ jview</placeholder>
-										</property>
-									</location>
-								</property>
-							</properties>
-						</entry>
 						<entry id="multi 3 jview" current="dock.mode.normal">
 							<history>
 								<mode>dock.mode.normal</mode>
@@ -508,6 +483,31 @@
 										<property factory="StackDockPropertyFactory">
 											<index>1</index>
 											<placeholder>dock.multi.\3\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 6 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\6\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>4</index>
+											<placeholder>dock.multi.\6\ jview</placeholder>
 										</property>
 									</location>
 								</property>
