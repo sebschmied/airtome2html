@@ -1,84 +1,112 @@
-body {
- font-family: sans-serif;
-
-}
-
 #flightbook-table {
-    width: 100%;
-    max-height: 47%;
-    position: fixed;
-    top: 13%;
-    right: 0px;
-    overflow: scroll;
-}
-table {
-    table-layout: fixed;
-    width: 100%;
-    overflow: scroll;
-    border-collapse: collapse;
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-}
-table .heading {
-    background: #666;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-}
-table th, table td {
-    border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.2em;
-}
-table th {
-    font-weight: bold;
-}
-table tr {
-    overflow: scroll;
-}
-table tr:nth-of-type(even):not(.tr-active) {
-    background: #eee;
-}
-table .hover {
-    background: #ccc;
-}
-.number, .date, .duration, .distance {
-    text-align: right;
-}
-.comment {
-    width: 20%;
-}
-p.full-comment {
-    font-style: italic;
-}
-div #maps-container {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
-    width: 100%;
-    height: 40%;
-}
-div #google-maps-view-of-track {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-table tr.tr-showmap:not(.tr-active):hover {
-    background-color: LightGray;
-    cursor: pointer;
-}
-table tr.tr-active {
-    background-color: LightSteelBlue;
-    cursor: pointer;
+    width:100%;
+    max-height:47%;
+    position:fixed;
+    top:13%;
+    right:0;
+    overflow:scroll;
 }
 
 #forkmeongithub {
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-    border: 0;   
+    position:absolute;
+    top:0;
+    right:0;
+    border:0;
 }
 
+.comment {
+    width:20%;
+}
+
+.number,.date,.duration,.distance {
+    text-align:right;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+div #google-maps-view-of-track {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+div #maps-container {
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+    height:40%;
+}
+
+h1, h2 {
+    text-align: center;
+    width:100%;
+   
+    font-size: xx-large;
+    padding-top: 1em;
+    
+}
+
+p.full-comment {
+    font-style:italic;
+}
+
+table {
+    table-layout:fixed;
+    width:100%;
+    overflow:scroll;
+    border-collapse:collapse;
+    border-top:1px solid #ddd;
+    border-left:1px solid #ddd;
+}
+
+table .heading {
+    background:#666;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+table .hover {
+    background:#ccc;
+}
+
+table th {
+    font-weight:700;
+}
+
+table th,table td {
+    border-bottom:1px solid #ddd;
+    border-right:1px solid #ddd;
+    padding:.5em 1em .2em;
+}
+
+table tr {
+    overflow:scroll;
+}
+
+table tr.tr-active {
+    background-color:#B0C4DE;
+    cursor:pointer;
+}
+
+table tr.tr-showmap:not(.tr-active):hover {
+    background-color:LightGray;
+    cursor:pointer;
+}
+
+table tr:nth-of-type(even):not(.tr-active) {
+    background:#eee;
+}
+
+#header {
+    
+    position: fixed;
+    top: 0px;
+    height: 13%;
+    width: 100%;
+    background:#eee;
+
+}
