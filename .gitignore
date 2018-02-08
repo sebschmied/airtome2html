@@ -1,10 +1,4 @@
 .DS_Store
 Icon*
 flugbuch.fb.zip
-**/logfile.txt
-airtome.userdir/logfile.txt
-*logfile.*
-**/logfile.*
-*logfile*
-**logfile**
-**/logile.**
+/airtome.userdir/
