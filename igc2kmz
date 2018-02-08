@@ -3,7 +3,7 @@ for D in `find $PWD/flightbook -type d`
 do
   for F in `find $D -type f -name "*.igc"`
   do
-    # rename -v 's/ /_/g' $D/*.igc
+    rename -v 's/ /_/g' $D/*.igc
     if [ ! -f "${F}.kmz" ]; then
       echo $F
       if  gpsbabel -t -N -i igc -f "${F}" -x simplify,count=400 -o kml,points=0,trackdirection=1,line_color=ee0000ff,floating=1,extrude=1,track=0,trackdata=0,line_width=4 -F "${F}.kml"; then

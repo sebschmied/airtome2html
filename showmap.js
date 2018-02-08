@@ -25,7 +25,6 @@ $(document).ready(function() {
         $('.tr-showmap').not(this).removeClass("tr-active");
         $(this).addClass("tr-active");
         kmlurl = kmzbaseurl + $(this).data("kmz") + "?raw=true";
-        console.log(kmlurl);
         layer.setUrl(kmlurl);
         layer.setMap(map);
     });
