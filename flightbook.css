@@ -2,7 +2,7 @@
     width: 100%;
     max-height: 50%;
     position: fixed;
-    top: 10%;
+    top: 13%;
     right: 0px;
     overflow: scroll;
 }
@@ -68,4 +68,11 @@ table tr.tr-showmap:not(.tr-active):hover {
 table tr.tr-active {
     background-color: LightSteelBlue;
     cursor: pointer;
+}
+
+#forkmeongithub {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: 0;   
 }
