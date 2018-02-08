@@ -28709,7 +28709,7 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>72CSEBS1.igc</ICGfile>
-         <site org="Reinhartsmunster"/>
+         <site org="Reinhartsmunster" new="Reinhardsmunster"/>
          <site2>Reinhartsmunster SP, GS und HG, O (48.677394 7.312053)</site2>
          <landingsite>Reinhartsmunster LP, GS und HG</landingsite>
          <date>
@@ -30897,11 +30897,12 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>747SEBS1.igc</ICGfile>
-         <site org="Westgipfel"/>
+         <site org="Westgipfel" new="Wallberg"/>
          <site2>Wallberg, Westgipfel SP, HG, NW (47.665437 11.795596)</site2>
          <landingsite>LP an der Wallbergstraße, GS</landingsite>
          <date>
             <org year="2017" month="4" day="7"/>
+            <new year="2017" month="4" day="7"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -30964,7 +30965,7 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>748SEBS1.igc</ICGfile>
-         <site org="Süd"/>
+         <site org="Süd" new="Brauneck"/>
          <site2>Brauneck, SP Süd, GS und HG, S (47.663465 11.523650)</site2>
          <landingsite>Brauneck, LP für GS, GS und HG</landingsite>
          <date>
@@ -31031,7 +31032,7 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>748SEBS2.igc</ICGfile>
-         <site org="Süd"/>
+         <site org="Süd" new="Brauneck"/>
          <site2>Brauneck, SP Süd, GS und HG, S (47.663465 11.523650)</site2>
          <landingsite>Brauneck, LP für GS, GS und HG</landingsite>
          <date>
@@ -31097,7 +31098,7 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>748SEBS3.igc</ICGfile>
-         <site org="Süd"/>
+         <site org="Süd" new="Brauneck"/>
          <site2>Brauneck, SP Süd, GS und HG, S (47.663465 11.523650)</site2>
          <landingsite>Brauneck, LP für HG, HG</landingsite>
          <date>
@@ -31163,7 +31164,7 @@ Flugzeit manuell editiert.</comment>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>749SEBS1.igc</ICGfile>
-         <site org="Süd"/>
+         <site org="Süd" new="Brauneck"/>
          <site2>Brauneck, SP Süd, GS und HG, S (47.663465 11.523650)</site2>
          <landingsite>Brauneck, LP für HG, HG</landingsite>
          <date>
@@ -36232,5 +36233,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>59</lastselectedflight>
+   <lastselectedflight>462</lastselectedflight>
 </JFlightlistArray>
