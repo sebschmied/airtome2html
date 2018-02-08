@@ -1,3 +1,8 @@
+body {
+ font-family: sans-serif;
+
+}
+
 #flightbook-table {
     width: 100%;
     max-height: 47%;
@@ -76,3 +81,4 @@ table tr.tr-active {
     right: 0; 
     border: 0;   
 }
+
