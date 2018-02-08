@@ -4081,7 +4081,7 @@ Nachtrag 2015: Es war ein Independence Avalon 1-2er und ich wohl an der Untergre
          <maxheight org="0" new="1571"/>
          <landheight org="0" new="641"/>
          <igcinfo>-1</igcinfo>
-         <comment>A-Schein-Prüfung</comment>
+         <comment>Es gibt bei Klaus D. keinen offiziellen Prüfungsflug - man spult einfach ein paar Flüge lang selbständig sein Programm (starten, Achten fliegen, landen), und bekommt den Schein, wenn man sich dabei nicht all zu blöd anstellt. Allerdings erfährt man das erst hinterher. So bleibt der Prüfungsdruck aus.</comment>
          <starttype>1</starttype>
          <avgspeed org="0"/>
          <heightgain org="0"/>
@@ -36232,5 +36232,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>531</lastselectedflight>
+   <lastselectedflight>59</lastselectedflight>
 </JFlightlistArray>
