@@ -1,0 +1,685 @@
+<?xml version='1.0'?>
+<root>
+	<resource name="dock.ui.ThemeMap">
+		<key>eclipse</key>
+	</resource>
+	<resource name="ccontrol.frontend">
+		<frontend>
+			<current>
+				<base>
+					<roots>
+						<root name="external">
+							<layout factory="predefined">
+								<replacement id="rootexternal"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<root>true</root>
+									<content delegate="screen dock">
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+										</placeholders>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CExternalizeArea</type>
+								</layout>
+							</adjacent>
+							<children ignore="false"/>
+						</root>
+						<root name="ccontrol north">
+							<layout factory="predefined">
+								<replacement id="rootccontrol north"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<root>true</root>
+									<content delegate="flap dock">
+										<window auto="false" direction="SOUTH"/>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+										</placeholders>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CContentArea.minimize</type>
+								</layout>
+							</adjacent>
+							<children ignore="false"/>
+						</root>
+						<root name="ccontrol south">
+							<layout factory="predefined">
+								<replacement id="rootccontrol south"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<root>true</root>
+									<content delegate="flap dock">
+										<window auto="false" direction="NORTH"/>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+										</placeholders>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CContentArea.minimize</type>
+								</layout>
+							</adjacent>
+							<children ignore="false"/>
+						</root>
+						<root name="ccontrol east">
+							<layout factory="predefined">
+								<replacement id="rootccontrol east"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<root>true</root>
+									<content delegate="flap dock">
+										<window auto="false" direction="WEST"/>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+										</placeholders>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CContentArea.minimize</type>
+								</layout>
+							</adjacent>
+							<children ignore="false"/>
+						</root>
+						<root name="ccontrol center">
+							<layout factory="predefined" placeholder="dock.single.ccontrol\ center">
+								<replacement id="rootccontrol center"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<id>ccontrol center</id>
+									<root>true</root>
+									<content delegate="SplitDockStationFactory">
+										<fullscreen-action>false</fullscreen-action>
+										<node nodeId="1517840555663" orientation="VERTICAL" divider="0.5">
+											<node nodeId="1517840555902" orientation="HORIZONTAL" divider="0.6">
+												<leaf id="3" nodeId="1517840555900">
+													<placeholders>
+														<placeholder>dock.single.flightlist</placeholder>
+													</placeholders>
+												</leaf>
+												<leaf id="0" nodeId="1517840555573">
+													<placeholders>
+														<placeholder>dock.single.editor</placeholder>
+													</placeholders>
+												</leaf>
+											</node>
+											<node nodeId="1517840555692" orientation="HORIZONTAL" divider="0.4">
+												<leaf id="1" nodeId="1517840555691">
+													<placeholders>
+														<placeholder>dock.multi.\1\ jview</placeholder>
+														<placeholder>dock.multi.\2\ jview</placeholder>
+													</placeholders>
+													<placeholder-map>
+														<version>0</version>
+														<format>dock.PlaceholderList</format>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\2\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\1\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+													</placeholder-map>
+												</leaf>
+												<leaf id="2" nodeId="1517840555662">
+													<placeholders>
+														<placeholder>dock.multi.\3\ jview</placeholder>
+														<placeholder>dock.multi.\6\ jview</placeholder>
+														<placeholder>dock.multi.\4\ jview</placeholder>
+														<placeholder>dock.multi.\5\ jview</placeholder>
+														<placeholder>dock.multi.\7\ jview</placeholder>
+														<placeholder>dock.multi.\0\ jview</placeholder>
+													</placeholders>
+													<placeholder-map>
+														<version>0</version>
+														<format>dock.PlaceholderList</format>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\7\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\0\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\3\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\4\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\5\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+														<entry>
+															<key shared="false">
+																<placeholder>dock.multi.\6\ jview</placeholder>
+															</key>
+															<item key="convert" type="b">true</item>
+															<item key="convert-keys" type="a"/>
+														</entry>
+													</placeholder-map>
+												</leaf>
+											</node>
+										</node>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CContentArea.center</type>
+								</layout>
+							</adjacent>
+							<children ignore="false">
+								<child>
+									<layout factory="predefined" placeholder="dock.single.editor">
+										<replacement id="dockablesingle editor"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>editor</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
+								</child>
+								<child>
+									<layout factory="delegate_StackDockStationFactory">
+										<selected>0</selected>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\2\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">0</item>
+												<item key="dock.id" type="i">0</item>
+												<item key="dock.placeholder" type="s">dock.multi.\2\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\1\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">1</item>
+												<item key="dock.id" type="i">1</item>
+												<item key="dock.placeholder" type="s">dock.multi.\1\ jview</item>
+											</entry>
+										</placeholders>
+									</layout>
+									<children ignore="false">
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\2\ jview">
+												<id>2 jview</id>
+												<multiple viewmode="5" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\1\ jview">
+												<id>1 jview</id>
+												<multiple viewmode="1" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+									</children>
+								</child>
+								<child>
+									<layout factory="delegate_StackDockStationFactory">
+										<selected>0</selected>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\7\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">0</item>
+												<item key="dock.id" type="i">0</item>
+												<item key="dock.placeholder" type="s">dock.multi.\7\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\0\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">1</item>
+												<item key="dock.id" type="i">1</item>
+												<item key="dock.placeholder" type="s">dock.multi.\0\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\3\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">2</item>
+												<item key="dock.id" type="i">2</item>
+												<item key="dock.placeholder" type="s">dock.multi.\3\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\4\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">3</item>
+												<item key="dock.id" type="i">3</item>
+												<item key="dock.placeholder" type="s">dock.multi.\4\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\5\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">4</item>
+												<item key="dock.id" type="i">4</item>
+												<item key="dock.placeholder" type="s">dock.multi.\5\ jview</item>
+											</entry>
+											<entry>
+												<key shared="false">
+													<placeholder>dock.multi.\6\ jview</placeholder>
+												</key>
+												<item key="convert" type="b">true</item>
+												<item key="convert-keys" type="a">
+													<item type="s">index</item>
+													<item type="s">id</item>
+													<item type="s">placeholder</item>
+												</item>
+												<item key="dock.index" type="i">5</item>
+												<item key="dock.id" type="i">5</item>
+												<item key="dock.placeholder" type="s">dock.multi.\6\ jview</item>
+											</entry>
+										</placeholders>
+									</layout>
+									<children ignore="false">
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\7\ jview">
+												<id>7 jview</id>
+												<multiple viewmode="2" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\0\ jview">
+												<id>0 jview</id>
+												<multiple viewmode="3" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\3\ jview">
+												<id>3 jview</id>
+												<multiple viewmode="8" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\4\ jview">
+												<id>4 jview</id>
+												<multiple viewmode="4" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\5\ jview">
+												<id>5 jview</id>
+												<multiple viewmode="6" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+										<child>
+											<layout factory="delegate_jview" placeholder="dock.multi.\6\ jview">
+												<id>6 jview</id>
+												<multiple viewmode="7" filtermode="0" view_zoom="true" view_minimap="true" view_geomap="false" auto_map="true" view_antialias="true" ShowAirspace="true" ShowTransparentOverlay="true" view_airspace_label="true" view_airspace_ctr="true" view_airspace_c="true" view_airspace_d="true" view_airspace_danger="true" view_airspace_restricted="true" view_airspace_tmz="true" view_airspace_wave="true" view_airspace_other="true" FL="200" view_reducelogpoints="false" view_wpwaypoint="false" view_wpother="false" view_wpthermal="false" view_waylaunch="false" view_waylanding="false" tileserver="1" xaxismode="0" yaxismode="0" olc_freeflight="1.5" olc_freetriangle="1.75" olc_faitriangle="2.0" view_zoomtocutflight="false" view_showruler="true" view_showolc="true" view_tracktype="0" view_trackcolor="0" view_showtask="true" overlaytileserver="0"/>
+											</layout>
+											<children ignore="false"/>
+										</child>
+									</children>
+								</child>
+								<child>
+									<layout factory="predefined" placeholder="dock.single.flightlist">
+										<replacement id="dockablesingle flightlist"/>
+										<delegate id="delegate_ccontrol backup factory id">
+											<id>flightlist</id>
+											<area/>
+										</delegate>
+									</layout>
+									<children ignore="false"/>
+								</child>
+							</children>
+						</root>
+						<root name="ccontrol west">
+							<layout factory="predefined">
+								<replacement id="rootccontrol west"/>
+								<delegate id="delegate_CommonDockStationFactory">
+									<root>true</root>
+									<content delegate="flap dock">
+										<window auto="false" direction="EAST"/>
+										<placeholders>
+											<version>0</version>
+											<format>dock.PlaceholderList</format>
+										</placeholders>
+									</content>
+								</delegate>
+							</layout>
+							<adjacent>
+								<layout factory="dock.RootStationAdjacentFactory">
+									<type>dock.CContentArea.minimize</type>
+								</layout>
+							</adjacent>
+							<children ignore="false"/>
+						</root>
+					</roots>
+					<children/>
+				</base>
+				<modes>
+					<dockables>
+						<entry id="single flightlist" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.single.flightlist</placeholder>
+											<backup-path>
+												<node location="TOP" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.6" id="1517840555902"/>
+												<leaf id="1517840555900"/>
+											</backup-path>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 3 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\3\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>1</index>
+											<placeholder>dock.multi.\3\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 6 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\6\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>4</index>
+											<placeholder>dock.multi.\6\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 1 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\1\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.4" id="1517840555692"/>
+												<leaf id="1517840555691"/>
+											</backup-path>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="single editor" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.single.editor</placeholder>
+											<backup-path>
+												<leaf id="1517840555573"/>
+											</backup-path>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 2 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\2\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="LEFT" size="0.4" id="1517840555692"/>
+												<leaf id="1517840555691"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>0</index>
+											<placeholder>dock.multi.\2\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 5 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\5\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>3</index>
+											<placeholder>dock.multi.\5\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 4 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\4\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>2</index>
+											<placeholder>dock.multi.\4\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 7 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\7\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<node location="RIGHT" size="0.6" id="1517840555692"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+										<property factory="StackDockPropertyFactory">
+											<index>0</index>
+											<placeholder>dock.multi.\7\ jview</placeholder>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+						<entry id="multi 0 jview" current="dock.mode.normal">
+							<history>
+								<mode>dock.mode.normal</mode>
+							</history>
+							<properties>
+								<property id="dock.mode.normal">
+									<mode>dock.mode.normal</mode>
+									<root>ccontrol center</root>
+									<location>
+										<property factory="SplitDockPlaceholderProperty">
+											<placeholder>dock.multi.\0\ jview</placeholder>
+											<backup-path>
+												<node location="BOTTOM" size="0.5" id="1517840555663"/>
+												<leaf id="1517840555662"/>
+											</backup-path>
+										</property>
+									</location>
+								</property>
+							</properties>
+						</entry>
+					</dockables>
+					<modes>
+						<entry id="dock.mode.maximized"/>
+					</modes>
+				</modes>
+			</current>
+		</frontend>
+	</resource>
+	<resource name="ccontrol.preferences"/>
+</root>

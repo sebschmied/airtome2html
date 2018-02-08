@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_151" class="java.beans.XMLDecoder">
+ <object class="java.util.TreeSet">
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Row</string>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Flightnumber</string>
+    </void>
+    <void property="order">
+     <int>1</int>
+    </void>
+    <void property="width">
+     <int>141</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>OLCCategory</string>
+    </void>
+    <void property="order">
+     <int>2</int>
+    </void>
+    <void property="width">
+     <int>94</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>StartType</string>
+    </void>
+    <void property="order">
+     <int>3</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>AirSpaceViolation</string>
+    </void>
+    <void property="order">
+     <int>4</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Date</string>
+    </void>
+    <void property="order">
+     <int>5</int>
+    </void>
+    <void property="width">
+     <int>140</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>IGCIcon</string>
+    </void>
+    <void property="order">
+     <int>6</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Photos</string>
+    </void>
+    <void property="order">
+     <int>7</int>
+    </void>
+    <void property="width">
+     <int>24</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Pilot</string>
+    </void>
+    <void property="order">
+     <int>8</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Site</string>
+    </void>
+    <void property="order">
+     <int>9</int>
+    </void>
+    <void property="width">
+     <int>182</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>LaunchSite</string>
+    </void>
+    <void property="order">
+     <int>10</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>LandingSite</string>
+    </void>
+    <void property="order">
+     <int>11</int>
+    </void>
+    <void property="width">
+     <int>157</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Country</string>
+    </void>
+    <void property="order">
+     <int>12</int>
+    </void>
+    <void property="width">
+     <int>48</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>LocalStartTime</string>
+    </void>
+    <void property="order">
+     <int>13</int>
+    </void>
+    <void property="width">
+     <int>48</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Duration</string>
+    </void>
+    <void property="order">
+     <int>14</int>
+    </void>
+    <void property="width">
+     <int>48</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>AverageSpeed</string>
+    </void>
+    <void property="order">
+     <int>15</int>
+    </void>
+    <void property="width">
+     <int>43</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>StartHeight</string>
+    </void>
+    <void property="order">
+     <int>16</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>HeightOverStart</string>
+    </void>
+    <void property="order">
+     <int>17</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>MaxHeight</string>
+    </void>
+    <void property="order">
+     <int>18</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>LandingHeight</string>
+    </void>
+    <void property="order">
+     <int>19</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>HeightGain</string>
+    </void>
+    <void property="order">
+     <int>20</int>
+    </void>
+    <void property="width">
+     <int>36</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>MinVario</string>
+    </void>
+    <void property="order">
+     <int>21</int>
+    </void>
+    <void property="width">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>MaxVario</string>
+    </void>
+    <void property="order">
+     <int>22</int>
+    </void>
+    <void property="width">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>OLCPoints</string>
+    </void>
+    <void property="order">
+     <int>23</int>
+    </void>
+    <void property="width">
+     <int>40</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>OLCKM</string>
+    </void>
+    <void property="order">
+     <int>24</int>
+    </void>
+    <void property="width">
+     <int>40</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>GliderID</string>
+    </void>
+    <void property="order">
+     <int>25</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>GliderType</string>
+    </void>
+    <void property="order">
+     <int>26</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>GPSID</string>
+    </void>
+    <void property="order">
+     <int>27</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Comment</string>
+    </void>
+    <void property="order">
+     <int>28</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>compID</string>
+    </void>
+    <void property="order">
+     <int>29</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>compClass</string>
+    </void>
+    <void property="order">
+     <int>30</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>StartTime</string>
+    </void>
+    <void property="order">
+     <int>31</int>
+    </void>
+    <void property="width">
+     <int>48</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>UTCorr</string>
+    </void>
+    <void property="order">
+     <int>32</int>
+    </void>
+    <void property="width">
+     <int>48</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>IGCFILE</string>
+    </void>
+    <void property="order">
+     <int>33</int>
+    </void>
+    <void property="width">
+     <int>75</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableColumnLayout">
+    <void property="columnName">
+     <string>Tags</string>
+    </void>
+    <void property="order">
+     <int>34</int>
+    </void>
+    <void property="width">
+     <int>560</int>
+    </void>
+   </object>
+  </void>
+ </object>
+ <object class="java.util.TreeSet">
+  <void method="add">
+   <object class="airtome.JFlightlistTableSortInfo">
+    <void property="sortOrder">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>javax.swing.SortOrder</class>
+      <string>DESCENDING</string>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="airtome.JFlightlistTableSortInfo">
+    <void property="column">
+     <int>3</int>
+    </void>
+    <void property="sortOrder">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>javax.swing.SortOrder</class>
+      <string>ASCENDING</string>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+ <string>/home/sschmied/git/sebschmied.github.io/flugbuch.fb.zip</string>
+ <boolean>true</boolean>
+ <int>0</int>
+ <boolean>false</boolean>
+ <int>0</int>
+ <int>0</int>
+ <boolean>false</boolean>
+ <boolean>false</boolean>
+ <boolean>true</boolean>
+ <boolean>true</boolean>
+ <string>/home/sschmied/skytraxx1718/2018/Januar/2</string>
+</java>

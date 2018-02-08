@@ -1,0 +1,7 @@
+#!/bin/bash
+unzip -q -o flugbuch.fb.zip
+saxonb-xslt flugbuch.xml flightbook.xsl > index.html
+./igc2kmz
+git add .
+git commit
+git push
