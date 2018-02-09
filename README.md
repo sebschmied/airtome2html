@@ -22,7 +22,7 @@ git pull the repository and create a .fb.zip that can be opened and edited by ai
 * Populate the stylesheet with the values set in ``airtome2html.config`` and transform it to index.html
 
 #### ./igc2kmz
-*  Loop through ``./flightbook`` to create .kmz files from .igc files where not yet done. This will also replace any spaces in .igc file names.
+*  Loop through ``./flightbook/**`` to create .kmz files from .igc files where not yet done. This will also replace any spaces in .igc file names.
 
 ### How to use
 Assuming debian or ubuntu and bash:
