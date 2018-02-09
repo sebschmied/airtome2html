@@ -1,6 +1,6 @@
 #!/bin/bash
 source $PWD/airtome2html.config
-cat << EOF ./parameters.xml
+cat << EOF > ./parameters.xml
 
 # Pass params to the stylesheet
 <?xml version="1.0" encoding="utf-8"?>

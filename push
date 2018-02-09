@@ -1,6 +1,7 @@
 #!/bin/bash
-unzip -q -o flugbuch.fb.zip
-saxonb-xslt flugbuch.xml flightbook.xsl > index.html
+source $PWD/airtome2html.config
+unzip -q -o ${flightbookfilename}.fb.zip
+./transform
 ./igc2kmz
 git add .
 git commit
