@@ -6,8 +6,8 @@ Output: https://sebschmied.github.io/
 
 ### Components:
 
-### flightbook.xsl
-An XSLT stylesheet that translates the airtome xml format to fance html.
+#### flightbook.xsl
+An XSLT stylesheet that translates parts of the airtome xml format to fancy html.
 
 #### ./get: 
 git pull the repository and create a .fb.zip that can be opened and edited by airtome.
