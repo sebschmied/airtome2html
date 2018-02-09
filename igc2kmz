@@ -3,18 +3,25 @@ source $PWD/airtome2html.config
 for D in `find $PWD/flightbook -type d`
 do
   for F in `find $D -type f -name "*.igc"`
+  
   do
-    #rename -v 's/ /_/g' $D/*.igc #uncomment if you have igc's with spaces and run once. 
-    if [ ! -f "${F}.kmz" ]; then
-      echo $F
-      if  gpsbabel -t -N -i igc -f "${F}" -x simplify,count=${maps_points_count} -o kml,points=0,trackdirection=1,line_color=${maps_line_color},floating=1,extrude=1,track=0,trackdata=0,line_width=${maps_line_width} -F "${F}.kml"; then
-        mkdir $(dirname $F)/kmz
-        cp $F.kml $(dirname $F)/kmz/doc.kml
-        zip -rj $(dirname $F)/$(basename $F).kmz $(dirname $F)/kmz/doc.kml
-        rm -rf $(dirname $F)/kmz
-        rm $F.kml
+    filename=${F}
+    #rm spaces
+    if [[ "$filename" =~ \ |\' ]]; then
+        rename -v 's/ /_/g' $D/*.igc
+        filename=${filename/ /_}
+    fi 
+    
+    if [ ! -f "${filename}.kmz" ]; then
+      echo $filename
+      if  gpsbabel -t -N -i igc -f "${filename}" -x simplify,count=${maps_points_count} -o kml,points=0,trackdirection=1,line_color=${maps_line_color},floating=1,extrude=1,track=0,trackdata=0,line_width=${maps_line_width} -F "${filename}.kml"; then
+        mkdir $(dirname ${filename})/kmz
+        cp ${filename}.kml $(dirname ${filename})/kmz/doc.kml
+        zip -rj $(dirname ${filename})/$(basename ${filename}).kmz $(dirname ${filename})/kmz/doc.kml
+        rm -rf $(dirname ${filename})/kmz
+        rm ${filename}.kml
       else
-        echo "$F could not be converted to kmz. Skipping ..."
+        echo "${filename} could not be converted to kmz. Skipping ..."
       fi
     fi
   done

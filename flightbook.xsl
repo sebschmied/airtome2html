@@ -1,49 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
     <xsl:output method="html" encoding="utf-8" indent="yes"/>
-    <xsl:import href="parameters.xml" />
-    <xsl:variable name="minimumDistance">15000</xsl:variable> <!-- Minimum distance to display a flight's xc distance. In meters -->
-    <xsl:variable name="google-maps-api-key">AIzaSyB1CqtckRTi90FYDLfUjuUIydnPzoJzmiI</xsl:variable>
+
+    <!-- These will be replaced on runtime -->
+    <xsl:param name="websiteroot">var_websiteroot</xsl:param>
+    <xsl:param name="websitetitle">var_websitetitle</xsl:param>
+    <xsl:param name="googlemapsapikey">var_googlemapsapikey</xsl:param>
+    <xsl:param name="columntitle_number">var_columntitle_number</xsl:param>
+    <xsl:param name="columntitle_date">var_columntitle_date</xsl:param>
+    <xsl:param name="columntitle_aircraft">var_columntitle_aircraft</xsl:param>
+    <xsl:param name="columntitle_site">var_columntitle_site</xsl:param>
+    <xsl:param name="columntitle_duration">var_columntitle_duration</xsl:param>
+    <xsl:param name="columntitle_comment">var_columntitle_comment</xsl:param>
+    <xsl:param name="columntitle_distance">var_columntitle_distance</xsl:param>
+    <xsl:param name="minimum_xc_distance">var_minimum_xc_distance</xsl:param>
+    <xsl:param name="latitude">var_latitude</xsl:param>
+    <xsl:param name="longitude">var_longitude</xsl:param>
+
+
     <xsl:template match="/">
-        <xsl:apply-imports />
+
+
+
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xa;</xsl:text>
         <html>
             <head>
-                
+
                 <meta charset="UTF-8"/>
                 <meta name="robots" content="noindex"/>
                 <link rel="stylesheet" type="text/css" href="flightbook.css"/>
-                <title>Flugbuch</title>
+                <title>
+                    <xsl:value-of select="$websitetitle"/>
+                </title>
             </head>
             <body>
+            
                 <script><xsl:attribute name="src"><xsl:text>jquery-3.3.1.min.js</xsl:text></xsl:attribute></script>
                 <script>
                     <xsl:attribute name="async">async</xsl:attribute>
                     <xsl:attribute name="defer">defer</xsl:attribute>
-                    <xsl:attribute name="src">https://maps.googleapis.com/maps/api/js?key=<xsl:value-of select="$google-maps-api-key" />&amp;callback=initialize</xsl:attribute>
+                    <xsl:attribute name="src">https://maps.googleapis.com/maps/api/js?key=<xsl:value-of select="$googlemapsapikey"/>&amp;callback=initialize</xsl:attribute>
                     
                 </script>
+                <script type="text/javascript">
+                    var kmzbaseurl =  "<xsl:value-of select="$websiteroot" />";
+                    var lat = <xsl:value-of select="$latitude" />;
+                    var long = <xsl:value-of select="$longitude" />;
+                </script>
                 <script src="showmap.js"/>
-                
-               
+
+
                 <div id="main">
-                    <div id="header"><h2>Flugbuch</h2>
-                
-                    <a href="https://github.com/sebschmied/sebschmied.github.io"><img id="forkmeongithub" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" /></a>
-                </div>
+                    <div id="header">
+                        <h2>
+                            <xsl:value-of select="$websitetitle"/>
+                        </h2>
+
+                        <a href="https://github.com/sebschmied/sebschmied.github.io">
+                            <img id="forkmeongithub"
+                                src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67"
+                                alt="Fork me on GitHub"
+                                data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+                            />
+                        </a>
+                    </div>
                     <div id="maps-container">
                         <div id="google-maps-view-of-track"/>
                     </div>
                     <div id="flightbook-table">
                         <table>
                             <tr>
-                                <th>Flug</th>
-                                <th>Datum</th>
-                                <th>Schirm</th>
-                                <th>Fluggebiet</th>
-                                <th>Dauer</th>
-                                <th>Strecke</th>
-                                <th>Kommentar</th>
+                                <th><xsl:value-of select="$columntitle_number"/></th>
+                                <th><xsl:value-of select="$columntitle_date"/></th>
+                                <th><xsl:value-of select="$columntitle_aircraft"/></th>
+                                <th><xsl:value-of select="$columntitle_site"/></th>
+                                <th><xsl:value-of select="$columntitle_duration"/></th>
+                                <th><xsl:value-of select="$columntitle_distance"/></th>
+                                <th><xsl:value-of select="$columntitle_comment"/></th>
                             </tr>
                             <xsl:for-each select="JFlightlistArray/list/JFlight">
                                 <xsl:sort select="position()" data-type="number" order="descending"/>
@@ -123,7 +158,7 @@
                                     <td class="distance">
                                         <xsl:choose>
                                             <xsl:when
-                                                test="round(max(olc/FlightDistance/*)) &gt; $minimumDistance">
+                                                test="round(max(olc/FlightDistance/*)) &gt; $minimum_xc_distance">
                                                 <xsl:value-of
                                                   select="round(max(olc/FlightDistance/*) div 1000)"
                                                 /> km </xsl:when>
