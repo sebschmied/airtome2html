@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html" encoding="utf-8" indent="yes"/>
+    <xsl:import href="parameters.xml" />
     <xsl:variable name="minimumDistance">15000</xsl:variable> <!-- Minimum distance to display a flight's xc distance. In meters -->
     <xsl:variable name="google-maps-api-key">AIzaSyB1CqtckRTi90FYDLfUjuUIydnPzoJzmiI</xsl:variable>
     <xsl:template match="/">
+        <xsl:apply-imports />
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;&#xa;</xsl:text>
         <html>
             <head>

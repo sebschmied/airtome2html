@@ -1,4 +1,5 @@
 #!/bin/bash
+source $PWD/airtome2html.config
 for D in `find $PWD/flightbook -type d`
 do
   for F in `find $D -type f -name "*.igc"`
@@ -6,7 +7,7 @@ do
     #rename -v 's/ /_/g' $D/*.igc #uncomment if you have igc's with spaces and run once. 
     if [ ! -f "${F}.kmz" ]; then
       echo $F
-      if  gpsbabel -t -N -i igc -f "${F}" -x simplify,count=400 -o kml,points=0,trackdirection=1,line_color=ee0000ff,floating=1,extrude=1,track=0,trackdata=0,line_width=4 -F "${F}.kml"; then
+      if  gpsbabel -t -N -i igc -f "${F}" -x simplify,count=${maps_points_count} -o kml,points=0,trackdirection=1,line_color=${maps_line_color},floating=1,extrude=1,track=0,trackdata=0,line_width=${maps_line_width} -F "${F}.kml"; then
         mkdir $(dirname $F)/kmz
         cp $F.kml $(dirname $F)/kmz/doc.kml
         zip -rj $(dirname $F)/$(basename $F).kmz $(dirname $F)/kmz/doc.kml
