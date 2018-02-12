@@ -36231,7 +36231,75 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <pictureheader class="java.util.ArrayList"/>
          <airspaceviolation org="0"/>
       </JFlight>
+      <JFlight>
+         <pilot org="" new="Sebastian Schmied"/>
+         <number>540</number>
+         <country>Deutschland</country>
+         <GPSID org=""/>
+         <glidertyp org="" new="Skywalk Cayenne 5"/>
+         <gliderID org=""/>
+         <compID org=""/>
+         <compClass org=""/>
+         <ICGfile></ICGfile>
+         <site org="" new="Orensberg"/>
+         <site2>Orensberg SP, GS und HG, SSW-W (49.240370 8.026139)</site2>
+         <landingsite>Orensberg LP, GS und HG</landingsite>
+         <date>
+            <org year="2018" month="2" day="12"/>
+            <new year="2018" month="2" day="10"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="12" minute="0" second="0"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="0" minute="48" second="0"/>
+         </duration>
+         <startheight org="0"/>
+         <maxheight org="0"/>
+         <landheight org="0"/>
+         <igcinfo>-1</igcinfo>
+         <comment>Viel zu kalt</comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="0"/>
+         <olc>
+            <category>-1</category>
+            <FlightDistance length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+            </FlightWp>
+            <checksum>-1</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>backward</string>
+            <string>soaring</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="0"/>
+         <minvario org="0"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>538</lastselectedflight>
+   <lastselectedflight>539</lastselectedflight>
 </JFlightlistArray>
