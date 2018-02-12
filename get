@@ -1,6 +1,6 @@
 #!/bin/bash
 source $PWD/airtome2html.config
 git pull
-zip -FSrqj ${PWD}/${flightbookfilename}.fb.zip ${PWD}/flightbook ${PWD}/${flightbookfilename}.xml
+zip -FSrq ${flightbookfilename}.fb.zip flightbook ${flightbookfilename}.xml
 ${airtomebin} && unzip -q -o ${PWD}/${flightbookfilename}.fb.zip
 ${PWD}/sync-wwwdir.sh

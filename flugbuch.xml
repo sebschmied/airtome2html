@@ -35335,7 +35335,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="640"/>
          <maxheight org="738"/>
          <landheight org="241" new="240"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="435"/>
@@ -36301,5 +36301,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>536</lastselectedflight>
+   <lastselectedflight>525</lastselectedflight>
 </JFlightlistArray>
