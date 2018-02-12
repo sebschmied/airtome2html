@@ -35335,7 +35335,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="640"/>
          <maxheight org="738"/>
          <landheight org="241" new="240"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="435"/>
@@ -36197,7 +36197,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <startheight org="542"/>
          <maxheight org="656"/>
          <landheight org="280" new="281"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment>Flugfenster zwischen Schneeschauern erwischt. Starker Windgradient, die Differenz zwischen 5 Meter unter Startplatzhöhe und 5 Meter drüber ist enorm, daher anfangs beinahe landen gegangen.</comment>
          <starttype>1</starttype>
          <avgspeed org="1075"/>
@@ -36301,5 +36301,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>525</lastselectedflight>
+   <lastselectedflight>539</lastselectedflight>
 </JFlightlistArray>
