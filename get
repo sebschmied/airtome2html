@@ -1,7 +1,6 @@
 #!/bin/bash
 source $PWD/airtome2html.config
-rsynccmd="rsync -a --progress ${PWD}/flightbook ${websitepath}"
 git pull
-${rsynccmd}
-zip -FSrq ${PWD}/${flightbookfilename}.fb.zip ${websitepath}/flightbook ${flightbookfilename}.xml
-${airtomebin} && unzip -q -o ${flightbookfilename}.fb.zip && ${rsynccmd}
+${PWD}/sync-wwdir.sh
+zip -FSrq ${PWD}/${flightbookfilename}.fb.zip ${outputdir}/flightbook ${flightbookfilename}.xml
+${airtomebin} && unzip -q -o ${flightbookfilename}.fb.zip && ${PWD}/sync-wwdir.sh

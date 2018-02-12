@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source airtome2html.config
-mkdir -p ${websitepath}
+mkdir -p ${outputdir}
 tmpfile="/tmp/flightbook.xsl"
 cp $PWD/flightbook.xsl ${tmpfile}
 declare -a params=(
@@ -31,4 +31,4 @@ do
    sed -i.bak "s|var_${i}|${!i}|g" $tmpfile
 done
 
-saxonb-xslt ${flightbookfilename}.xml ${tmpfile} > ${websitepath}/index.html
+saxonb-xslt ${flightbookfilename}.xml ${tmpfile} > ${outputdir}/index.html

@@ -1,8 +1,9 @@
 #!/bin/bash
 source $PWD/airtome2html.config
 unzip -q -o ${flightbookfilename}.fb.zip
-./transform.sh
 ./igc2kmz
+./transform.sh
+${PWD}/sync-wwwdir.sh
 git add .
 git commit
 git push
