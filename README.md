@@ -25,19 +25,25 @@ An XSLT stylesheet that translates parts of the airtome xml format to fancy html
 * Populate the stylesheet with the values set in ``airtome2html.config`` and transform it to an index.html file.
 
 #### ./sync-wwwdir.sh
-* Copy files to an output directory, if activated in ``airtome2html.config``. This one is probably called more often then necessary because I let rsync decided whether something needs to be updated.
+* Copy files to an output directory, if activated in ``airtome2html.config``. This one is probably called more often then necessary because I let rsync decide whether something needs to be updated.
 
 #### ./igc2kmz
 *  Loop through ``./flightbook/**`` to create .kmz files from .igc files where not yet done. This will also replace any spaces in .igc file names.
 
 ### How to use
-Assuming debian or ubuntu and bash:
+Assuming debian/ubuntu or mac OS and bash:
 
 * Get all the tools you need:
 ```bash
 sudo apt update
 sudo apt install git gpsbabel libsaxonb-java
 ```
+or on mac OS:
+```bash
+brew update
+brew install git gpsbabel saxon
+```
+
 * Fork or whatever and clone
 * Remove my flights ``rm -r index.html ./flightbook``.
 * copy your own .fb.zip into the project's root folder.
