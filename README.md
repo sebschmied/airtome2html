@@ -1,23 +1,30 @@
 # airtome2html
 
-This is essentially a web export for flight books created with airtome, see https://airtome.bitbucket.io/
+This is essentially a web export for flight books created with airtome, see [https://airtome.bitbucket.io/](airtome.bitbucket.io). I started this project because I wanted to organize/backup my flight book with github, but added html output generation later.
 
-Sample Output: https://sebschmied.github.io/flights
+Sample Output: See [my personal flight book](https://sebschmied.github.io/flights).
 
 ## How to use
 Assuming debian/ubuntu or mac OS and bash:
 
-* Get all the tools you need:
+### Setup
+* Get all the tools you need.
+
+ * Debian/Ubuntu:
 ```bash
 sudo apt update
 sudo apt install git gpsbabel libsaxonb-java
 ```
-or on mac OS:
+
+ * Mac OS (using [homebrew](https://brew.sh)):
 ```bash
 brew update
 brew install git gpsbabel saxon
 ```
-### Setup
+ * Windows 
+I don't know, possibly with cygwin or something.
+
+
 * [Fork](https://help.github.com/articles/fork-a-repo/#platform-linux) the project on github. You need to be able to push to the repo, so this is mandatory. I started this project in part because I wanted to use github as my flight log backup.
 * Open a Terminal.
 * [Clone](https://help.github.com/articles/cloning-a-repository/#platform-linux) your forked repo and ``cd`` there.
@@ -30,8 +37,8 @@ brew install git gpsbabel saxon
 * Run ``./get`` to pull from github and create a temporary .fb.zip file from the ``./flightbook/`` files. This will also try to open airtome.
 * In airtome, open the .fb.zip manually if this is the first run, i.e. make sure it is the one stored in your repo folder and not your previous location.
 * Make your changes, save the flightbook, close airtome
-* Run ``./push`` to publish changes.`
-* Don't commit/push manually if flight data is involved, because this would .gitignore any changes in the .fb.zip.
+* Run ``./push`` to publish changes.
+* Don't commit/push manually if flight data is involved, because this would .gitignore any changes in the .fb.zip. The .fb.zip file is not part of the repo, instead it gets created every time you need it. This is because git doesn't make sense with binary files.
 
 ## Components:
 
