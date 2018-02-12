@@ -31,4 +31,4 @@ do
    sed -i.bak "s|var_${i}|${!i}|g" $tmpfile
 done
 
-saxonb-xslt ${flightbookfilename}.xml ${tmpfile} > ${outputdir}/index.html
+${saxoncommand} ${flightbookfilename}.xml ${tmpfile} > ${outputdir}/index.html
