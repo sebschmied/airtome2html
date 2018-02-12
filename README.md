@@ -2,7 +2,7 @@
 
 This is essentially a web export for flight books created with airtome, see https://airtome.bitbucket.io/
 
-Output: https://sebschmied.github.io/
+Sanple Output: https://sebschmied.github.io/flights
 
 ### Components:
 
