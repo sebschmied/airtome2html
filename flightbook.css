@@ -5,13 +5,16 @@
     top:13%;
     right:0;
     overflow:scroll;
+    z-index: -1;
 }
 
 #forkmeongithub {
-    position:absolute;
+    position:fixed;
     top:0;
     right:0;
     border:0;
+    max-width: 10%;
+    
 }
 
 .comment {
@@ -45,7 +48,7 @@ h1, h2 {
     width:100%;
    
     font-size: xx-large;
-    padding-top: 1em;
+    
     
 }
 
@@ -97,16 +100,24 @@ table tr.tr-showmap:not(.tr-active):hover {
     cursor:pointer;
 }
 
-table tr:nth-of-type(even):not(.tr-active) {
+table tr:nth-of-type(even):not(.tr-active), table tr th {
     background:#eee;
 }
+
+table tr:nth-of-type(odd):not(.tr-active) {
+    background:#fff;
+}
+
 
 #header {
     
     position: fixed;
     top: 0px;
+    right: 0px;
     height: 13%;
+    min-height: 149px;
     width: 100%;
     background:#eee;
+    z-index: -1;
 
 }

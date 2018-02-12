@@ -6,6 +6,7 @@ if [ "${copytooutputdirectory}" = true ]; then
     cp -f ${PWD}/flightbook.css ${outputdir}
     cp -f ${PWD}/showmap.js ${outputdir}
     cp -f ${PWD}/${jqueryfile} ${outputdir}
+    cp -f ${PWD}/github.png ${outputdir}
     echo "${outputdir} synced."
     set +e
 else
