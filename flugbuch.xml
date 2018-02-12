@@ -35207,7 +35207,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="531"/>
          <maxheight org="643"/>
          <landheight org="207"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="322"/>
@@ -35401,7 +35401,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="1189" new="1211"/>
          <maxheight org="1585"/>
          <landheight org="585" new="583"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="1390"/>
@@ -35468,7 +35468,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="915"/>
          <maxheight org="1228"/>
          <landheight org="84" new="83"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment>Landeplätze sind hier Mangelware, zudem fliege ich zeitweise mit Fliegern, die ebenfalls keinen Plan haben, wo es hingeht. Landung auf einer Dreckstraße. Der richtige Weg nach Almunecar wäre über den Itrabo.</comment>
          <starttype>1</starttype>
          <avgspeed org="979"/>
@@ -35598,7 +35598,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="897" new="911"/>
          <maxheight org="1376"/>
          <landheight org="540" new="545"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="835"/>
@@ -35665,7 +35665,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="465"/>
          <maxheight org="466"/>
          <landheight org="-184" new="-185"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
          <avgspeed org="2167"/>
@@ -35730,7 +35730,7 @@ Do panic if you fly a hang glider.</comment>
          <startheight org="990"/>
          <maxheight org="1342"/>
          <landheight org="1065"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment>
 Beim Toplanden Ferse geprellt. Wind falsch eingeschätzt und durchgependelt, dabei frontal Fels auf der Wiese erwischt.
 
@@ -35801,7 +35801,7 @@ Extrem viel los, da fly-with-andy vor Ort. Saufen dann aber alle gleichzeitig um
          <startheight org="457"/>
          <maxheight org="457"/>
          <landheight org="306" new="305"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment>Landeplatz war Filmkulisse von http://www.imdb.com/title/tt1528100/
 Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <starttype>1</starttype>
@@ -36067,7 +36067,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <startheight org="525"/>
          <maxheight org="721"/>
          <landheight org="335" new="670"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment>Handschuhe zu leicht.</comment>
          <starttype>1</starttype>
          <avgspeed org="682"/>
@@ -36197,7 +36197,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <startheight org="542"/>
          <maxheight org="656"/>
          <landheight org="280" new="281"/>
-         <igcinfo>0</igcinfo>
+         <igcinfo>-1</igcinfo>
          <comment>Flugfenster zwischen Schneeschauern erwischt. Starker Windgradient, die Differenz zwischen 5 Meter unter Startplatzhöhe und 5 Meter drüber ist enorm, daher anfangs beinahe landen gegangen.</comment>
          <starttype>1</starttype>
          <avgspeed org="1075"/>
@@ -36301,5 +36301,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>539</lastselectedflight>
+   <lastselectedflight>536</lastselectedflight>
 </JFlightlistArray>
