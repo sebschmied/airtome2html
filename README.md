@@ -11,15 +11,15 @@ Assuming debian/ubuntu or mac OS and bash:
 * Get all the tools you need.
 
    Debian/Ubuntu:
-```bash
-sudo apt update
-sudo apt install git gpsbabel libsaxonb-java
-```
+   ```bash
+   sudo apt update
+   sudo apt install git gpsbabel libsaxonb-java
+   ```
    Mac OS (using [homebrew](https://brew.sh)):
-```bash
-brew update
-brew install git gpsbabel saxon
-```
+   ```bash
+   brew update
+   brew install git gpsbabel saxon
+   ```
    Windows:
    I don't know, possibly with cygwin or something.
 
