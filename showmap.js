@@ -25,6 +25,8 @@ $(document).ready(function() {
         $('.tr-showmap').not(this).removeClass("tr-active");
         $(this).addClass("tr-active");
         kmlurl = kmzbaseurl + "/" + $(this).data("kmz");
+        if (kmlurl.includes("/blob/") && kmlurl.includes("github.com")) //do we use github binaries?
+            kmlurl += "?raw=true";
         console.log(kmlurl);
         layer.setUrl(kmlurl);
         layer.setMap(map);

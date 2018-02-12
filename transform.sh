@@ -7,6 +7,7 @@ declare -a params=(
 "flightbookfilename"
 "airtomebin"
 "websiteroot" 
+"kmzroot"
 "websitetitle"
 "googlemapsapikey"
 "columntitle_number" 
@@ -26,7 +27,7 @@ declare -a params=(
 
 for i in "${params[@]}"
 do
-   rpl -qf "var_${i}" "${!i}" $tmpfile > /dev/null 2>&1 #I gave up on sed because of escaping problem
+   sed -i.bak "s|var_${i}|${!i}|g" $tmpfile
 done
 
 saxonb-xslt ${flightbookfilename}.xml ${tmpfile} > index.html

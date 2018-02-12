@@ -6,6 +6,7 @@
 
     <!-- These will be replaced on runtime -->
     <xsl:param name="websiteroot">var_websiteroot</xsl:param>
+    <xsl:param name="kmzroot">var_kmzroot</xsl:param>
     <xsl:param name="websitetitle">var_websitetitle</xsl:param>
     <xsl:param name="googlemapsapikey">var_googlemapsapikey</xsl:param>
     <xsl:param name="columntitle_number">var_columntitle_number</xsl:param>
@@ -45,7 +46,7 @@
                     
                 </script>
                 <script type="text/javascript">
-                    var kmzbaseurl =  "<xsl:value-of select="$websiteroot" />";
+                    var kmzbaseurl =  "<xsl:value-of select="$kmzroot" />";
                     var lat = <xsl:value-of select="$latitude" />;
                     var long = <xsl:value-of select="$longitude" />;
                 </script>

@@ -30,7 +30,7 @@ Assuming debian or ubuntu and bash:
 * Get all the tools you need:
 ```bash
 sudo apt update
-sudo apt install git gpsbabel libsaxonb-java rpl
+sudo apt install git gpsbabel libsaxonb-java
 ```
 * Fork or whatever and clone
 * Remove my flights ``rm -r index.html ./flightbook``.
