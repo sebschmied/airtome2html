@@ -36232,67 +36232,65 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <airspaceviolation org="0"/>
       </JFlight>
       <JFlight>
-         <pilot org="" new="Sebastian Schmied"/>
+         <pilot org="Sebastian Schmied"/>
          <number>540</number>
          <country>Deutschland</country>
-         <GPSID org=""/>
-         <glidertyp org="" new="Skywalk Cayenne 5"/>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5"/>
          <gliderID org=""/>
-         <compID org=""/>
-         <compClass org=""/>
-         <ICGfile></ICGfile>
-         <site org="" new="Orensberg"/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>82ASEBS1.igc</ICGfile>
+         <site org="Unknown" new="Orensberg"/>
          <site2>Orensberg SP, GS und HG, SSW-W (49.240370 8.026139)</site2>
          <landingsite>Orensberg LP, GS und HG</landingsite>
          <date>
-            <org year="2018" month="2" day="12"/>
+            <org year="2018" month="2" day="10"/>
             <new year="2018" month="2" day="10"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
          </UTCorr>
          <starttime>
-            <org hour="0" minute="0" second="0"/>
-            <new hour="12" minute="0" second="0"/>
+            <org hour="13" minute="2" second="30"/>
+            <new hour="13" minute="2" second="33"/>
          </starttime>
          <duration>
-            <org hour="0" minute="0" second="0"/>
-            <new hour="0" minute="48" second="0"/>
+            <org hour="0" minute="48" second="10"/>
+            <new hour="0" minute="47" second="36"/>
          </duration>
-         <startheight org="0"/>
-         <maxheight org="0"/>
-         <landheight org="0"/>
-         <igcinfo>-1</igcinfo>
-         <comment>Sehr kalt</comment>
+         <startheight org="531" new="540"/>
+         <maxheight org="681"/>
+         <landheight org="195"/>
+         <igcinfo>0</igcinfo>
+         <comment>Sehr kalt und sonst keiner da.</comment>
          <starttype>1</starttype>
-         <avgspeed org="0"/>
-         <heightgain org="0"/>
+         <avgspeed org="525"/>
+         <heightgain org="1207"/>
          <olc>
-            <category>-1</category>
+            <category>0</category>
             <FlightDistance length="3">
-               <int>0</int>
-               <int>0</int>
-               <int>0</int>
+               <int>4167</int>
+               <int>2543</int>
+               <int>2514</int>
             </FlightDistance>
             <FlightPoints length="3">
-               <int>0</int>
-               <int>0</int>
-               <int>0</int>
+               <int>6250</int>
+               <int>4450</int>
+               <int>5028</int>
             </FlightPoints>
             <FlightWp length="3">
-               <int length="5">0, 0, 0, 0, 0</int>
-               <int length="5">0, 0, 0, 0, 0</int>
-               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">972, 1441, 1905, 2363, 2722</int>
+               <int length="5">1256, 1343, 1441, 2689, 2701</int>
+               <int length="5">1256, 1441, 1611, 2689, 2701</int>
             </FlightWp>
-            <checksum>-1</checksum>
+            <checksum>2891</checksum>
          </olc>
-         <tag class="java.util.ArrayList">
-            <string>backward</string>
-            <string>soaring</string>
-         </tag>
+         <tag class="java.util.ArrayList"/>
          <irecordinfo>0</irecordinfo>
-         <maxvario org="0"/>
-         <minvario org="0"/>
+         <maxvario org="28"/>
+         <minvario org="-44"/>
          <task>
             <waypoint/>
          </task>
