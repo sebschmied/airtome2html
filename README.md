@@ -15,7 +15,6 @@ Assuming debian/ubuntu or mac OS and bash:
 sudo apt update
 sudo apt install git gpsbabel libsaxonb-java
 ```
-
    Mac OS (using [homebrew](https://brew.sh)):
 ```bash
 brew update
