@@ -1,6 +1,6 @@
 #!/bin/bash
-source $PWD/airtome2html.config
-for D in `find ${outputdir}/flightbook -type d`
+source ${PWD}/airtome2html.config
+for D in `find ${PWD}/flightbook -type d`
 do
   for F in `find $D -type f -name "*.igc"`
   
