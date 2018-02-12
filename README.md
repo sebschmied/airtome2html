@@ -24,8 +24,8 @@ An XSLT stylesheet that translates parts of the airtome xml format to fancy html
 #### ./transform
 * Populate the stylesheet with the values set in ``airtome2html.config`` and transform it to an index.html file.
 
-### ./sync-wwwdir.sh
-* Copy files to an output directory, if activated in ``airtome2html.config``. 
+#### ./sync-wwwdir.sh
+* Copy files to an output directory, if activated in ``airtome2html.config``. This one is probably called more often then necessary because I let rsync decided whether something needs to be updated.
 
 #### ./igc2kmz
 *  Loop through ``./flightbook/**`` to create .kmz files from .igc files where not yet done. This will also replace any spaces in .igc file names.
