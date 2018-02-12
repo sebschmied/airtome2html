@@ -10,20 +10,19 @@ Assuming debian/ubuntu or mac OS and bash:
 ### Setup
 * Get all the tools you need.
 
- * Debian/Ubuntu:
+   Debian/Ubuntu:
 ```bash
 sudo apt update
 sudo apt install git gpsbabel libsaxonb-java
 ```
 
- * Mac OS (using [homebrew](https://brew.sh)):
+   Mac OS (using [homebrew](https://brew.sh)):
 ```bash
 brew update
 brew install git gpsbabel saxon
 ```
- * Windows 
-I don't know, possibly with cygwin or something.
-
+   Windows:
+   I don't know, possibly with cygwin or something.
 
 * [Fork](https://help.github.com/articles/fork-a-repo/#platform-linux) the project on github. You need to be able to push to the repo, so this is mandatory. I started this project in part because I wanted to use github as my flight log backup.
 * Open a Terminal.
