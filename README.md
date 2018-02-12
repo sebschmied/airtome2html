@@ -10,16 +10,22 @@ Output: https://sebschmied.github.io/
 An XSLT stylesheet that translates parts of the airtome xml format to fancy html.
 
 #### ./get: 
-git pull the repository and create a .fb.zip that can be opened and edited by airtome.
+* Git pull the repository and create a .fb.zip that can be opened and edited by airtome.
+* Open airtome
+* * Run ``sync-wwwdir.sh`` in case anything has changed in the .fb.zip.
 
 #### ./push
 * Extract the .fb.zip (simply because git doesn't like binaries), 
 * Run ``./igc2kmz``
 * Run ``transform.sh``
+* Run ``sync-wwwdir.sh``
 * git add, commit and push everything that has changed
 
 #### ./transform
-* Populate the stylesheet with the values set in ``airtome2html.config`` and transform it to index.html
+* Populate the stylesheet with the values set in ``airtome2html.config`` and transform it to an index.html file.
+
+### ./sync-wwwdir.sh
+* Copy files to an output directory, if activated in ``airtome2html.config``. 
 
 #### ./igc2kmz
 *  Loop through ``./flightbook/**`` to create .kmz files from .igc files where not yet done. This will also replace any spaces in .igc file names.
@@ -36,8 +42,8 @@ sudo apt install git gpsbabel libsaxonb-java
 * Remove my flights ``rm -r index.html ./flightbook``.
 * copy your own .fb.zip into the project's root folder.
 * Edit ``airtome2html.config``, see comments there.
-* Run ./push to populate github. The first run will take quite a while, because .kmz files are created. You can now use the directory as a htdocs folder on your own webserver, or use github pages as I did.
+* Run ./push to populate github and/or your output directory. The first run will take quite a while, because .kmz files are created.
 * Run ./get. From now on, always run ./get to make any changes.
 * In airtome, open the .fb.zip manually if this is the first run. Make some changes and close.
-* Run ./push to publish changes. Don't commit/push manually, because this would ignore any changes in the .fb.zip.
+* Run ./push to publish changes. Don't commit/push manually if flight data is involved, because this would .gitignore any changes in the .fb.zip.
 
