@@ -3,4 +3,4 @@ source $PWD/airtome2html.config
 git pull
 ${PWD}/sync-wwdir.sh
 zip -FSrq ${PWD}/${flightbookfilename}.fb.zip ${outputdir}/flightbook ${flightbookfilename}.xml
-${airtomebin} && unzip -q -o ${flightbookfilename}.fb.zip && ${PWD}/sync-wwdir.sh
+${airtomebin} && unzip -q -o ${flightbookfilename}.fb.zip && ${PWD}/sync-wwwdir.sh
