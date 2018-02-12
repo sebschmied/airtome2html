@@ -1,5 +1,5 @@
 #!/bin/bash
-source $PWD/airtome2html.config
+source $PWD/airtome2html.config.sh
 git pull
 zip -FSrq ${flightbookfilename}.fb.zip flightbook ${flightbookfilename}.xml
 ${airtomebin} && unzip -q -o ${PWD}/${flightbookfilename}.fb.zip

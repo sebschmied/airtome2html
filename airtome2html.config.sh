@@ -52,7 +52,7 @@ if [ ! -f ${airtomebin} ]; then
     if [ -d /Applications/AirTome.app ]; then #mac os
         airtomebin="open /Applications/AirTome.app"
     else
-        echo "Please set the airtomebin path in airtome2html.config"
+        echo "Please set the airtomebin path in airtome2html.config.sh"
     fi
 fi
 

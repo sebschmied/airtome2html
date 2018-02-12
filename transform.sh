@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source airtome2html.config
+source airtome2html.config.sh
 mkdir -p ${outputdir}
 tmpfile="/tmp/flightbook.xsl"
 cp $PWD/flightbook.xsl ${tmpfile}

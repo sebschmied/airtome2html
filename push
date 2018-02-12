@@ -1,5 +1,5 @@
 #!/bin/bash
-source ${PWD}/airtome2html.config
+source ${PWD}/airtome2html.config.sh
 unzip -q -o ${PWD}/${flightbookfilename}.fb.zip
 ${PWD}/igc2kmz
 ${PWD}/transform.sh

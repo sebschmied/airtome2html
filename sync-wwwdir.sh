@@ -1,5 +1,5 @@
 #!/bin/bash
-source airtome2html.config
+source airtome2html.config.sh
 if [ "${copytooutputdirectory}" = true ]; then
     set -e
     rsync -aq --progress ${PWD}/flightbook ${outputdir}
