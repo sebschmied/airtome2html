@@ -60,7 +60,7 @@ fi
 
 # If airtomebin doesn't work, try where it would be on mac os
 if [ ! -f ${airtomebin} ]; then
-    if [ -d /Applications/AirTome.app ];
+    if [ -d /Applications/AirTome.app ]; then
         airtomebin="open /Applications/AirTome.app"
     else
         echo "Please set the airtomebin path in airtome2html.config.sh"
