@@ -37,6 +37,7 @@ function selectFlight(elem) {
             kmlurl += "?raw=true";
     layer.setUrl(kmlurl);
     layer.setMap(map);
+    location.hash=elem.attr('id');
     elem[0].scrollIntoView(true);
     
 }
