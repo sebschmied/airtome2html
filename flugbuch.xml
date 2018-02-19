@@ -36297,7 +36297,76 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <pictureheader class="java.util.ArrayList"/>
          <airspaceviolation org="0"/>
       </JFlight>
+      <JFlight>
+         <pilot org="" new="Sebastian Schmied"/>
+         <number>541</number>
+         <country>Deutschland</country>
+         <GPSID org=""/>
+         <glidertyp org="" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org=""/>
+         <compClass org=""/>
+         <ICGfile></ICGfile>
+         <site org="" new="Loffenau"/>
+         <site2>Teufelsmühle West</site2>
+         <landingsite>Loffenau / Teufelsmühle, Loffenau LP, GS und HG</landingsite>
+         <date>
+            <org year="2018" month="2" day="19"/>
+            <new year="2018" month="2" day="16"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="16" minute="45" second="0"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="0" second="0"/>
+         </duration>
+         <startheight org="0"/>
+         <maxheight org="0"/>
+         <landheight org="0"/>
+         <igcinfo>-1</igcinfo>
+         <comment>Hike&amp;Fly nach Feierabend mit Odin. Wie so spät zu erwarten, nur noch ein Abgleiter
+</comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="0"/>
+         <olc>
+            <category>-1</category>
+            <FlightDistance length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>0</int>
+               <int>0</int>
+               <int>0</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+               <int length="5">0, 0, 0, 0, 0</int>
+            </FlightWp>
+            <checksum>-1</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>hike</string>
+            <string>forward</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="0"/>
+         <minvario org="0"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>537</lastselectedflight>
+   <lastselectedflight>540</lastselectedflight>
 </JFlightlistArray>
