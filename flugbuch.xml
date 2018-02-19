@@ -36324,6 +36324,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          </starttime>
          <duration>
             <org hour="0" minute="0" second="0"/>
+            <new hour="0" minute="0" second="5"/>
          </duration>
          <startheight org="0"/>
          <maxheight org="0"/>
