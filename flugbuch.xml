@@ -36656,7 +36656,8 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1414"/>
          <landheight org="199" new="852"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Mit Uli
+</comment>
          <starttype>1</starttype>
          <avgspeed org="988"/>
          <heightgain org="3622"/>
@@ -37241,6 +37242,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Bassano</landingsite>
          <date>
             <org year="2018" month="3" day="26"/>
+            <new year="2018" month="3" day="26"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -37257,7 +37259,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="924"/>
          <landheight org="613" new="612"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Abgesoffen</comment>
          <starttype>1</starttype>
          <avgspeed org="1513"/>
          <heightgain org="986"/>
@@ -37295,14 +37297,14 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>556</number>
          <country>Italien</country>
          <GPSID org="FLYMASTER,LIVE "/>
-         <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
+         <glidertyp org="124 Skywalk Cayenne5 Ora"/>
          <gliderID org=""/>
          <compID org=""/>
          <compClass org=""/>
-         <ICGfile>2018-03-26 12_57_38.igc</ICGfile>
+         <ICGfile>2018-03-26_12_57_38.igc</ICGfile>
          <site org="Bassano - Camillo-IT" new="Bassano"/>
          <site2>Bassano</site2>
-         <landingsite></landingsite>
+         <landingsite>Bassano</landingsite>
          <date>
             <org year="2018" month="3" day="26"/>
             <new year="2018" month="3" day="26"/>
@@ -37323,7 +37325,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1890"/>
          <landheight org="188" new="183"/>
          <igcinfo>0</igcinfo>
-         <comment>Mit Uli</comment>
+         <comment>Mit Uli und Thomas. Später versucht Höhe für Flug nach Feltre zu kriegen, ohne Erfolg.</comment>
          <starttype>1</starttype>
          <avgspeed org="1029"/>
          <heightgain org="3496"/>
@@ -37371,6 +37373,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Bassano</landingsite>
          <date>
             <org year="2018" month="3" day="27"/>
+            <new year="2018" month="3" day="27"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -37387,7 +37390,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1453"/>
          <landheight org="175"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Mit Thomas</comment>
          <starttype>1</starttype>
          <avgspeed org="2113"/>
          <heightgain org="4577"/>
@@ -37489,5 +37492,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>557</lastselectedflight>
+   <lastselectedflight>555</lastselectedflight>
 </JFlightlistArray>
