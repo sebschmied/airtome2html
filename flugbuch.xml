@@ -36067,7 +36067,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <startheight org="525"/>
          <maxheight org="721"/>
          <landheight org="335" new="670"/>
-         <igcinfo>-1</igcinfo>
+         <igcinfo>0</igcinfo>
          <comment>Handschuhe zu leicht.</comment>
          <starttype>1</starttype>
          <avgspeed org="682"/>
@@ -36367,7 +36367,1051 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <pictureheader class="java.util.ArrayList"/>
          <airspaceviolation org="0"/>
       </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>542</number>
+         <country>Deutschland</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>82RSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Merkur"/>
+         <site2>Merkur Nordost (48.76475 8.281633333333334)</site2>
+         <landingsite>Merkur West</landingsite>
+         <date>
+            <org year="2018" month="2" day="27"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="14" minute="31" second="31"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="22" second="36"/>
+            <new hour="0" minute="22" second="1"/>
+         </duration>
+         <startheight org="639"/>
+         <maxheight org="841"/>
+         <landheight org="227" new="226"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1059"/>
+         <heightgain org="582"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>3888</int>
+               <int>1183</int>
+               <int>1030</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>5832</int>
+               <int>2070</int>
+               <int>2060</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">176, 776, 1008, 1133, 1236</int>
+               <int length="5">730, 776, 973, 988, 988</int>
+               <int length="5">2, 138, 728, 773, 787</int>
+            </FlightWp>
+            <checksum>1357</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="28"/>
+         <minvario org="-36"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>543</number>
+         <country>Deutschland</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83ESEBS1.igc</ICGfile>
+         <site org="Unknown" new="Merkur"/>
+         <site2>Merkur Nordost (48.76475 8.281633333333334)</site2>
+         <landingsite>Merkur West</landingsite>
+         <date>
+            <org year="2018" month="3" day="14"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="12" minute="30" second="21"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="8" second="21"/>
+            <new hour="0" minute="7" second="50"/>
+         </duration>
+         <startheight org="594"/>
+         <maxheight org="595"/>
+         <landheight org="216"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1843"/>
+         <heightgain org="60"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>2407</int>
+               <int>723</int>
+               <int>722</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>3610</int>
+               <int>1265</int>
+               <int>1444</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">29, 351, 384, 422, 466</int>
+               <int length="5">323, 323, 371, 422, 469</int>
+               <int length="5">323, 323, 372, 423, 469</int>
+            </FlightWp>
+            <checksum>502</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="10"/>
+         <minvario org="-30"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>544</number>
+         <country>Deutschland</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83ESEBS2.igc</ICGfile>
+         <site org="Unknown" new="Merkur"/>
+         <site2>Merkur Nordost (48.76475 8.281633333333334)</site2>
+         <landingsite>Merkur West</landingsite>
+         <date>
+            <org year="2018" month="3" day="14"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="13" minute="12" second="44"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="16" second="28"/>
+            <new hour="0" minute="15" second="50"/>
+         </duration>
+         <startheight org="639"/>
+         <maxheight org="662"/>
+         <landheight org="264" new="263"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1334"/>
+         <heightgain org="204"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>3521</int>
+               <int>1672</int>
+               <int>1374</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>5281</int>
+               <int>2926</int>
+               <int>2748</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">105, 337, 391, 479, 902</int>
+               <int length="5">393, 478, 764, 800, 800</int>
+               <int length="5">227, 261, 474, 710, 744</int>
+            </FlightWp>
+            <checksum>989</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="16"/>
+         <minvario org="-32"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>545</number>
+         <country>Deutschland</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83ESEBS3.igc</ICGfile>
+         <site org="Unknown" new="Merkur"/>
+         <site2>Merkur Nordost (48.76475 8.281633333333334)</site2>
+         <landingsite>Merkur West</landingsite>
+         <date>
+            <org year="2018" month="3" day="14"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="14" minute="10" second="54"/>
+            <new hour="15" minute="7" second="4"/>
+         </starttime>
+         <duration>
+            <org hour="1" minute="52" second="42"/>
+            <new hour="0" minute="32" second="39"/>
+         </duration>
+         <startheight org="641"/>
+         <maxheight org="796"/>
+         <landheight org="273" new="261"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="624"/>
+         <heightgain org="530"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>3400</int>
+               <int>2054</int>
+               <int>1661</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>5100</int>
+               <int>3594</int>
+               <int>3322</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">199, 520, 566, 990, 1336</int>
+               <int length="5">198, 990, 1203, 1260, 1260</int>
+               <int length="5">199, 520, 1129, 1246, 1246</int>
+            </FlightWp>
+            <checksum>6763</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="24"/>
+         <minvario org="-26"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>546</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83OSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Bassano"/>
+         <site2>Bassano</site2>
+         <landingsite>Bassano</landingsite>
+         <date>
+            <org year="2018" month="3" day="24"/>
+            <new year="2018" month="3" day="24"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="1" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="11" minute="22" second="30"/>
+         </starttime>
+         <duration>
+            <org hour="1" minute="55" second="40"/>
+            <new hour="1" minute="55" second="17"/>
+         </duration>
+         <startheight org="716"/>
+         <maxheight org="1414"/>
+         <landheight org="199" new="852"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="988"/>
+         <heightgain org="3622"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>18989</int>
+               <int>14799</int>
+               <int>8455</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>28483</int>
+               <int>25898</int>
+               <int>16910</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">569, 1676, 2358, 4985, 6378</int>
+               <int length="5">1020, 2351, 4985, 6380, 6403</int>
+               <int length="5">408, 3064, 5439, 6188, 6260</int>
+            </FlightWp>
+            <checksum>6941</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="40"/>
+         <minvario org="-84"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>547</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="11" minute="38" second="43"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="14" second="15"/>
+            <new hour="0" minute="13" second="40"/>
+         </duration>
+         <startheight org="1358"/>
+         <maxheight org="1632"/>
+         <landheight org="1369"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1900"/>
+         <heightgain org="654"/>
+         <olc>
+            <category>1</category>
+            <FlightDistance length="3">
+               <int>4521</int>
+               <int>4330</int>
+               <int>3345</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>6781</int>
+               <int>7577</int>
+               <int>6690</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">11, 237, 396, 667, 819</int>
+               <int length="5">17, 237, 396, 667, 790</int>
+               <int length="5">17, 148, 367, 609, 790</int>
+            </FlightWp>
+            <checksum>856</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="34"/>
+         <minvario org="-106"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>548</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS2.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="12" minute="11" second="55"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="24" second="4"/>
+            <new hour="0" minute="23" second="31"/>
+         </duration>
+         <startheight org="1367"/>
+         <maxheight org="1588"/>
+         <landheight org="1372"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1374"/>
+         <heightgain org="1134"/>
+         <olc>
+            <category>2</category>
+            <FlightDistance length="3">
+               <int>6965</int>
+               <int>6076</int>
+               <int>5387</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>10447</int>
+               <int>10633</int>
+               <int>10774</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">67, 418, 635, 906, 1293</int>
+               <int length="5">1, 418, 635, 1155, 1202</int>
+               <int length="5">1, 70, 437, 583, 1202</int>
+            </FlightWp>
+            <checksum>1445</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="46"/>
+         <minvario org="-72"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>549</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS3.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="12" minute="53" second="26"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="22" second="23"/>
+            <new hour="0" minute="21" second="50"/>
+         </duration>
+         <startheight org="1359"/>
+         <maxheight org="1479"/>
+         <landheight org="1383" new="1385"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1123"/>
+         <heightgain org="796"/>
+         <olc>
+            <category>2</category>
+            <FlightDistance length="3">
+               <int>4753</int>
+               <int>4298</int>
+               <int>4088</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>7129</int>
+               <int>7521</int>
+               <int>8176</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">73, 451, 782, 961, 1054</int>
+               <int length="5">97, 451, 973, 1053, 1229</int>
+               <int length="5">97, 434, 961, 1054, 1229</int>
+            </FlightWp>
+            <checksum>1344</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="42"/>
+         <minvario org="-46"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>550</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS5.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="13" minute="47" second="20"/>
+            <new hour="13" minute="47" second="33"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="6" second="34"/>
+            <new hour="0" minute="5" second="50"/>
+         </duration>
+         <startheight org="1365" new="1394"/>
+         <maxheight org="1613"/>
+         <landheight org="1381"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="307"/>
+         <olc>
+            <category>1</category>
+            <FlightDistance length="3">
+               <int>1631</int>
+               <int>1548</int>
+               <int>959</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>2446</int>
+               <int>2709</int>
+               <int>1918</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">13, 120, 215, 290, 363</int>
+               <int length="5">54, 102, 215, 290, 363</int>
+               <int length="5">54, 66, 220, 291, 363</int>
+            </FlightWp>
+            <checksum>395</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="40"/>
+         <minvario org="-68"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>551</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS6.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="13" minute="58" second="41"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="6" second="5"/>
+            <new hour="0" minute="5" second="34"/>
+         </duration>
+         <startheight org="1378"/>
+         <maxheight org="1426"/>
+         <landheight org="1381"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="167"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>2233</int>
+               <int>1473</int>
+               <int>1313</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>3349</int>
+               <int>2577</int>
+               <int>2626</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">2, 94, 146, 263, 330</int>
+               <int length="5">0, 47, 146, 264, 330</int>
+               <int length="5">0, 47, 263, 308, 330</int>
+            </FlightWp>
+            <checksum>366</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="28"/>
+         <minvario org="-26"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>552</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS7.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="14" minute="15" second="9"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="20" second="21"/>
+            <new hour="0" minute="19" second="48"/>
+         </duration>
+         <startheight org="1370"/>
+         <maxheight org="1629"/>
+         <landheight org="1371"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="0"/>
+         <heightgain org="714"/>
+         <olc>
+            <category>2</category>
+            <FlightDistance length="3">
+               <int>3949</int>
+               <int>3636</int>
+               <int>3469</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>5923</int>
+               <int>6363</int>
+               <int>6938</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">209, 424, 576, 709, 829</int>
+               <int length="5">197, 424, 575, 1104, 1148</int>
+               <int length="5">197, 400, 576, 1111, 1148</int>
+            </FlightWp>
+            <checksum>1222</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="50"/>
+         <minvario org="-40"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>553</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS8.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena</site2>
+         <landingsite>Monte Avena</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="14" minute="54" second="20"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="24" second="43"/>
+            <new hour="0" minute="24" second="8"/>
+         </duration>
+         <startheight org="1364"/>
+         <maxheight org="1507"/>
+         <landheight org="1378"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1001"/>
+         <heightgain org="850"/>
+         <olc>
+            <category>2</category>
+            <FlightDistance length="3">
+               <int>5076</int>
+               <int>4067</int>
+               <int>4030</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>7614</int>
+               <int>7117</int>
+               <int>8060</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">456, 623, 972, 1110, 1406</int>
+               <int length="5">322, 438, 1014, 1109, 1310</int>
+               <int length="5">322, 427, 1013, 1109, 1310</int>
+            </FlightWp>
+            <checksum>1484</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="40"/>
+         <minvario org="-36"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>554</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83PSEBS9.igc</ICGfile>
+         <site org="Unknown" new="Feltre"/>
+         <site2>Monte Avena SP, GS und HG, SO-S (46.029731 11.826353)</site2>
+         <landingsite>Bassano</landingsite>
+         <date>
+            <org year="2018" month="3" day="25"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="15" minute="55" second="47"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="15" second="20"/>
+            <new hour="0" minute="15" second="18"/>
+         </duration>
+         <startheight org="1364"/>
+         <maxheight org="1364"/>
+         <landheight org="234" new="743"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="2051"/>
+         <heightgain org="132"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>5231</int>
+               <int>818</int>
+               <int>794</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>7846</int>
+               <int>1431</int>
+               <int>1588</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">0, 421, 464, 577, 614</int>
+               <int length="5">426, 463, 577, 614, 614</int>
+               <int length="5">426, 464, 568, 614, 614</int>
+            </FlightWp>
+            <checksum>921</checksum>
+         </olc>
+         <tag class="java.util.ArrayList">
+            <string>toplanding</string>
+         </tag>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="20"/>
+         <minvario org="-82"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>555</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83QSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Bassano"/>
+         <site2>Bassano</site2>
+         <landingsite>Bassano</landingsite>
+         <date>
+            <org year="2018" month="3" day="26"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="10" minute="40" second="6"/>
+         </starttime>
+         <duration>
+            <org hour="0" minute="37" second="21"/>
+            <new hour="0" minute="36" second="47"/>
+         </duration>
+         <startheight org="824"/>
+         <maxheight org="924"/>
+         <landheight org="613" new="612"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1513"/>
+         <heightgain org="986"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>9277</int>
+               <int>4560</int>
+               <int>3108</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>13915</int>
+               <int>7980</int>
+               <int>6216</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">51, 106, 899, 1390, 2121</int>
+               <int length="5">273, 273, 383, 900, 1388</int>
+               <int length="5">891, 1122, 1314, 1772, 1772</int>
+            </FlightWp>
+            <checksum>2242</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="32"/>
+         <minvario org="-38"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>556</number>
+         <country>Italien</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83RSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Bassano"/>
+         <site2>Bassano</site2>
+         <landingsite>Bassano</landingsite>
+         <date>
+            <org year="2018" month="3" day="27"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="9" minute="56" second="46"/>
+         </starttime>
+         <duration>
+            <org hour="2" minute="1" second="14"/>
+            <new hour="2" minute="0" second="45"/>
+         </duration>
+         <startheight org="827"/>
+         <maxheight org="1453"/>
+         <landheight org="175"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="2113"/>
+         <heightgain org="4577"/>
+         <olc>
+            <category>1</category>
+            <FlightDistance length="3">
+               <int>44427</int>
+               <int>42542</int>
+               <int>15485</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>66640</int>
+               <int>74448</int>
+               <int>30970</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">2, 2203, 5965, 6659, 7169</int>
+               <int length="5">84, 1996, 2432, 5965, 6639</int>
+               <int length="5">56, 620, 5738, 7174, 7214</int>
+            </FlightWp>
+            <checksum>7275</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="46"/>
+         <minvario org="-92"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>557</number>
+         <country>Deutschland</country>
+         <GPSID org="1789549080"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org="0000"/>
+         <compClass org="Paraglider (Standard)"/>
+         <ICGfile>83TSEBS1.igc</ICGfile>
+         <site org="Unknown" new="Oppenau Zuflucht"/>
+         <site2>Oppenau Zuflucht</site2>
+         <landingsite>Reichental</landingsite>
+         <date>
+            <org year="2018" month="3" day="29"/>
+            <new year="2018" month="3" day="29"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="11" minute="4" second="12"/>
+         </starttime>
+         <duration>
+            <org hour="2" minute="35" second="6"/>
+            <new hour="2" minute="34" second="32"/>
+         </duration>
+         <startheight org="936"/>
+         <maxheight org="1546"/>
+         <landheight org="507" new="506"/>
+         <igcinfo>0</igcinfo>
+         <comment></comment>
+         <starttype>1</starttype>
+         <avgspeed org="1683"/>
+         <heightgain org="5248"/>
+         <olc>
+            <category>0</category>
+            <FlightDistance length="3">
+               <int>43362</int>
+               <int>5290</int>
+               <int>4332</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>65043</int>
+               <int>9257</int>
+               <int>8664</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">1279, 2769, 5141, 8552, 9060</int>
+               <int length="5">506, 1280, 2413, 2768, 3050</int>
+               <int length="5">507, 1280, 2414, 2562, 2644</int>
+            </FlightWp>
+            <checksum>9306</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>0</irecordinfo>
+         <maxvario org="42"/>
+         <minvario org="-40"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>540</lastselectedflight>
+   <lastselectedflight>556</lastselectedflight>
 </JFlightlistArray>
