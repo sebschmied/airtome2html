@@ -36704,6 +36704,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -36720,7 +36721,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1632"/>
          <landheight org="1369"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
          <avgspeed org="1900"/>
          <heightgain org="654"/>
@@ -36770,6 +36771,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -36786,7 +36788,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1588"/>
          <landheight org="1372"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
          <avgspeed org="1374"/>
          <heightgain org="1134"/>
@@ -36836,6 +36838,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -36852,7 +36855,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1479"/>
          <landheight org="1383" new="1385"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
          <avgspeed org="1123"/>
          <heightgain org="796"/>
@@ -36902,6 +36905,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -36919,9 +36923,9 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1613"/>
          <landheight org="1381"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
-         <avgspeed org="0"/>
+         <avgspeed org="1592"/>
          <heightgain org="307"/>
          <olc>
             <category>1</category>
@@ -36969,6 +36973,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -36985,9 +36990,9 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1426"/>
          <landheight org="1381"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
-         <avgspeed org="0"/>
+         <avgspeed org="2406"/>
          <heightgain org="167"/>
          <olc>
             <category>0</category>
@@ -37035,6 +37040,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -37051,9 +37057,9 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1629"/>
          <landheight org="1371"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
-         <avgspeed org="0"/>
+         <avgspeed org="1051"/>
          <heightgain org="714"/>
          <olc>
             <category>2</category>
@@ -37101,6 +37107,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Monte Avena</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -37117,7 +37124,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1507"/>
          <landheight org="1378"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Wagga, Flüge nicht immer klar zu trennen</comment>
          <starttype>1</starttype>
          <avgspeed org="1001"/>
          <heightgain org="850"/>
@@ -37167,6 +37174,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landingsite>Bassano</landingsite>
          <date>
             <org year="2018" month="3" day="25"/>
+            <new year="2018" month="3" day="25"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -37378,7 +37386,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <maxheight org="1546"/>
          <landheight org="507" new="506"/>
          <igcinfo>0</igcinfo>
-         <comment></comment>
+         <comment>Die ganze Zeit bedeckt. Am Ende irgendwie dumm geflogen.</comment>
          <starttype>1</starttype>
          <avgspeed org="1683"/>
          <heightgain org="5248"/>
@@ -37401,7 +37409,9 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
             </FlightWp>
             <checksum>9306</checksum>
          </olc>
-         <tag class="java.util.ArrayList"/>
+         <tag class="java.util.ArrayList">
+            <string>cloud</string>
+         </tag>
          <irecordinfo>0</irecordinfo>
          <maxvario org="42"/>
          <minvario org="-40"/>
