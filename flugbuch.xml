@@ -37294,6 +37294,72 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <pilot org="Sebastian Schmied"/>
          <number>556</number>
          <country>Italien</country>
+         <GPSID org="FLYMASTER,LIVE "/>
+         <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
+         <gliderID org=""/>
+         <compID org=""/>
+         <compClass org=""/>
+         <ICGfile>2018-03-26 12_57_38.igc</ICGfile>
+         <site org="Bassano - Camillo-IT" new="Bassano"/>
+         <site2>Bassano</site2>
+         <landingsite></landingsite>
+         <date>
+            <org year="2018" month="3" day="26"/>
+            <new year="2018" month="3" day="26"/>
+         </date>
+         <UTCorr>
+            <org hour="0" minute="0" second="0"/>
+            <new hour="2" minute="0" second="0"/>
+         </UTCorr>
+         <starttime>
+            <org hour="12" minute="57" second="38"/>
+            <new hour="13" minute="11" second="14"/>
+         </starttime>
+         <duration>
+            <org hour="2" minute="35" second="47"/>
+            <new hour="1" minute="48" second="45"/>
+         </duration>
+         <startheight org="738" new="711"/>
+         <maxheight org="1890"/>
+         <landheight org="188" new="183"/>
+         <igcinfo>0</igcinfo>
+         <comment>Mit Uli</comment>
+         <starttype>1</starttype>
+         <avgspeed org="1029"/>
+         <heightgain org="3496"/>
+         <olc>
+            <category>1</category>
+            <FlightDistance length="3">
+               <int>21108</int>
+               <int>18666</int>
+               <int>9088</int>
+            </FlightDistance>
+            <FlightPoints length="3">
+               <int>31662</int>
+               <int>32665</int>
+               <int>18176</int>
+            </FlightPoints>
+            <FlightWp length="3">
+               <int length="5">1461, 3498, 6430, 6646, 7108</int>
+               <int length="5">1458, 3496, 6428, 7125, 7248</int>
+               <int length="5">1458, 5661, 6428, 6997, 7248</int>
+            </FlightWp>
+            <checksum>9348</checksum>
+         </olc>
+         <tag class="java.util.ArrayList"/>
+         <irecordinfo>1</irecordinfo>
+         <maxvario org="32"/>
+         <minvario org="-46"/>
+         <task>
+            <waypoint/>
+         </task>
+         <pictureheader class="java.util.ArrayList"/>
+         <airspaceviolation org="0"/>
+      </JFlight>
+      <JFlight>
+         <pilot org="Sebastian Schmied"/>
+         <number>557</number>
+         <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
@@ -37356,7 +37422,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>557</number>
+         <number>558</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37423,5 +37489,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>556</lastselectedflight>
+   <lastselectedflight>557</lastselectedflight>
 </JFlightlistArray>
