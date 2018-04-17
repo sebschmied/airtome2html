@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <div id="maps-container">
-                        <div id="google-maps-view-of-track"/>
+                        <div id="google-maps-view-of-track">IE not supported because I don't care.</div>
                     </div>
                     <div id="flightbook-table">
                         <table>
