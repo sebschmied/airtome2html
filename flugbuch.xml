@@ -37883,13 +37883,13 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <pilot org="Sebastian Schmied"/>
          <number>565</number>
          <country>Schweiz</country>
-         <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
+         <GPSID org="FLYMASTER,LIVE "/>
+         <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
-         <compID org="0000"/>
-         <compClass org="Paraglider (Standard)"/>
-         <ICGfile>84ESEBS1.igc</ICGfile>
-         <site org="Unknown" new="Mornera"/>
+         <compID org=""/>
+         <compClass org=""/>
+         <ICGfile>mornera.igc</ICGfile>
+         <site org="Bellinzona - Mornera-CH"/>
          <site2>Mornera</site2>
          <landingsite>Claro</landingsite>
          <date>
@@ -37901,43 +37901,44 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
             <new hour="2" minute="0" second="0"/>
          </UTCorr>
          <starttime>
-            <org hour="9" minute="27" second="57"/>
+            <org hour="9" minute="11" second="40"/>
+            <new hour="9" minute="27" second="51"/>
          </starttime>
          <duration>
-            <org hour="6" minute="45" second="32"/>
-            <new hour="6" minute="44" second="59"/>
+            <org hour="7" minute="11" second="1"/>
+            <new hour="6" minute="45" second="5"/>
          </duration>
-         <startheight org="1287"/>
-         <maxheight org="2662"/>
-         <landheight org="222" new="223"/>
+         <startheight org="1341" new="1395"/>
+         <maxheight org="2762"/>
+         <landheight org="255" new="266"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
          <starttype>1</starttype>
-         <avgspeed org="1938"/>
-         <heightgain org="16887"/>
+         <avgspeed org="1937"/>
+         <heightgain org="17236"/>
          <olc>
             <category>2</category>
             <FlightDistance length="3">
-               <int>141058</int>
-               <int>131592</int>
-               <int>130857</int>
+               <int>141067</int>
+               <int>131580</int>
+               <int>130834</int>
             </FlightDistance>
             <FlightPoints length="3">
-               <int>211587</int>
-               <int>230286</int>
-               <int>261714</int>
+               <int>211600</int>
+               <int>230265</int>
+               <int>261668</int>
             </FlightPoints>
             <FlightWp length="3">
-               <int length="5">0, 9616, 11730, 17992, 24142</int>
-               <int length="5">0, 7, 9615, 18298, 24296</int>
-               <int length="5">0, 252, 9615, 18236, 24296</int>
+               <int length="5">971, 10595, 12537, 18971, 25118</int>
+               <int length="5">971, 984, 10594, 19275, 25275</int>
+               <int length="5">971, 1222, 10594, 19201, 25275</int>
             </FlightWp>
-            <checksum>24331</checksum>
+            <checksum>25802</checksum>
          </olc>
          <tag class="java.util.ArrayList"/>
-         <irecordinfo>0</irecordinfo>
-         <maxvario org="62"/>
-         <minvario org="-50"/>
+         <irecordinfo>1</irecordinfo>
+         <maxvario org="60"/>
+         <minvario org="-46"/>
          <task>
             <waypoint/>
          </task>
@@ -38074,5 +38075,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>565</lastselectedflight>
+   <lastselectedflight>564</lastselectedflight>
 </JFlightlistArray>
