@@ -36175,71 +36175,6 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
-         <ICGfile>81LSEBS1.igc</ICGfile>
-         <site org="Unknown" new="Königstuhl"/>
-         <site2>Königstuhl SP, GS, W (49.403929 8.726803)</site2>
-         <landingsite>Speyererhof</landingsite>
-         <date>
-            <org year="2018" month="1" day="21"/>
-            <new year="2018" month="1" day="21"/>
-         </date>
-         <UTCorr>
-            <org hour="0" minute="0" second="0"/>
-            <new hour="1" minute="0" second="0"/>
-         </UTCorr>
-         <starttime>
-            <org hour="12" minute="52" second="14"/>
-         </starttime>
-         <duration>
-            <org hour="0" minute="48" second="59"/>
-            <new hour="0" minute="48" second="28"/>
-         </duration>
-         <startheight org="542"/>
-         <maxheight org="656"/>
-         <landheight org="280" new="281"/>
-         <igcinfo>0</igcinfo>
-         <comment>Flugfenster zwischen Schneeschauern erwischt. Starker Windgradient, die Differenz zwischen 5 Meter unter Startplatzhöhe und 5 Meter drüber ist enorm, daher anfangs beinahe landen gegangen.</comment>
-         <starttype>1</starttype>
-         <avgspeed org="1075"/>
-         <heightgain org="741"/>
-         <olc>
-            <category>0</category>
-            <FlightDistance length="3">
-               <int>8688</int>
-               <int>6804</int>
-               <int>4617</int>
-            </FlightDistance>
-            <FlightPoints length="3">
-               <int>13032</int>
-               <int>11907</int>
-               <int>9234</int>
-            </FlightPoints>
-            <FlightWp length="3">
-               <int length="5">193, 268, 1717, 2295, 2906</int>
-               <int length="5">17, 266, 759, 1717, 2176</int>
-               <int length="5">1539, 1716, 2437, 2815, 2847</int>
-            </FlightWp>
-            <checksum>2939</checksum>
-         </olc>
-         <tag class="java.util.ArrayList"/>
-         <irecordinfo>0</irecordinfo>
-         <maxvario org="18"/>
-         <minvario org="-52"/>
-         <task>
-            <waypoint/>
-         </task>
-         <pictureheader class="java.util.ArrayList"/>
-         <airspaceviolation org="0"/>
-      </JFlight>
-      <JFlight>
-         <pilot org="Sebastian Schmied"/>
-         <number>540</number>
-         <country>Deutschland</country>
-         <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
-         <gliderID org=""/>
-         <compID org="0000"/>
-         <compClass org="Paraglider (Standard)"/>
          <ICGfile>82ASEBS1.igc</ICGfile>
          <site org="Unknown" new="Orensberg"/>
          <site2>Orensberg SP, GS und HG, SSW-W (49.240370 8.026139)</site2>
@@ -36299,7 +36234,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="" new="Sebastian Schmied"/>
-         <number>541</number>
+         <number>540</number>
          <country>Deutschland</country>
          <GPSID org=""/>
          <glidertyp org="" new="Advance Omega X-Alps"/>
@@ -36369,7 +36304,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>542</number>
+         <number>541</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36433,7 +36368,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>543</number>
+         <number>542</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36497,7 +36432,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>544</number>
+         <number>543</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36561,7 +36496,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>545</number>
+         <number>544</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36626,7 +36561,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>546</number>
+         <number>545</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36692,7 +36627,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>547</number>
+         <number>546</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36759,7 +36694,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>548</number>
+         <number>547</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36826,7 +36761,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>549</number>
+         <number>548</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36893,7 +36828,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>550</number>
+         <number>549</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -36961,7 +36896,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>551</number>
+         <number>550</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37028,7 +36963,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>552</number>
+         <number>551</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37095,7 +37030,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>553</number>
+         <number>552</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37162,7 +37097,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>554</number>
+         <number>553</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37229,7 +37164,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>555</number>
+         <number>554</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37294,7 +37229,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>556</number>
+         <number>555</number>
          <country>Italien</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
@@ -37360,7 +37295,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>557</number>
+         <number>556</number>
          <country>Italien</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37425,7 +37360,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>558</number>
+         <number>557</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37492,7 +37427,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>559</number>
+         <number>558</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37557,7 +37492,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>560</number>
+         <number>559</number>
          <country>Schweiz</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37621,7 +37556,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>561</number>
+         <number>560</number>
          <country>Schweiz</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37686,7 +37621,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>562</number>
+         <number>561</number>
          <country>Schweiz</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37751,7 +37686,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>563</number>
+         <number>562</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37816,7 +37751,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>564</number>
+         <number>563</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -37881,7 +37816,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>565</number>
+         <number>564</number>
          <country>Schweiz</country>
          <GPSID org="FLYMASTER,LIVE "/>
          <glidertyp org="124 Skywalk Cayenne5 Ora" new="Advance Omega X-Alps"/>
@@ -37947,7 +37882,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>566</number>
+         <number>565</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -38011,7 +37946,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>567</number>
+         <number>566</number>
          <country>Deutschland</country>
          <GPSID org="1789549080"/>
          <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
@@ -38075,5 +38010,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>564</lastselectedflight>
+   <lastselectedflight>-1</lastselectedflight>
 </JFlightlistArray>
