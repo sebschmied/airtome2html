@@ -2,6 +2,8 @@
 
 This is essentially a web export for flight books created with airtome, see [https://airtome.bitbucket.io/](airtome.bitbucket.io). I started this project because I wanted to organize/backup my flight book with github, but added html output generation later.
 
+Feel free to use it, but keep in mind that it is not super comfortable - it relies on some bashy bash scripts that haven't been tested anywhere but on my machines. I will improve this in the next bad weather period, but it will never get a gui or something. You will most likely need to tweak something.
+
 Sample Output: See [my personal flight book](https://sebschmied.github.io/flights).
 
 ## How to use
@@ -23,7 +25,7 @@ Assuming debian/ubuntu or mac OS and bash:
    Windows:
    I don't know, possibly with cygwin or something.
 
-* [Fork](https://help.github.com/articles/fork-a-repo/#platform-linux) the project on github. You need to be able to push to the repo, so this is mandatory. I started this project in part because I wanted to use github as my flight log backup.
+* [Fork](https://help.github.com/articles/fork-a-repo/#platform-linux) the project on github. You need to be able to push to the repo, so this is mandatory. I started this project in part because I wanted to (ab)use github as my flight log backup. This is far from ideal, I'm aware that flights should be in a seperate repo (maybe a submodule). 
 * Open a Terminal.
 * [Clone](https://help.github.com/articles/cloning-a-repository/#platform-linux) your forked repo and ``cd`` there.
 * Remove my flights: ``rm -rf ./flightbook``.
