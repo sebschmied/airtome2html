@@ -1,6 +1,6 @@
 # Airtome
 flightbookfilename="flugbuch" # Your flightbook's file name, without the .fb.zip part
-airtomebin="/opt/airtome/AirTome" # Your AirTome executable
+airtomebin="/home/sebastian/AirTome/AirTome" # Your AirTome executable
 
 # Website
 
