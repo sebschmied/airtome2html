@@ -39167,7 +39167,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>585</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39194,7 +39194,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="275"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1147"/>
          <heightgain org="291"/>
          <olc>
@@ -39295,7 +39295,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>587</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39322,7 +39322,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="176"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="818"/>
          <heightgain org="3489"/>
          <olc>
@@ -39359,16 +39359,17 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>588</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>863SEBS1.igc</ICGfile>
-         <site org="F�rlenberg"/>
+         <site org="F�rlenberg" new="Förlenberg"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
             <org year="2018" month="6" day="3"/>
+            <new year="2018" month="6" day="3"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -39386,7 +39387,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="332" new="333"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="984"/>
          <heightgain org="662"/>
          <olc>
@@ -39423,7 +39424,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>589</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39450,7 +39451,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="225"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="752"/>
          <heightgain org="910"/>
          <olc>
@@ -39487,7 +39488,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>590</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39514,7 +39515,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="276"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2409"/>
          <heightgain org="32"/>
          <olc>
@@ -39551,16 +39552,17 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>591</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
          <ICGfile>869SEBS1.igc</ICGfile>
-         <site org="K�nigstuhl"/>
+         <site org="K�nigstuhl" new="Königstuhl"/>
          <site2></site2>
          <landingsite></landingsite>
          <date>
             <org year="2018" month="6" day="9"/>
+            <new year="2018" month="6" day="9"/>
          </date>
          <UTCorr>
             <org hour="0" minute="0" second="0"/>
@@ -39578,7 +39580,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="149" new="148"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1611"/>
          <heightgain org="151"/>
          <olc>
@@ -39615,7 +39617,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>592</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39642,7 +39644,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="183"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="813"/>
          <heightgain org="1933"/>
          <olc>
@@ -39679,7 +39681,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>593</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39706,7 +39708,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="248" new="247"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="785"/>
          <heightgain org="1314"/>
          <olc>
@@ -39743,7 +39745,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>594</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39770,7 +39772,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="223"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1785"/>
          <heightgain org="2353"/>
          <olc>
@@ -39807,7 +39809,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>595</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39834,7 +39836,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="196"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1613"/>
          <heightgain org="61"/>
          <olc>
@@ -39871,7 +39873,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>596</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39898,7 +39900,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="277" new="276"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1243"/>
          <heightgain org="4717"/>
          <olc>
@@ -39935,7 +39937,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>597</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -39962,7 +39964,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="271" new="272"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2757"/>
          <heightgain org="23"/>
          <olc>
@@ -39999,7 +40001,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>598</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40026,7 +40028,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="247"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="539"/>
          <heightgain org="2455"/>
          <olc>
@@ -40063,7 +40065,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>599</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40090,7 +40092,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="250"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1215"/>
          <heightgain org="1125"/>
          <olc>
@@ -40127,7 +40129,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>600</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40154,7 +40156,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="249"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1149"/>
          <heightgain org="1580"/>
          <olc>
@@ -40191,7 +40193,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>601</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40218,7 +40220,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="530"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1456"/>
          <heightgain org="3444"/>
          <olc>
@@ -40255,7 +40257,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>602</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40282,7 +40284,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="268"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="633"/>
          <heightgain org="3216"/>
          <olc>
@@ -40319,7 +40321,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>603</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40346,7 +40348,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="1155" new="1153"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1638"/>
          <heightgain org="610"/>
          <olc>
@@ -40383,7 +40385,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>604</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40410,7 +40412,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="460"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2746"/>
          <heightgain org="30"/>
          <olc>
@@ -40447,7 +40449,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>605</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40474,7 +40476,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="1066" new="1065"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2145"/>
          <heightgain org="1094"/>
          <olc>
@@ -40511,7 +40513,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>606</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40538,7 +40540,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="252"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="354"/>
          <heightgain org="2421"/>
          <olc>
@@ -40575,7 +40577,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>607</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40602,7 +40604,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="706"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1590"/>
          <heightgain org="2549"/>
          <olc>
@@ -40639,7 +40641,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>608</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40666,7 +40668,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="665" new="664"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2467"/>
          <heightgain org="2891"/>
          <olc>
@@ -40703,7 +40705,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>609</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40730,7 +40732,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="942" new="941"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1803"/>
          <heightgain org="9817"/>
          <olc>
@@ -40767,7 +40769,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>610</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40794,7 +40796,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="723" new="722"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1593"/>
          <heightgain org="17469"/>
          <olc>
@@ -40831,7 +40833,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>611</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40858,7 +40860,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="662"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2828"/>
          <heightgain org="13"/>
          <olc>
@@ -40895,7 +40897,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>612</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40922,7 +40924,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="486"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2088"/>
          <heightgain org="9084"/>
          <olc>
@@ -40959,7 +40961,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>613</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -40986,7 +40988,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="247" new="248"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1990"/>
          <heightgain org="13369"/>
          <olc>
@@ -41023,7 +41025,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>614</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41050,7 +41052,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="257"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="778"/>
          <heightgain org="5749"/>
          <olc>
@@ -41087,7 +41089,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>615</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41114,7 +41116,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="262"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="702"/>
          <heightgain org="3627"/>
          <olc>
@@ -41151,7 +41153,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>616</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41178,7 +41180,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="718"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2057"/>
          <heightgain org="5846"/>
          <olc>
@@ -41215,7 +41217,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>617</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41242,7 +41244,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="260" new="259"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="963"/>
          <heightgain org="4464"/>
          <olc>
@@ -41279,7 +41281,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>618</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41306,7 +41308,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="232"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1276"/>
          <heightgain org="5936"/>
          <olc>
@@ -41343,7 +41345,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>619</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41370,7 +41372,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="599"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="548"/>
          <heightgain org="2838"/>
          <olc>
@@ -41407,7 +41409,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>620</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41434,7 +41436,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="1188"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="827"/>
          <heightgain org="3480"/>
          <olc>
@@ -41471,7 +41473,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>621</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41498,7 +41500,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="398"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="1386"/>
          <heightgain org="1994"/>
          <olc>
@@ -41535,7 +41537,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>622</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41562,7 +41564,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="222"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="492"/>
          <heightgain org="1817"/>
          <olc>
@@ -41599,7 +41601,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>623</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41626,7 +41628,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="250" new="251"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2033"/>
          <heightgain org="4150"/>
          <olc>
@@ -41663,7 +41665,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>624</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41690,7 +41692,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="947" new="946"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="843"/>
          <heightgain org="2576"/>
          <olc>
@@ -41727,7 +41729,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>625</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41754,7 +41756,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="311" new="310"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2380"/>
          <heightgain org="3555"/>
          <olc>
@@ -41791,7 +41793,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <number>626</number>
          <country></country>
          <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
+         <glidertyp org="Skywalk Cayenne 5" new="Advance Omega X-Alps"/>
          <gliderID org=""/>
          <compID org="0000"/>
          <compClass org="Paraglider (Standard)"/>
@@ -41818,7 +41820,7 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
          <landheight org="174"/>
          <igcinfo>0</igcinfo>
          <comment></comment>
-         <starttype>0</starttype>
+         <starttype>1</starttype>
          <avgspeed org="2182"/>
          <heightgain org="679"/>
          <olc>
@@ -41852,5 +41854,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>566</lastselectedflight>
+   <lastselectedflight>590</lastselectedflight>
 </JFlightlistArray>
