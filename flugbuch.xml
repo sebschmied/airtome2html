@@ -2,70 +2,6 @@
    <list class="java.util.ArrayList">
       <JFlight>
          <pilot org="Sebastian Schmied"/>
-         <number>1</number>
-         <country></country>
-         <GPSID org="1789549080"/>
-         <glidertyp org="Skywalk Cayenne 5"/>
-         <gliderID org=""/>
-         <compID org="0000"/>
-         <compClass org="Paraglider (Standard)"/>
-         <ICGfile>93SSEBS1.igc</ICGfile>
-         <site org="Campeggia"/>
-         <site2></site2>
-         <landingsite></landingsite>
-         <date>
-            <org year="2000" month="0" day="0"/>
-         </date>
-         <UTCorr>
-            <org hour="0" minute="0" second="0"/>
-            <new hour="1" minute="0" second="0"/>
-         </UTCorr>
-         <starttime>
-            <org hour="9" minute="40" second="22"/>
-         </starttime>
-         <duration>
-            <org hour="5" minute="6" second="20"/>
-            <new hour="5" minute="5" second="38"/>
-         </duration>
-         <startheight org="1050"/>
-         <maxheight org="1874"/>
-         <landheight org="1047"/>
-         <igcinfo>0</igcinfo>
-         <comment></comment>
-         <starttype>0</starttype>
-         <avgspeed org="0"/>
-         <heightgain org="15062"/>
-         <olc>
-            <category>1</category>
-            <FlightDistance length="3">
-               <int>144309</int>
-               <int>140566</int>
-               <int>11373</int>
-            </FlightDistance>
-            <FlightPoints length="3">
-               <int>216463</int>
-               <int>245990</int>
-               <int>22746</int>
-            </FlightPoints>
-            <FlightWp length="3">
-               <int length="5">242, 5227, 12360, 14394, 18095</int>
-               <int length="5">163, 5228, 14394, 16396, 17650</int>
-               <int length="5">0, 714, 17512, 18255, 18337</int>
-            </FlightWp>
-            <checksum>18381</checksum>
-         </olc>
-         <tag class="java.util.ArrayList"/>
-         <irecordinfo>0</irecordinfo>
-         <maxvario org="0"/>
-         <minvario org="0"/>
-         <task>
-            <waypoint/>
-         </task>
-         <pictureheader class="java.util.ArrayList"/>
-         <airspaceviolation org="0"/>
-      </JFlight>
-      <JFlight>
-         <pilot org="Sebastian Schmied"/>
          <number>2</number>
          <country>Deutschland</country>
          <GPSID org=""/>
@@ -45127,5 +45063,5 @@ Soaringstelle leider zu klein für das deutsche Trüppchen Piloten.</comment>
       </JFlight>
    </list>
    <fileformatversion>1.4</fileformatversion>
-   <lastselectedflight>673</lastselectedflight>
+   <lastselectedflight>-1</lastselectedflight>
 </JFlightlistArray>
