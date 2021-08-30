@@ -2,7 +2,7 @@
 source ${PWD}/airtome2html.config.sh
 for D in `find ${PWD}/flightbook -type d`
 do
-  for F in `find $D -type f -name "*.igc"`
+  for F in `find $D -type f -iname "*.igc"`
   
   do
     filename=${F}
@@ -14,7 +14,7 @@ do
     
     if [ ! -f "${filename}.kmz" ]; then
       echo $filename
-      if  gpsbabel -t -N -i igc -f "${filename}" -o kml,points=0,trackdirection=1,line_color=${maps_line_color},floating=1,extrude=1,track=0,trackdata=0,line_width=${maps_line_width},max_position_points=${maps_points_count} -F "${filename}.kml"; then
+      if  gpsbabel -t -i igc -f "${filename}" -o kml,points=0,trackdirection=1,line_color=${maps_line_color},floating=1,extrude=1,track=0,trackdata=0,line_width=${maps_line_width},max_position_points=${maps_points_count} -F "${filename}.kml"; then
         mkdir $(dirname ${filename})/kmz
         cp ${filename}.kml $(dirname ${filename})/kmz/doc.kml
         zip -rj $(dirname ${filename})/$(basename ${filename}).kmz $(dirname ${filename})/kmz/doc.kml

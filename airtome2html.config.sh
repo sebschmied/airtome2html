@@ -1,6 +1,6 @@
 # Airtome
 flightbookfilename="flugbuch" # Your flightbook's file name, without the .fb.zip part
-airtomebin="/home/sebastian/AirTome/AirTome" # Your AirTome executable
+airtomebin="/Applications/AirTome/AirTome.app" # Your AirTome executable
 
 # Website
 
@@ -61,7 +61,7 @@ fi
 # If airtomebin doesn't work, try where it would be on mac os
 if [ ! -f ${airtomebin} ]; then
     if [ -d /Applications/AirTome.app ]; then
-        airtomebin="open /Applications/AirTome.app"
+        airtomebin="open /Applications/AirTome/AirTome.app"
     else
         echo "Please set the airtomebin path in airtome2html.config.sh"
     fi
